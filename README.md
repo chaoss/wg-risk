@@ -1,5 +1,5 @@
 # wg-risk
-# CHAOSS Value Metrics Group (VMG)
+# CHAOSS Risk Metrics Group (VMG)
 
 ## Read our Launch Plan
 
