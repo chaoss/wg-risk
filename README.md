@@ -68,7 +68,6 @@ We're just getting started!
 
 **Core Contributors**
 
-- [Matt Germonprez](https://github.com/germonprez)
 
 The criteria for becoming a core contributor is to participate at least once
 per month over a period of 3 months.  Participation could include providing
@@ -83,10 +82,7 @@ If you'd like to be on our squad, an easy way to start is by going through the
 
 Ordered by first name
 
-[Andy Leak](https://github.com/andyl),
-[Georg Link](https://github.com/georglink),
-[Matt Germonprez](https://github.com/germonprez),
-[Venu Tekula](https://github.com/vchrombie),
+
 
 Are you eligible to be on this list? You are if you helped in any capacity, for
 example: Filed an issue.  Created a Pull Request. Gave feedback on our work.
