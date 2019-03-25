@@ -8,9 +8,9 @@ VMG is a new group, focused on metrics for Economic Value in open source.
 Economic value is expressed in different ways for different types of
 stakeholders.  We will be exploring this space in the coming months.
 
-See our [launch plan][1] for more info.
+See our [draft focus areas][1] for more info.
 
-[1]: https://docs.google.com/document/d/1j4mL0NKhITNjlG629w4eMkEeHPopskd7Yn3YIPFMMqo
+[1]: https://docs.google.com/document/d/1HMfLlWMR8t8c3B0zm3KiIeI-GR7E2ylYOEuGB3fl1_c/edit
 
 ## Join our Mailing List
 
