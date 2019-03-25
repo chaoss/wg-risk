@@ -21,14 +21,14 @@ This CHAOSS working group is using the general [CHAOSS mailing list](https://lis
 ### Problem Statement
 
 We have gotten requests from community members to establish industry-standard
-metrics for economic value in open source.  Lack of metrics makes it difficult
+metrics for risk in open source.  Lack of metrics makes it difficult
 for business decision makers to compare open-source methods to alternatives.
 Lack of metrics makes it difficult to allocate resources optimally across
 projects, slowing decision making and product innovation.
 
 ### Opportunity
 
-We believe that value metrics can accelerate the adoption of open source
+We believe that risk metrics can accelerate the adoption of open source
 methods within industry, providing more opportunities for developers to make a
 living wage in open source.
 
@@ -39,9 +39,9 @@ limited goals:
 
 Identify Stakeholders and Validate Interest
 - Identify market segments and stakeholders
-- Understand Who cares about Open Source Value (and why)
+- Understand Who cares about Open Source Risk (and why)
 - Specify and prioritize Key Performance Indicators
-- Calculate potential aggregate economic value
+- Calculate potential aggregate risk
 
 Grow hands-on community
 - CHAOSS Members: Consultants, researchers, grant writers
@@ -51,7 +51,7 @@ Build reusable assets
 - Repeatable methodology for discovering value
 - MVP Tooling with Development Roadmap
 
-In the long term, we’d like to publish trusted industry-standard Value Metrics.
+In the long term, we’d like to publish trusted industry-standard Risk Metrics.
 A kind of S&P for software development, an authoritative source for metrics
 significance and industry norms.  
 
@@ -77,7 +77,7 @@ other contributions on GitHub (commits / issues).  People not participating
 over a 3 month period may be removed as core contributors.
 
 If you'd like to be on our squad, an easy way to start is by going through the
-[issue list](https://github.com/chaoss/wg-value/issues) and fixing some. :tada:
+[issue list](https://github.com/chaoss/wg-risk/issues) and fixing some. :tada:
 
 **All Contributors**
 
