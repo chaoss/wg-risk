@@ -1,4 +1,7 @@
 # wg-risk
+
+[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+
 # CHAOSS Risk Metrics Group (VMG)
 
 ## Read our Launch Plan
@@ -15,6 +18,13 @@ See our [draft focus areas][1] for more info.
 ## Join our Mailing List
 
 This CHAOSS working group is using the general [CHAOSS mailing list](https://lists.linuxfoundation.org/mailman/listinfo/chaoss).
+
+## Join our Weekly Calls
+The VMG team meets every Monday from 11-12 Pacific Time. All are welcome.
+
+The videoconference URL is https://unomaha.zoom.us/j/720431288.
+
+You can also read our meeting notes. 
 
 ## Background
 
