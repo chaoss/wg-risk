@@ -24,7 +24,7 @@ The VMG team meets every Monday from 11-12 Pacific Time. All are welcome.
 
 The videoconference URL is https://unomaha.zoom.us/j/720431288.
 
-You can also read our meeting notes. 
+[You can also read our meeting notes.](https://docs.google.com/document/d/1iqIMpLBwuKSnE0BbQTgbsb9Im87IoN7IUzukochClCw/edit#heading=h.n3rh3l1y6dv7)
 
 ## Background
 
