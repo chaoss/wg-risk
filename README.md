@@ -5,7 +5,7 @@
 
 ## Read our Launch Plan
 
-Risk is a new group, focused on metrics for Economic Value in open source.
+Risk is a new group, focused on metrics for issues pertaining to Risk in open source.
 
 Economic value is expressed in different ways for different types of
 stakeholders.  We will be exploring this space in the coming months.
