@@ -1,12 +1,11 @@
-# wg-risk
+# CHAOSS Risk Metrics Working Group (RISK WG)
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-# CHAOSS Risk Metrics Group (WG-RISK)
 
 ## Read our Launch Plan
 
-VMG is a new group, focused on metrics for Economic Value in open source.
+Risk is a new group, focused on metrics for Economic Value in open source.
 
 Economic value is expressed in different ways for different types of
 stakeholders.  We will be exploring this space in the coming months.
