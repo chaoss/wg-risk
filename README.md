@@ -12,6 +12,12 @@ stakeholders.  We will be exploring this space in the coming months.
 
 See our [draft focus areas][1] for more info.
 
+1. [Security](./focus-areas/security.md)
+2. [Code Quality](./focus-areas/code-quality.md)
+3. [Licensing](./focus-areas/licensing.md)
+4. [Business Risk](./focus-areas/business-risk.md)
+5. [Transparency](./focus-areas/transparency.md)
+
 [1]: https://docs.google.com/document/d/1HMfLlWMR8t8c3B0zm3KiIeI-GR7E2ylYOEuGB3fl1_c/edit
 
 ## Join our Mailing List
