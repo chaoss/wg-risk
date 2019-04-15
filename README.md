@@ -1,12 +1,11 @@
-# wg-risk
+# CHAOSS Risk Metrics Working Group (RISK WG)
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
-# CHAOSS Risk Metrics Group (WG-RISK)
 
 ## Read our Launch Plan
 
-VMG is a new group, focused on metrics for Economic Value in open source.
+Risk is a new group, focused on metrics for issues pertaining to Risk in open source.
 
 Economic value is expressed in different ways for different types of
 stakeholders.  We will be exploring this space in the coming months.
@@ -20,7 +19,7 @@ See our [draft focus areas][1] for more info.
 This CHAOSS working group is using the general [CHAOSS mailing list](https://lists.linuxfoundation.org/mailman/listinfo/chaoss).
 
 ## Join our Weekly Calls
-The VMG team meets every Monday from 11-12 Pacific Time. All are welcome.
+The Risk Working Group meets every Monday from 11-12 Pacific Time. All are welcome.
 
 The videoconference URL is https://unomaha.zoom.us/j/720431288.
 
