@@ -19,7 +19,7 @@ See our [draft focus areas][1] for more info.
 This CHAOSS working group is using the general [CHAOSS mailing list](https://lists.linuxfoundation.org/mailman/listinfo/chaoss).
 
 ## Join our Weekly Calls
-The VMG team meets every Monday from 11-12 Pacific Time. All are welcome.
+The Risk Working Group meets every Monday from 11-12 Pacific Time. All are welcome.
 
 The videoconference URL is https://unomaha.zoom.us/j/720431288.
 
