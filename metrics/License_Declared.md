@@ -10,11 +10,12 @@ The total number and specific licenses declared is critical in several cases:
 ## 3. Formula
 This metric is an enumeration of licenses, and the number of files with that particular license declaration. For Example: 
 
-| SPDX License Type | Number of Files with License | 
-| MIT | 44 | 
-| AGPL | 2 | 
-| GPL2 | 7 | 
-| Apache | 88 | 
+| SPDX License Type  | Number of Files with License    | License Notes  |
+| ------------- |-------------| -----|
+| MIT      | 44 | None |
+| AGPL      | 2      |   Pending removal |
+| Apache | 88      |   None |
+
 
 ## 4. Sample Filter and Visualization
 ### Filters 
@@ -22,46 +23,41 @@ This metric is an enumeration of licenses, and the number of files with that par
 2. Declared and Undeclared: Separate enumeration of files that have license declarations and files that do not. 
 
 
-
-
 ## 5. Sample Implementation
+The DoSOCSv2 package is implemented as an Augur Plugin, and uses this data model for storing file level license information. Specifically: 
+1. Each `package` (repository) can have a declared and concluded license, as determined by the scan of all the files in the repository. 
+2. Each `package` can also have a number of different non-code `documents`, which are SPDX license declarations. 
+3. Each `file` can be associated with one or more `packages_files`. Through the relationship between `files` and `packages_files`, DoSOCSv2 allows for the possibility that one file in a large collection of repositories could be part of more than one package, although in practice this seems unlikely. 
+4. `packages` and `packages_files` have a one to many relationship in both directions. Essentially, this is a reinforcement of the possibility that each `file` can be part of more than one `package`, though it is, again, typical that each `package` will contain many `package_files`. 
+5. `licenses` are associated with `files` and `packages_files`. Each `file` could possibly have more than one `licenses` reference, which is possible under the condition that the `license` declaration changed between `DoSOCSv2` scans of the repository. Each `package` is stored in its most recent form, and each `packages_file` can have one `license` declaration. 
+![](./images/licenses-DoSOCS2.png)
+
+### Sample SQL to Extract License Information from a Package File
+```sql
+SELECT A
+    .file_name,
+    b.license_id,
+    b."name" AS concluded_license 
+FROM
+    packages_files A,
+    licenses b 
+WHERE
+    A.concluded_license_id = b.license_id
+```
+
+
 
 ## 6. Known Implementations
+1. Augur 
 
 ## 7. Test Cases (Examples)
+1. Available in the Augur test schema for these repositories: 
+    - portable
+    - openBSD
+    - boringSSL
 
 ## 8. External References (Literature)
 1. https://spdx.org/
 2. https://www.fossology.org 
 
 
-
-----
-```markdown
-# {Name of Metric}
-
-## 1. Description
-A description of what the metric is and what it captures.
-The first few sentences have to match the description in the [metrics list](../activity-metrics-list.md).
-
-## 2. Use Cases
-Provide examples of how the metric might inform different stakeholders through use cases.
-
-## 3. Formula
-A generic formula (in pseudo code) to generate the metric.
-
-## 4. Sample Filter and Visualization
-Include a Sample Filter and Visualization (screenshot) of the metric from any implementation.
-
-## 5. Sample Implementation
-An example implementation, for example a SQL or Elasticsearch query.
-
-## 6. Known Implementations
-Examples of where and how metric is used. (include links to dashboard or location where metric is visible or is talked about having been used).
-
-## 7. Test Cases (Examples)
-Sample inputs (including contexts) and expected outputs for this metric. Implementers can test their implementations against these test cases. For quantitative metrics, this could include a static repository with known metric results, or just inputs and output. For qualitative metrics, this may be more difficult.
-
-## 8. External References (Literature)
-Blog posts, websites, academic papers, or books that mention the metric.
-```
