@@ -12,7 +12,7 @@ An open source software package is being considered for deployment in a health c
 
 ### Subroutine Coverage
 
-
+![](./images/subroutine-coverage.png)
 
 ### Statement Coverage 
 
@@ -20,7 +20,17 @@ An open source software package is being considered for deployment in a health c
 
 ## 4. Sample Filter and Visualization
 
+### Filters
+1. Time: Changes in test coverage over time provide evidence of project attention to maximizing overall test coverage. Specific parameters include `start date` and `end date` for the time period. 
+2. Code_File: Each repository contains a number of files containing code. Filtering coverage by specific file provides a more granular view of test coverage. Some functions or statements may lead to more severe software failures than others. For example, untested code in the `fail safe` functions of a safety critical system are more important to test than `font color` function testing. 
+3. Programming_Language: Most contemporary open source software repositories contain several different programming languages. The coverage percentage of each `Code_File` 
+
+### Visualization 
+1. Standard line graphs when time is included as a filter
+2. Standard histograms or stacked bar charts for point in time coverage comparisons
+
 ## 5. Sample Implementation
+
 
 ## 6. Known Implementations
 
