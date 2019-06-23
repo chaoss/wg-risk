@@ -8,7 +8,14 @@ The total number and specific licenses declared is critical in several cases:
 
 
 ## 3. Formula
-This metric is an enumeration of licenses, and the number of files with that particular license declaration. 
+This metric is an enumeration of licenses, and the number of files with that particular license declaration. For Example: 
+
+| SPDX License Type | Number of Files with License | 
+| MIT | 44 | 
+| AGPL | 2 | 
+| GPL2 | 7 | 
+| Apache | 88 | 
+
 ## 4. Sample Filter and Visualization
 ### Filters 
 1. Time: Licenses declared in a repository can change over time as the dependencies of the repository change. One of the principle motivations for tracking license presence, aside from basic awareness, is to draw attention to any unexpected new license introduction. 
