@@ -6,10 +6,17 @@ Programming languages refer to **subroutines** specifically as "functions", "met
 **Statements** include variable assignments, loop declarations, calls to system functions, "go to" statements, and the common `return` statement at the completion of a function or method, which may or may not include the return of a `value` or `array of values`. 
 
 ## 2. Use Cases
-
-
+An open source software package is being considered for deployment in a health care provider's production ecosystem. As part of the product evaluation process, IT Managers are comparing the test coverage of several alternate systems. 
 
 ## 3. Formula
+
+### Subroutine Coverage
+
+
+
+### Statement Coverage 
+
+![](images/statement-coverage)
 
 ## 4. Sample Filter and Visualization
 
@@ -20,6 +27,12 @@ Programming languages refer to **subroutines** specifically as "functions", "met
 ## 7. Test Cases (Examples)
 
 ## 8. External References (Literature)
+1. J.H. Andrews, L.C. Briand, Y. Labiche, and A.S. Namin. 2006. Using Mutation Analysis for Assessing and Comparing Testing Coverage Criteria. IEEE Transactions on Software Engineering 32, 8: 608–624. https://doi.org/10.1109/TSE.2006.83
+2. Phyllis G Frankl and Oleg Iakounenko. 1998. Further Empirical Studies of Test Effectiveness. In Proceedings of the 6thACM SIGSOFT International Symposium onFoundations of Software Engineering, 153–162.
+3. Phyllis G Frankl and Stewart N Weiss. 1993. An Experimental Comparison of the Effectiveness of Branch Testing and Data Flow Testing. EEE Transactions on SoftwareEngineering 19, 8: 774–787.
+4. Laura Inozemtseva and Reid Holmes. 2014. Coverage is not strongly correlated with test suite effectiveness. In Proceedings of the 36th International Conference on Software Engineering - ICSE 2014, 435–445. https://doi.org/10.1145/2568225.2568271
+5. Akbar Siami Namin and James H. Andrews. 2009. The influence of size and coverage on test suite effectiveness. In Proceedings of the eighteenth international symposium on Software testing and analysis - ISSTA ’09, 57. https://doi.org/10.1145/1572272.1572280
+
 
 
 
