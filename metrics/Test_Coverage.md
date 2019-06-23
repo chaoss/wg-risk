@@ -16,7 +16,7 @@ An open source software package is being considered for deployment in a health c
 
 ### Statement Coverage 
 
-![](./images/statement-coverage)
+![](./images/statement-coverage.png)
 
 ## 4. Sample Filter and Visualization
 
