@@ -30,13 +30,23 @@ An open source software package is being considered for deployment in a health c
 2. Standard histograms or stacked bar charts for point in time coverage comparisons
 
 ## 5. Sample Implementation
-
+Metrics tools will need to provide abstracted frameworks for representing test coverage because the tools used for measuring both `statement test coverage` and `subroutine test coverage` are programming language specific. 
 
 ## 6. Known Implementations
+1. Augur has test coverage implemented as a table that is a child of the main repository table in its repository.  The data structure is illustrated below. Note that each time test coverage is tested, a record is made for each file tested, the testing tool used for testing and the number of statements/subroutines in the file, as well as the number of statements and subroutines tested. By recording test data at this level of granularity, Augur enables `Code_File` and `Programming_Language` summary level statistics and filters. 
+
+![](./images/test_coverage_data_model.png)
+
 
 ## 7. Test Cases (Examples)
+Test coverage examples are all programming language specific.  We provide a few examples here: 
+1. [Python's primary testing framework is PyTest](https://docs.pytest.org/en/latest/)
+2. [The Flask web framework for python enables coverage testing](http://flask.pocoo.org/docs/1.0/tutorial/tests/)
+3. [Open source code coverage tools for common languages like Java, C, and C++ are available from my sites, including this one.](https://stackify.com/code-coverage-tools/#OpenSource)
 
 ## 8. External References (Literature)
+Discussion of testing coverage as a measure of software quality and reliability is extensive and ongoing in the software engineering research literature. Some of the more canonical papers are listed below. 
+
 1. J.H. Andrews, L.C. Briand, Y. Labiche, and A.S. Namin. 2006. Using Mutation Analysis for Assessing and Comparing Testing Coverage Criteria. IEEE Transactions on Software Engineering 32, 8: 608–624. https://doi.org/10.1109/TSE.2006.83
 2. Phyllis G Frankl and Oleg Iakounenko. 1998. Further Empirical Studies of Test Effectiveness. In Proceedings of the 6thACM SIGSOFT International Symposium onFoundations of Software Engineering, 153–162.
 3. Phyllis G Frankl and Stewart N Weiss. 1993. An Experimental Comparison of the Effectiveness of Branch Testing and Data Flow Testing. EEE Transactions on SoftwareEngineering 19, 8: 774–787.
