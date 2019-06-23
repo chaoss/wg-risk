@@ -1,10 +1,21 @@
 ## 1. Description
+The total number and specific licenses declared in a software package. This can include both software and documentation source files. 
 
 ## 2. Use Cases
+The total number and specific licenses declared is critical in several cases: 
+1. A software package invariability carries for multiple software licenses and it is critical in the acquisition of software packages to be aware of the declared licenses for compliance reasons. Licenses Declared can provide transparency for license compliance efforts. 
+2. Licenses can create conflicts such that not all obligations can be fulfilled across all licenses in a software package. Licenses Declared can provide transparency on potential license conflicts present in software packages. 
+
 
 ## 3. Formula
-
+This metric is an enumeration of licenses, and the number of files with that particular license declaration. 
 ## 4. Sample Filter and Visualization
+### Filters 
+1. Time: Licenses declared in a repository can change over time as the dependencies of the repository change. One of the principle motivations for tracking license presence, aside from basic awareness, is to draw attention to any unexpected new license introduction. 
+2. Declared and Undeclared: Separate enumeration of files that have license declarations and files that do not. 
+
+
+
 
 ## 5. Sample Implementation
 
@@ -13,6 +24,8 @@
 ## 7. Test Cases (Examples)
 
 ## 8. External References (Literature)
+1. https://spdx.org/
+2. https://www.fossology.org 
 
 
 
