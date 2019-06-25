@@ -15,7 +15,7 @@ License Coverage provides insight into the percentage of files in a software pac
 ## 4. Sample Filter and Visualization
 
 ### Web Presentation of DoSOCS2 Output:
-![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/licenses-declared-dosocs-2.png)
+![](https://i.imgur.com/MIWhlrS.png)
 
 ### JSON Presentation of DoSOCS2 Output:
 ![](https://i.imgur.com/Jip0lOY.png)
