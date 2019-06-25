@@ -8,7 +8,7 @@ Anyone can contribute to CHAOSS on any of our communication channels. See <https
 
 ### We need activists, enthusiasts, community input, and more… Anyone, with any skill set, can find a way to pitch in.
 
-## Contributing to the Chaoss Community
+## Contributing to the CHAOSS Community
 
 Thank you for your interest in contributing :tada:!
 
@@ -25,7 +25,7 @@ Once you've identified one of the issues above that you feel you can contribute 
     Example:
 
     git clone git@github.com:<your-username>/<repository>.git
-    
+
 ```
 
 2. **[Create a Branch](https://github.com/Kunena/Kunena-Forum/wiki/Create-a-new-branch-with-git-and-manage-branches)** If you already have the repo, please be sure that you have upstream merged into your master branch. And then create the branch. There is some [info](https://help.github.com/articles/syncing-a-fork) available at about syncing repositories.
@@ -64,7 +64,7 @@ If this step sounds a bit difficult, the maintainers of the repository can help 
 4. **[Document Commit](https://medium.com/@steveamaza/how-to-write-a-proper-git-commit-message-e028865e5791)** Start the sentences with a capital letter, write a short sentence (usually no more than ~70 characters) and use that as you use the subject of an email.
     If you want to add more information, leave a blank line
     And then start the paragraph you want to write down (please remember the limitation of 70 characters).
-   
+
 First time contributing to open source? Check out this Blog, [Best practices in a collaborative environment](https://channelcs.github.io/best-practices-in-a-collaborative-environment.html).
 
 5. **References** Please include links to resources elsewhere that may be helpful to others. Include the references inside the files you are editing. This is not a hard requirement, but we encourage you to provide references if you know what source informed your contribution.
@@ -76,4 +76,3 @@ Notice a mistake? Please file any bugs, requests, or questions in [our issue tra
 ## Who is a CHAOSS repository maintainer?
 
 The README.md of the repository contains a list of who is a current maintainer. Each CHAOSS repositry brings together different people and they document in the repository specific CONTRIBUTING.md how somone becomes a maintainer on their repository.
-

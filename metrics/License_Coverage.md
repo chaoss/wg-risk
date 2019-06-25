@@ -1,22 +1,24 @@
+# License Coverage
+
 ## 1. Description
-How much of the code base has declared licenses. This includes both software and documentation source files and is represented as a percentage of total coverage. 
+How much of the code base has declared licenses. This includes both software and documentation source files and is represented as a percentage of total coverage.
 
 ## 2. Use Cases
-License Coverage provides insight into the percentage of files in a software package that have a declared license, leading to two use cases: 
-1. A software package is sourced for internal organizational use and declared license coverage can highlight points of interest or concern when using that software package. 
-2. Further, a software package is provided to external, downstream projects and declared license coverage can make transparent license information needed for downstream integration, deployment, and use. 
+License Coverage provides insight into the percentage of files in a software package that have a declared license, leading to two use cases:
+1. A software package is sourced for internal organizational use and declared license coverage can highlight points of interest or concern when using that software package.
+2. Further, a software package is provided to external, downstream projects and declared license coverage can make transparent license information needed for downstream integration, deployment, and use.
 
-**Note:** In both cases License Coverage less than 100% may require further investigation by distributors and consumers of a software package. 
+**Note:** In both cases License Coverage less than 100% may require further investigation by distributors and consumers of a software package.
 
 ## 3. Formula
 
 ## 4. Sample Filter and Visualization
 
-### Web Presentation of DoSOCS2 Output: 
-![](./images/licenses-declared-dosocs-1.png)
+### Web Presentation of DoSOCS2 Output:
+![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/licenses-declared-dosocs-1.png)
 
-### JSON Presentation of DoSOCS2 Output: 
-![](./images/licenses-declared-dosocs-2.png)
+### JSON Presentation of DoSOCS2 Output:
+![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/licenses-declared-dosocs-2.png)
 
 ## 5. Sample Implementation
 The above data was pulled from DoSOCSv2 and filtered through Jinja2 to get the desired information. Here is a sample of Jinja code to filter DoSOCSv2 code. The file that this implementation is inserted into may be found here:
@@ -40,14 +42,14 @@ PercentTotalLicenseCoverage: {{ '%0.2f' %  ((cnt[0] / loop.index) * 100) | float
 ```
 
 ## 6. Known Implementations
-1. Augur
+1. [Augur](https://github.com/chaoss/augur)
 
 ## 7. Test Cases (Examples)
-1. Available in the Augur test schema for these repositories: 
+1. Available in the Augur test schema for these repositories:
     - portable
     - openBSD
     - boringSSL
 
 ## 8. External References (Literature)
-https://spdx.org/ 
-https://www.fossology.org 
+https://spdx.org/
+https://www.fossology.org
