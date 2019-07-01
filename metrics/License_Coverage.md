@@ -15,10 +15,10 @@ License Coverage provides insight into the percentage of files in a software pac
 ## 4. Sample Filter and Visualization
 
 ### Web Presentation of DoSOCS2 Output:
-![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/licenses-declared-dosocs-1.png)
+![](https://i.imgur.com/MIWhlrS.png)
 
 ### JSON Presentation of DoSOCS2 Output:
-![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/licenses-declared-dosocs-2.png)
+![](https://i.imgur.com/Jip0lOY.png)
 
 ## 5. Sample Implementation
 The above data was pulled from DoSOCSv2 and filtered through Jinja2 to get the desired information. Here is a sample of Jinja code to filter DoSOCSv2 code. The file that this implementation is inserted into may be found here:
