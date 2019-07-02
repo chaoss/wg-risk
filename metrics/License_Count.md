@@ -1,5 +1,7 @@
 # License Count
 
+[Comment on Release Candidate](https://github.com/chaoss/wg-risk/issues/17)
+
 ## 1. Description
 The total count of identified licenses in a software package where the same license can be counted more than once if it is found in multiple source files. This can include both software and document related licenses. This metric also provides a binary indicator of whether or not the repository contains files without license declarations.  
 
