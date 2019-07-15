@@ -6,7 +6,7 @@
 The total count of identified licenses in a software package where the same license can be counted more than once if it is found in multiple source files. This can include both software and document related licenses. This metric also provides a binary indicator of whether or not the repository contains files without license declarations.  
 
 ## 2. Use Cases
-The most simple case for an IT Manager overseeing the acquisition and management of open source software or an Open Source Program Office or community manager delivering open source software to the marketplace is to have a single license type declared across all files. This metric will illustrate quickly and visible if there is one license or more than one; and the larger the number, the more complex the considerations grow for decision makers.
+The most simple case for an IT Manager overseeing the acquisition and management of open source software or an Open Source Program Office or community manager delivering open source software to the marketplace is to have a single license type declared across all files. This metric will illustrate quickly and visibly if there is one license or more than one; and the larger the number, the more complex the considerations grow for decision makers.
 
 The second aspect of this metric is the binary indicator of whether or not the repository (package) includes files that do not have license declarations.
 
