@@ -5,7 +5,7 @@
 ## 1. Description
 The total number and specific licenses declared in a software package. This can include both software and documentation source files.
 
-## 2. Use Cases
+## 2. Objectives
 The total number and specific licenses declared is critical in several cases:
 1. A software package invariability carries for multiple software licenses and it is critical in the acquisition of software packages to be aware of the declared licenses for compliance reasons. Licenses Declared can provide transparency for license compliance efforts.
 2. Licenses can create conflicts such that not all obligations can be fulfilled across all licenses in a software package. Licenses Declared can provide transparency on potential license conflicts present in software packages.
@@ -54,12 +54,12 @@ WHERE
 ## 6. Known Implementations
 1. [Augur](https://github.com/chaoss/augur)
 
-## 7. Test Cases (Examples)
+## 7. Examples
 1. Available in the Augur test schema for these repositories:
     - portable
     - openBSD
     - boringSSL
 
-## 8. External References (Literature)
+## 8. Resources
 1. https://spdx.org/
 2. https://www.fossology.org
