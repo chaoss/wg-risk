@@ -21,7 +21,7 @@ number of committers = distinct contributor ids over a time period.
 3. Commit Count: Contributors with fewer than some minimum threshold of commits in a time period could be excluded from this number.
 
 
-## 5. Sample Implementation
+## 5. Reference Implementation
 Augur maintains a table for each commit record in a repository, as illustrated below.
 ![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/augur_commits.png)
 
