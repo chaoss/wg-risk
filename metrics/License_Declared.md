@@ -27,7 +27,7 @@ This metric is an enumeration of licenses, and the number of files with that par
 2. Declared and Undeclared: Separate enumeration of files that have license declarations and files that do not.
 
 
-## 5. Sample Implementation
+## 5. Reference Implementation
 The DoSOCSv2 package is implemented as an Augur Plugin, and uses this data model for storing file level license information. Specifically:
 1. Each `package` (repository) can have a declared and concluded license, as determined by the scan of all the files in the repository.
 2. Each `package` can also have a number of different non-code `documents`, which are SPDX license declarations.
