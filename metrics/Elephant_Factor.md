@@ -27,7 +27,7 @@ Essentially, the formula for elephant factor is a percentile calculation. If we 
 1. Time: Reasonably the Elephant Factor will change if one takes a snapshot of any prior time period, so the elephant factor over the life of a product may misrepresent the current level of organizational diversity supported by the project.
 2. Repository Group: Many open source projects include multiple repositories, and in some cases examining all of the repositories associated with any given project provides a more complete picture of elephant factor.
 
-## 5. Sample Implementation
+## 5. Reference Implementation
 Bitergia's implementation of elephant factor is pictured below.
 ![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/elephant_factor.png)
 
