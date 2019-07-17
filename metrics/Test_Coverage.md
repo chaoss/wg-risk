@@ -33,7 +33,7 @@ An open source software package is being considered for deployment in a health c
 1. Standard line graphs when time is included as a filter
 2. Standard histograms or stacked bar charts for point in time coverage comparisons
 
-## 5. Sample Implementation
+## 5. Reference Implementation
 Metrics tools will need to provide abstracted frameworks for representing test coverage because the tools used for measuring both `statement test coverage` and `subroutine test coverage` are programming language specific.
 
 ## 6. Known Implementations
