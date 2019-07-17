@@ -35,7 +35,7 @@ PercentTotalLicenseCoverage: {{ '%0.2f' %  ((cnt[0] / loop.index) * 100) | float
 ## 4. Sample Filter and Visualization
 Time: Licenses declared in a repository can change over time as the dependencies of the repository change. One of the principle motivations for tracking license presence, aside from basic awareness, is to draw attention to any unexpected new license introduction.
 
-## 5. Sample Implementation
+## 5. Reference Implementation
 ### Web Presentation of DoSOCS2 Output:
 ![](https://i.imgur.com/HGG24bk.jpg)
 
