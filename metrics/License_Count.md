@@ -26,7 +26,7 @@ A more common case would require references to [Licenses Declared](https://githu
 ## 4. Sample Filter and Visualization
 Does not apply in this case
 
-## 5. Sample Implementation
+## 5. Reference Implementation
 A highly simplified version of the example provided in the [License Declared](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Declared.md) metric. The following SQL will enumerate the number of files with each license. The count of rows will indicate the number of different licenses. The presence of a (NULL) row will indicate packages without scanned license declarations. **Note** that its important to understand that no file scanner is conclusive, especially if license declarations are not in SPDX format. However, this metric still serves as a  high level indicator of initial license risk when assessing packages (repositories) from this perspective.
 ```sql
 SELECT
