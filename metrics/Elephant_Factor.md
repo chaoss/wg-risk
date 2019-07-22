@@ -7,7 +7,7 @@ The minimum number of companies whose employees perform a parameterizable defini
 
 Elephant Factor provides an easy-to-consume indication of the minimum number of companies performing a parameterized filter (i.e. 50%) of the work. The origin of the term "elephant factor" is not clearly delineated in the literature, though it may arise out of the general identification of software sustainability as a critical non-functional software requirements by Venters et al (2014).  
 
-## 2. Use Cases
+## 2. Objective
 A company evaluating open source software products might use an elephant factor to compare how dependent each projects is on a small set of corporate contributors. Projects with low elephant factors are intuitively more vulnerable to decisions by one enterprise cascading through any enterprise consuming that tool. The parameterized filter should reasonably be different for a project to which 1,000 organizations contribute than one to which, perhaps 10 contribute. At some volume of organizational contribution, probably something less than 1,000 organizations, elephant factor is likely not a central consideration for software acquisition because reasonable managers will judge the project not vulnerable to the decisions of a small number of actors. Such thresholds are highly contextual.
 
 ## 3. Formula
@@ -27,7 +27,7 @@ Essentially, the formula for elephant factor is a percentile calculation. If we 
 1. Time: Reasonably the Elephant Factor will change if one takes a snapshot of any prior time period, so the elephant factor over the life of a product may misrepresent the current level of organizational diversity supported by the project.
 2. Repository Group: Many open source projects include multiple repositories, and in some cases examining all of the repositories associated with any given project provides a more complete picture of elephant factor.
 
-## 5. Sample Implementation
+## 5. Reference Implementation
 Bitergia's implementation of elephant factor is pictured below.
 ![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/elephant_factor.png)
 
@@ -35,10 +35,10 @@ Bitergia's implementation of elephant factor is pictured below.
 1. [Augur](https://github.com/chaoss/augur)
 2. [GrimoireLab](https://chaoss.github.io/grimoirelab)
 
-## 7. Test Cases (Examples)
+## 7. Examples
 The elephant factor can be calculated for any Augur repository in this manner.
 
-## 8. External References (Literature)
+## 8. Resources
 1. Colin C. Venters, Lydia Lau, Michael K. Griffiths, Violeta Holmes, Rupert R. Ward, Caroline Jay, Charlie E. Dibsdale, and Jie Xu. 2014. The Blind Men and the Elephant: Towards an Empirical Evaluation Framework for Software Sustainability. Journal of Open Research Software 2, 1. https://doi.org/10.5334/jors.ao
 2. http://philslade.blogspot.com/2015/07/what-is-elephant-factor.html
 3. https://blog.bitergia.com/2016/06/07/landing-the-new-eclipse-open-analytics-dashboard/
