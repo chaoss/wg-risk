@@ -5,7 +5,7 @@
 ## 1. Description
 How much of the code base has declared licenses. This includes both software and documentation source files and is represented as a percentage of total coverage.
 
-## 2. Use Cases
+## 2. Objectives
 License Coverage provides insight into the percentage of files in a software package that have a declared license, leading to two use cases:
 1. A software package is sourced for internal organizational use and declared license coverage can highlight points of interest or concern when using that software package.
 2. Further, a software package is provided to external, downstream projects and declared license coverage can make transparent license information needed for downstream integration, deployment, and use.
@@ -35,7 +35,7 @@ PercentTotalLicenseCoverage: {{ '%0.2f' %  ((cnt[0] / loop.index) * 100) | float
 ## 4. Sample Filter and Visualization
 Time: Licenses declared in a repository can change over time as the dependencies of the repository change. One of the principle motivations for tracking license presence, aside from basic awareness, is to draw attention to any unexpected new license introduction.
 
-## 5. Sample Implementation
+## 5. Reference Implementation
 ### Web Presentation of DoSOCS2 Output:
 ![](https://i.imgur.com/HGG24bk.jpg)
 
@@ -45,12 +45,12 @@ Time: Licenses declared in a repository can change over time as the dependencies
 ## 6. Known Implementations
 1. [Augur](https://github.com/chaoss/augur)
 
-## 7. Test Cases (Examples)
+## 7. Examples
 1. Available in the Augur test schema for these repositories:
     - portable
     - openBSD
     - boringSSL
 
-## 8. External References (Literature)
+## 8. Resources
 https://spdx.org/
 https://www.fossology.org
