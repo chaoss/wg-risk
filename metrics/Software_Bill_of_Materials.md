@@ -60,6 +60,7 @@ License information is included as part of an SBOM, but the complexity of licens
 1. [DoSOCSv2](https://github.com/DoSOCSv2/DoSOCSv2) embedded as an [Augur](https://github.com/chaoss/augur) Service.
 
 ## 7. Examples
+**See the sample filter and visualization section of this metric**.
 
 ## 8. Resources
 1. https://spdx.org  
