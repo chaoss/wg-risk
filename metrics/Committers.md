@@ -6,6 +6,7 @@
 The Committers metric is the number of individuals who have committed code to a project. This is distinct from the more broadly construed "Contributors" CHAOSS metric, speaking directly to the one specific concern that arises in the evaluation of risk by managers deciding which open source project to use.  While not necessarily true in all cases, it is generally accepted that the more contributors there are to a project, the more likely that project is to continue to receive updates, support, and necessary resources. The metric therefore allows organizations to make an informed decision as to whether the number of committers to a given project potentially poses a current or future risk that the project may be abandoned or under-supported.
 
 ## 2. Objectives
+
 From the point of view of managers deciding among open source projects to incorporate into their organizations, the number of committers sometimes is important.  Code contributions, specifically, can vary significantly from larger scale contributor metrics (which include documentation authors, individuals who open issues, and other types of contributions), depending on the management style employed by an open source project. McDonald et al (2014) drew attention to how different open source projects are led using an open, distributed model, while others are led following highly centralized models. Fewer code contributors may indicate projects less open to outside contribution, or simply projects that have a small number of individuals who understand and contribute to the code base.
 
 ## 3. Formula
@@ -19,7 +20,6 @@ number of committers = distinct contributor ids over a time period.
 1. Time: Knowing the more recent number of distinct committers may more clearly indicate the number of people engaged in a project than examining the number over a project's (repository's) lifetime.
 2. Commit Size: Small commits, as measured by lines of code, could be excluded to avoid a known confound
 3. Commit Count: Contributors with fewer than some minimum threshold of commits in a time period could be excluded from this number.
-
 
 ## 5. Reference Implementation
 Augur maintains a table for each commit record in a repository, as illustrated below.

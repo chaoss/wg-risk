@@ -41,7 +41,6 @@ Metrics tools will need to provide abstracted frameworks for representing test c
 
 ![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/test_coverage_data_model.png)
 
-
 ## 7. Examples
 Test coverage examples are all programming language specific.  We provide a few examples here:
 1. [Python's primary testing framework is PyTest](https://docs.pytest.org/en/latest/)

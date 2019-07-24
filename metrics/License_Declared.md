@@ -6,10 +6,10 @@
 The total number and specific licenses declared in a software package. This can include both software and documentation source files.
 
 ## 2. Objectives
+
 The total number and specific licenses declared is critical in several cases:
 1. A software package invariability carries for multiple software licenses and it is critical in the acquisition of software packages to be aware of the declared licenses for compliance reasons. Licenses Declared can provide transparency for license compliance efforts.
 2. Licenses can create conflicts such that not all obligations can be fulfilled across all licenses in a software package. Licenses Declared can provide transparency on potential license conflicts present in software packages.
-
 
 ## 3. Formula
 This metric is an enumeration of licenses, and the number of files with that particular license declaration. For Example:
@@ -48,8 +48,6 @@ FROM
 WHERE
     A.concluded_license_id = b.license_id
 ```
-
-
 
 ## 6. Known Implementations
 1. [Augur](https://github.com/chaoss/augur)
