@@ -5,7 +5,7 @@
 ## 1. Description
 A software package has a standard expression of dependencies, licensing, and security-related issues.
 
-## 2. Use Cases
+## 2. Objectives
 For managers acquiring open source software as part of an IT or Open Source Program Office portfolio, the "Software Bill of Materials" ("SBOM") is an increasingly essential "core piece of management information".  This arises because, as software packages exist in complex software supply chains, it is important to clearly express, in a standardized way, the associated dependencies, licenses, and security-related issues with that software package. A Software Bill of Materials provides a single source document that provides this information both for internal use and downstream distribution of software packages. A Software Bill of Materials assists in how organizations routinize open source work to better integrate with their own open source risk management routines.
 
 ## 3. Formula
@@ -48,7 +48,7 @@ A full text file for this scan may be found here:
 https://drive.google.com/file/d/18ClTeQo64sU8dVzSQDMYzO6jLHHa9TPg/view?usp=sharing
 
 
-## 5. Sample Implementation
+## 5. Reference Implementation
 A file by file SBOM is available with Augur configured using the DoSOCSv2 plugin.  The relevant parts of the database schema are illustrated below. The most important points, from an SBOM perspective, is simpler than the software licensing metrics described elsewhere.  For the SBOM, we simply look at the enumeration of :
 1. Packages
 2. Package_Files
@@ -59,8 +59,8 @@ License information is included as part of an SBOM, but the complexity of licens
 ## 6. Known Implementations
 1. [DoSOCSv2](https://github.com/DoSOCSv2/DoSOCSv2) embedded as an [Augur](https://github.com/chaoss/augur) Service.
 
-## 7. Test Cases (Examples)
+## 7. Examples
 **See the sample filter and visualization section of this metric**.
 
-## 8. External References (Literature)
+## 8. Resources
 1. https://spdx.org  
