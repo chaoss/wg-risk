@@ -10,6 +10,7 @@ Programming languages refer to **subroutines** specifically as "functions", "met
 **Statements** include variable assignments, loop declarations, calls to system functions, "go to" statements, and the common `return` statement at the completion of a function or method, which may or may not include the return of a `value` or `array of values`.
 
 ## 2. Objectives
+
 An open source software package is being considered for deployment in a health care provider's production ecosystem. As part of the product evaluation process, IT Managers are comparing the test coverage of several alternate systems.
 
 ## 3. Formula
