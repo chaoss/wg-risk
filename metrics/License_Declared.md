@@ -1,6 +1,6 @@
 # License Declared
 
-[Comment on Release Candidate](https://github.com/chaoss/wg-risk/issues/19)
+**Question:** What are the declared software package licenses?
 
 ## 1. Description
 The total number and specific licenses declared in a software package. This can include both software and documentation source files.

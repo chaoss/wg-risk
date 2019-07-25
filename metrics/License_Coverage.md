@@ -1,6 +1,6 @@
 # License Coverage
 
-[Comment on Release Candidate](https://github.com/chaoss/wg-risk/issues/18)
+**Question:** How much of the code base has declared licenses?
 
 ## 1. Description
 How much of the code base has declared licenses. This includes both software and documentation source files and is represented as a percentage of total coverage.

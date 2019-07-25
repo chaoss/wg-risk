@@ -1,6 +1,6 @@
 # Bill of Materials
 
-[Comment on Release Candidate](https://github.com/chaoss/wg-risk/issues/20)
+**Question:** Does the software package have a standard expression of dependencies, licensing, and security-related issues?
 
 ## 1. Description
 A software package has a standard expression of dependencies, licensing, and security-related issues.
