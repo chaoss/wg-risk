@@ -83,6 +83,7 @@ We're just getting started!
 
 **Core Contributors**
 
+- [Kate Stewart](https://github.com/kestewart)
 
 The criteria for becoming a core contributor is to participate at least once
 per month over a period of 3 months.  Participation could include providing
