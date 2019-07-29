@@ -10,7 +10,10 @@ The Committers metric is the number of individuals who have committed code to a 
 From the point of view of managers deciding among open source projects to incorporate into their organizations, the number of committers sometimes is important.  Code contributions, specifically, can vary significantly from larger scale contributor metrics (which include documentation authors, individuals who open issues, and other types of contributions), depending on the management style employed by an open source project. McDonald et al (2014) drew attention to how different open source projects are led using an open, distributed model, while others are led following highly centralized models. Fewer code contributors may indicate projects less open to outside contribution, or simply projects that have a small number of individuals who understand and contribute to the code base.
 
 ## 3. Formula
-number of committers = distinct contributor ids over a time period.
+
+In an open source project every individual email address that has a commit merged into the project is a "committer" (see "known confounds" in the next section). Identifying the number of unique committers during a specific time period is helpful, and the formula for doing so is simple: 
+
+`Number_of_committers = distinct_contributor_ids (during some period of time with a begin date and an end date)`. For example, I may want to know how many distinct people have committed code to a project in the past 18 months. `Committers` reveals the answer. 
 
 ### Known Confounds
 1. Many contributors use more than one email, which may artificially elevate the number of total committers if these shared identities are not reconciled.
