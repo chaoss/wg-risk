@@ -29,7 +29,7 @@ Essentially, the formula for elephant factor is a percentile calculation. If we 
 2. Repository Group: Many open source projects include multiple repositories, and in some cases examining all of the repositories associated with any given project provides a more complete picture of elephant factor.
 
 ## 5. Reference Implementation
-None yet.
+[ To be done. ]
 
 ## 6. Known Implementations
 1. [Augur](https://github.com/chaoss/augur)
