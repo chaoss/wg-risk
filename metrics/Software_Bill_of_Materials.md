@@ -64,3 +64,4 @@ License information is included as part of an SBOM, but the complexity of licens
 
 ## 8. Resources
 1. https://spdx.org  
+2. https://www.ntia.doc.gov/SoftwareTransparency  

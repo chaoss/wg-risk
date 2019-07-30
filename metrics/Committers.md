@@ -47,6 +47,7 @@ This expression allows an end user to filter by commit count thresholds easily, 
 
 ## 6. Known Implementations
 1. [Augur](https://github.com/chaoss/augur)
+2. [Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git)
 
 ## 7. Examples
 
