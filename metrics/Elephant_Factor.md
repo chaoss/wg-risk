@@ -41,7 +41,7 @@ None yet.
     * Select the `git` index
     * Metrics Slice Size: `Count` Aggregation
     * Buckets Splice Slices: `Terms` Aggregation, `author_org_name` Field, `metric: Count` Order By, `Descending` Order, `500` Size
-  - Example screenshot: ![GrimoireLab screenshot of metric Code_Changes](https://github.com/chaoss/wg-risk/blob/master/metrics/images/elephant_factor-GrimoireLab.png)
+  - Example screenshot: ![GrimoireLab screenshot of metric Elephant_Factor](https://github.com/chaoss/wg-risk/blob/master/metrics/images/elephant_factor-GrimoireLab.png)
 
 ## 7. Examples
 The elephant factor can be calculated for any Augur repository in this manner.
