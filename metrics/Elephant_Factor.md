@@ -29,12 +29,19 @@ Essentially, the formula for elephant factor is a percentile calculation. If we 
 2. Repository Group: Many open source projects include multiple repositories, and in some cases examining all of the repositories associated with any given project provides a more complete picture of elephant factor.
 
 ## 5. Reference Implementation
-Bitergia's implementation of elephant factor is pictured below.
-![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/elephant_factor.png)
+[ To be done. ]
 
 ## 6. Known Implementations
 1. [Augur](https://github.com/chaoss/augur)
-2. [GrimoireLab](https://chaoss.github.io/grimoirelab)
+2. [GrimoireLab](https://chaoss.github.io/grimoirelab) provides this metric out of the box, not as a single number but as a visualization.
+  - View an example on the [CHAOSS instance of Bitergia Analytics](https://chaoss.biterg.io/app/kibana#/dashboard/Git).  
+  - Download and import a ready-to-go dashboard containing examples for this metric visualization from the [GrimoireLab Sigils panel collection](https://chaoss.github.io/grimoirelab-sigils/panels/git/).
+  - Add a sample visualization to any GrimoreLab Kibiter dashboard following these instructions:
+    * Create a new `Pie` chart
+    * Select the `git` index
+    * Metrics Slice Size: `Count` Aggregation
+    * Buckets Splice Slices: `Terms` Aggregation, `author_org_name` Field, `metric: Count` Order By, `Descending` Order, `500` Size
+  - Example screenshot: ![GrimoireLab screenshot of metric Elephant_Factor](https://github.com/chaoss/wg-risk/blob/master/metrics/images/elephant_factor-GrimoireLab.png)
 
 ## 7. Examples
 The elephant factor can be calculated for any Augur repository using formulas found in section 3.
