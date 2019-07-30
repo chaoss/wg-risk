@@ -29,7 +29,7 @@ This metric is an enumeration of licenses, and the number of files with that par
 
 ## 5. Reference Implementation
 The DoSOCSv2 package is implemented as an Augur Plugin, and uses this data model for storing file level license information. Specifically:
-1. Each `package` (repository) can have a declared and concluded license, as determined by the scan of all the files in the repository.
+1. Each `package` (repository) can have a declared and declared license, as determined by the scan of all the files in the repository.
 2. Each `package` can also have a number of different non-code `documents`, which are SPDX license declarations.
 3. Each `file` can be associated with one or more `packages_files`. Through the relationship between `files` and `packages_files`, DoSOCSv2 allows for the possibility that one file in a large collection of repositories could be part of more than one package, although in practice this seems unlikely.
 4. `packages` and `packages_files` have a one to many relationship in both directions. Essentially, this is a reinforcement of the possibility that each `file` can be part of more than one `package`, though it is, again, typical that each `package` will contain many `package_files`.
@@ -41,12 +41,12 @@ The DoSOCSv2 package is implemented as an Augur Plugin, and uses this data model
 SELECT A
     .file_name,
     b.license_id,
-    b."name" AS concluded_license
+    b."name" AS declared_license
 FROM
     packages_files A,
     licenses b
 WHERE
-    A.concluded_license_id = b.license_id
+    A.declared_license_id = b.license_id
 ```
 
 ## 6. Known Implementations

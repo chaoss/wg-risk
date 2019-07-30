@@ -84,6 +84,8 @@ We're just getting started!
 **Core Contributors**
 
 - [Kate Stewart](https://github.com/kestewart)
+- [Matt Snell](https://github.com/Nebrethar)
+- [Kevin Lumbard](https://github.com/klumb)
 
 The criteria for becoming a core contributor is to participate at least once
 per month over a period of 3 months.  Participation could include providing

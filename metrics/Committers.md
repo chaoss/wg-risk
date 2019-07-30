@@ -47,14 +47,7 @@ This expression allows an end user to filter by commit count thresholds easily, 
 
 ## 6. Known Implementations
 1. [Augur](https://github.com/chaoss/augur)
-2. [GrimoireLab](https://chaoss.github.io/grimoirelab) provides this metric out of the box.
-  - View an example on the [CHAOSS instance of Bitergia Analytics](https://chaoss.biterg.io/app/kibana#/dashboard/Git).  
-  - Download and import a ready-to-go dashboard containing examples for this metric visualization from the [GrimoireLab Sigils panel collection](https://chaoss.github.io/grimoirelab-sigils/panels/git/).
-  - Add a sample visualization to any GrimoreLab Kibiter dashboard following these instructions:
-    * Create a new `Metric` chart
-    * Select the `git` index
-    * Metrics: `Unique Count` Aggregation, `author_uuid` Field, `# of Committers` Custom Label
-  - Example screenshot: ![GrimoireLab screenshot of metric Committers](https://github.com/chaoss/wg-evolution/blob/master/metrics/images/committers-GrimoireLab.png)
+2. [Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git)
 
 ## 7. Examples
 
