@@ -49,10 +49,10 @@ WHERE
 ```
 
 ## Known Implementations
-1. [Augur](https://github.com/chaoss/augur)
+* [Augur](https://github.com/chaoss/augur)
 
 ### Examples
-1. Available in the Augur test schema for these repositories:
+* Available in the Augur test schema for these repositories:
     - portable
     - openBSD
     - boringSSL
