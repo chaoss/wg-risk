@@ -54,6 +54,10 @@ https://bestpractices.coreinfrastructure.org/projects.json?pq= + ciiURL
 ```
 Where ciiURL is the URL that CII has on file for the project. This value is often a GitHub URL
 
+Below is an example of a queryt that returns API data on zephyrproject-rtos/Zephyr
+```
+https://bestpractices.coreinfrastructure.org/projects.json?pq=zephyr
+```
 The output is a set of values pertaining to CII pest practices.
 Here is a snippet of values from an API call regarding box/bart:
 ```
