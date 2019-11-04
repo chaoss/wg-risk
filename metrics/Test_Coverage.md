@@ -13,15 +13,15 @@ An open source software package is being considered for deployment in a health c
 
 ## Implementation 
 
-**Statements** include variable assignments, loop declarations, calls to system functions, "go to" statements, and the common `return` statement at the completion of a function or method, which may or may not include the return of a `value` or `array of values`.
+Statements include variable assignments, loop declarations, calls to system functions, "go to" statements, and the common `return` statement at the completion of a function or method, which may or may not include the return of a `value` or `array of values`.
 
 #### Subroutine Coverage
 
-![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/subroutine-coverage.png)
+<img src="https://github.com/chaoss/wg-risk/blob/master/metrics/images/subroutine-coverage.png" width="500">
 
 #### Statement Coverage
 
-![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/statement-coverage.png)
+<img src="https://github.com/chaoss/wg-risk/blob/master/metrics/images/statement-coverage.png" width="500">
 
 ### Filters
 * Time: Changes in test coverage over time provide evidence of project attention to maximizing overall test coverage. Specific parameters include `start date` and `end date` for the time period.
@@ -29,15 +29,16 @@ An open source software package is being considered for deployment in a health c
 * Programming_Language: Most contemporary open source software repositories contain several different programming languages. The coverage percentage of each `Code_File`
 
 ### Tools Providing the Metric
-1. [Augur](https://github.com/chaoss/augur) has test coverage implemented as a table that is a child of the main repository table in its repository.  The data structure is illustrated below. Note that each time test coverage is tested, a record is made for each file tested, the testing tool used for testing and the number of statements/subroutines in the file, as well as the number of statements and subroutines tested. By recording test data at this level of granularity, Augur enables `Code_File` and `Programming_Language` summary level statistics and filters.
+- Providing Test Coverage Information 
+  * [Python's primary testing framework is PyTest](https://docs.pytest.org/en/latest/)
+  * [The Flask web framework for python enables coverage testing](http://flask.pocoo.org/docs/1.0/tutorial/tests/)
+  * [Open source code coverage tools for common languages like Java, C, and C++ are available from my sites, including this one.](https://stackify.com/code-coverage-tools/#OpenSource)
 
-![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/test_coverage_data_model.png)
+- Storing Test Coverage Information 
+  * [Augur](https://github.com/chaoss/augur) has test coverage implemented as a table that is a child of the main repository table in its repository. Each time test coverage is tested, a record is made for each file tested, the testing tool used for testing and the number of statements/subroutines in the file, as well as the number of statements and subroutines tested. By recording test data at this level of granularity, Augur enables `Code_File` and `Programming_Language` summary level statistics and filters.
 
-### Examples
-Test coverage examples are all programming language specific.  We provide a few examples here:
-1. [Python's primary testing framework is PyTest](https://docs.pytest.org/en/latest/)
-2. [The Flask web framework for python enables coverage testing](http://flask.pocoo.org/docs/1.0/tutorial/tests/)
-3. [Open source code coverage tools for common languages like Java, C, and C++ are available from my sites, including this one.](https://stackify.com/code-coverage-tools/#OpenSource)
+<img src="https://github.com/chaoss/wg-risk/blob/master/metrics/images/test_coverage_data_model.png" width="500">
+
 
 ## Resources
 1. J.H. Andrews, L.C. Briand, Y. Labiche, and A.S. Namin. 2006. Using Mutation Analysis for Assessing and Comparing Testing Coverage Criteria. IEEE Transactions on Software Engineering 32, 8: 608–624. https://doi.org/10.1109/TSE.2006.83
