@@ -21,6 +21,8 @@ In an open source project every individual email address that has a commit merge
 
 ### Visualizations
 
+From Grimoire Lab showing committers
+
 
 
 ### Filters
