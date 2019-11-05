@@ -1,23 +1,38 @@
 ## 1. Description
 The Linux Foundation (LF) Core Infrastructure Initiative (CII) Best Practices badge is a way for Free/Libre and Open Source Software (FLOSS) projects to show that they follow best practices. Projects can voluntarily self-certify, at no cost, by using this web application to explain how they follow each best practice. 
 
-CII badging indicates a projects level of compliance with “open source project best practices" as defined by the Linux Foundation's core infrastructure initiative, which focuses on CyberSecurity in open source software. The goal of the program is to encourage projects to produce better more secure software and allow others to determine if a project is following best practices.
-
 Projects receive the passing badge if they meet all of the required criteria. The status of each criterion, for a given project, can be 'Met', 'Unmet', 'N/A' or 'unknown'. Each criterion is in one of four categories: 'MUST', 'SHOULD', 'SUGGESTED', or 'FUTURE'. To obtain a badge, all MUST and MUST NOT criteria must be met, all SHOULD criteria must be met OR the rationale for not implementing the criterion must be documented, and all SUGGESTED criteria have to be rated as met or unmet.
 
-## 2. Use Cases
+## 2. Objectives
+
+CII badging indicates a projects level of compliance with “open source project best practices" as defined by the Linux Foundation's core infrastructure initiative, which focuses on CyberSecurity in open source software. The goal of the program is to encourage projects to produce better more secure software and allow others to determine if a project is following best practices.
 
 Consumers of the badge can quickly assess which FLOSS projects are following best practices and as a result are more likely to produce higher-quality secure software. 
 
-## 3. Formula
+## 3. Implementation
 
 GET Request to CII Best Practices API with a specific URL -> JSON response with status information for the repository
 
-## 4. Sample Filter and Visualization
+The input is an API call Perform a GET request to :
+```
+https://bestpractices.coreinfrastructure.org/projects.json?pq= + ciiProjectHostURL
+```
+Below is an example of a query that returns API data on zephyrproject-rtos/Zephyr
+```
+https://bestpractices.coreinfrastructure.org/projects.json?pq=https://github.com/zephyrproject-rtos/zephyr
+```
+## 4. Visualizations
 
 ![](https://i.imgur.com/mSformz.png)
 
-## 5. Sample Implementation (JavaScript)
+## 5. Tools Providing Metric
+
+Augur provides an ecample implementation for the CII Best Practices metric.
+An example of CII metrics in use can be found at http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk
+
+## 6. Data Collection Strategies
+
+Provided is a sample GET request to CII. This example is written in JavaScript and retrieves JSON information about box/bart
 
 ```
 const owner = "box"
@@ -40,25 +55,9 @@ var request = new XMLHttpRequest();
 loader();
 request.send();
 ```
+See https://github.com/Nebrethar/risk-flask for an isolated sample of this code.
 
-
-## 6. Known Implementations
-
-See https://github.com/Nebrethar/risk-flask for an isolated sample.
-
-## 7. Test Cases (Examples)
-
-The input is an API call; GET request to :
-```
-https://bestpractices.coreinfrastructure.org/projects.json?pq= + ciiURL
-```
-Where ciiURL is the URL that CII has on file for the project. This value is often a GitHub URL
-
-Below is an example of a queryt that returns API data on zephyrproject-rtos/Zephyr
-```
-https://bestpractices.coreinfrastructure.org/projects.json?pq=zephyr
-```
-The output is a set of values pertaining to CII pest practices.
+The output of the API call is a set of CII information on the project.
 Here is a snippet of values from an API call regarding box/bart:
 ```
 dynamic_analysis_enable_assertions_justification: ""
@@ -86,16 +85,17 @@ hardened_site_justification: null
 hardened_site_status: "?"
 hardening_justification: ""
 hardening_status: "?"
-​homepage_url: "https://github.com/box/bart"
+homepage_url: "https://github.com/box/bart"
 homepage_url_justification: null
 homepage_url_status: "?"
-​id: 84
+id: 84
 implement_secure_design_justification: null
-​implement_secure_design_status: "?"
-​implementation_languages: "PHP, Shell (CII estimate)"
+implement_secure_design_status: "?"
+implementation_languages: "PHP, Shell (CII estimate)"
 input_validation_justification: null
 ```
 
-## 8. External References (Literature)
+## 7. Resources
 
-CII Badging Website: https://bestpractices.coreinfrastructure.org/en
+CII Badging Website: https://bestpractices.coreinfrastructure.org/en <br/>
+Augur: https://github.com/chaoss/augur
