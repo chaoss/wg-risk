@@ -19,14 +19,19 @@ In an open source project every individual email address that has a commit merge
 * Many contributors use more than one email, which may artificially elevate the number of total committers if these shared identities are not reconciled.
 * Several committers making small, "drive by" contributions may artificially elevate this number as well.
 
+### Visualizations
+
+
+
 ### Filters
 * Time: Knowing the more recent number of distinct committers may more clearly indicate the number of people engaged in a project than examining the number over a project's (repository's) lifetime.
 * Commit Size: Small commits, as measured by lines of code, could be excluded to avoid a known confound
 * Commit Count: Contributors with fewer than some minimum threshold of commits in a time period could be excluded from this number.
 
 ## Tools Providing the Metric
-Augur maintains a table for each commit record in a repository, as illustrated below.
-![](https://github.com/chaoss/wg-risk/blob/master/metrics/images/augur_commits.png)
+Augur maintains a table for each commit record in a repository.
+
+<img src="https://github.com/chaoss/wg-risk/blob/master/metrics/images/augur_commits.png" width="250">
 
 To evaluate distinct committers for a repository, the following SQL, or documented API endpoints can be used:
 ```sql
@@ -43,9 +48,9 @@ ORDER BY
     counter DESC
 ```
 
-This expression allows an end user to filter by commit count thresholds easily, and the number of rows returned is the "Total_Committers" for the repository.  Adding filters is reasonably straightforward in the API and SQL.
+This expression allows an end user to filter by commit count thresholds easily, and the number of rows returned is the "Total_Committers" for the repository. 
 
-[Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git)
+[Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git) additionally proides insight into committers. 
 
 ## Resources
 1. Nora McDonald, Kelly Blincoe, Eva Petakovic, and Sean Goggins. 2014. Modeling Distributed Collaboration on GitHub. Advances in Complex Systems 17(7 & 8).
