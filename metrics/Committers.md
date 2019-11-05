@@ -33,7 +33,7 @@ From Grimoire Lab showing committers
 ## Tools Providing the Metric
 Augur maintains a table for each commit record in a repository.
 
-<img src="https://github.com/chaoss/wg-risk/blob/master/metrics/images/augur_commits.png" width="500">
+<img src="https://github.com/chaoss/wg-risk/blob/master/metrics/images/augur_commits.png" width="300">
 
 To evaluate distinct committers for a repository, the following SQL, or documented API endpoints can be used:
 ```sql
