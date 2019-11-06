@@ -34,6 +34,8 @@ PercentTotalLicenseCoverage: {{ '%0.2f' %  ((cnt[0] / loop.index) * 100) | float
 ### Filters
 Time: Licenses declared in a repository can change over time as the dependencies of the repository change. One of the principle motivations for tracking license presence, aside from basic awareness, is to draw attention to any unexpected new license introduction.
 
+"Open Source Metric": Percentage of licenses on the list of Open Source Initiative (OSI) approved licenses over all found licenses. 
+
 ### Visualizations 
 
 #### Web Presentation of DoSOCS2 Output:
