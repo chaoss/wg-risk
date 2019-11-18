@@ -1,47 +1,40 @@
-## 1. Description
+# Core Infrastructure Initiative Best Practices Badge
 
-## 2. Use Cases
+Question: What is the current CII Best Practices status for the project? 
 
-## 3. Formula
+## Description
 
-## 4. Sample Filter and Visualization
+As from the [CII Best Practices Badging Page](https://bestpractices.coreinfrastructure.org/en): The Linux Foundation Core Infrastructure Initiative (CII) Best Practices badge is a way for open source projects to show that they follow best practices. Projects can voluntarily self-certify, at no cost, by using this web application to explain how they follow each best practice. Projects receive the passing badge if they meet all of the required criteria.
 
-## 5. Sample Implementation
+## Objectives
 
-## 6. Known Implementations
+As from the [CII Best Practices Badging Page](https://bestpractices.coreinfrastructure.org/en): CII badging indicates a project’s level of compliance with “open source project best practices" as defined by the Linux Foundation's core infrastructure initiative, which focuses on CyberSecurity in open source software. The goal of the program is to encourage projects to produce better more secure software and allow others to determine if a project is following best practices.
 
-## 7. Test Cases (Examples)
+Consumers of the badge can quickly assess which open source projects are following best practices and as a result are more likely to produce higher-quality secure software.
 
-## 8. External References (Literature)
+## Implementation
+
+See [CII’s API documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/master/doc/api.md) for relevant information.
+
+### Visualizations
+
+![](https://i.imgur.com/mSformz.png)
+
+### Tools Providing Metric
+
+Augur provides an example implementation for the CII Best Practices metric.
+An example of CII metrics in use can be found at http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk
+
+### Data Collection Strategies
+
+See [CII’s API documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/master/doc/api.md) for relevant information.
+
+As from the [CII Best Practices Badging Page](https://bestpractices.coreinfrastructure.org/en): Projects receive the passing badge if they meet all of the required criteria. The status of each criterion, for a given project, can be 'Met', 'Unmet', 'N/A' or 'unknown'. Each criterion is in one of four categories: 'MUST', 'SHOULD', 'SUGGESTED', or 'FUTURE'. To obtain a badge, all the MUST and MUST NOT criteria must be met, all SHOULD criteria must be met OR the rationale for not implementing the criterion must be documented, and all SUGGESTED criteria have to be rated as met or unmet. Advanced badge levels of silver and gold are available if the project satisfies the additional criterion. 
+
+## Resources
+
+- CII Badging Website: https://bestpractices.coreinfrastructure.org/en 
+- Augur: https://github.com/chaoss/augur
 
 
 
-----
-```markdown
-# {Name of Metric}
-
-## 1. Description
-A description of what the metric is and what it captures.
-The first few sentences have to match the description in the [metrics list](../activity-metrics-list.md).
-
-## 2. Use Cases
-Provide examples of how the metric might inform different stakeholders through use cases.
-
-## 3. Formula
-A generic formula (in pseudo code) to generate the metric.
-
-## 4. Sample Filter and Visualization
-Include a Sample Filter and Visualization (screenshot) of the metric from any implementation.
-
-## 5. Sample Implementation
-An example implementation, for example a SQL or Elasticsearch query.
-
-## 6. Known Implementations
-Examples of where and how metric is used. (include links to dashboard or location where metric is visible or is talked about having been used).
-
-## 7. Test Cases (Examples)
-Sample inputs (including contexts) and expected outputs for this metric. Implementers can test their implementations against these test cases. For quantitative metrics, this could include a static repository with known metric results, or just inputs and output. For qualitative metrics, this may be more difficult.
-
-## 8. External References (Literature)
-Blog posts, websites, academic papers, or books that mention the metric.
-```
