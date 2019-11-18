@@ -49,4 +49,5 @@ Time: Licenses declared in a repository can change over time as the dependencies
 
 ## Resources
 * https://spdx.org/
+  * JSON of SPDX license list: https://raw.githubusercontent.com/spdx/license-list-data/master/json/licenses.json
 * https://www.fossology.org
