@@ -39,7 +39,7 @@ The formula for elephant factor is a percentile calculation. If we have 8 organi
     * Buckets Splice Slices: `Terms` Aggregation, `author_org_name` Field, `metric: Count` Order By, `Descending` Order, `500` Size
   - Example screenshot: ![GrimoireLab screenshot of metric Elephant_Factor](https://github.com/chaoss/wg-risk/blob/master/metrics/images/elephant_factor-GrimoireLab.png)
 
-## Resources
+## References
 * Colin C. Venters, Lydia Lau, Michael K. Griffiths, Violeta Holmes, Rupert R. Ward, Caroline Jay, Charlie E. Dibsdale, and Jie Xu. 2014. The Blind Men and the Elephant: Towards an Empirical Evaluation Framework for Software Sustainability. Journal of Open Research Software 2, 1. https://doi.org/10.5334/jors.ao
 * http://philslade.blogspot.com/2015/07/what-is-elephant-factor.html
 * https://blog.bitergia.com/2016/06/07/landing-the-new-eclipse-open-analytics-dashboard/
