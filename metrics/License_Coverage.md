@@ -18,33 +18,16 @@ Time: Licenses declared in a repository can change over time as the dependencies
 ### Visualizations 
 
 #### Web Presentation of Augur Output:
-<img src="https://i.imgur.com/HGG24bk.jpg" width="200">
+<img src="https://i.imgur.com/f0kuJlP.png" width="300">
 
 #### JSON Presentation of Augur Output:
 <img src="https://i.imgur.com/Xyxm3q3.jpg" width="250">
 
 ### Tools Providng the Metric
-[Augur](https://github.com/chaoss/augur)
+ 1. [Augur](https://github.com/chaoss/augur)
 
-Data can be pulled  and filtered to get the desired information. Here is a sample of Augur code. The file that this implementation is inserted into may be found here:
-https://github.com/DoSOCSv2/DoSOCSv2/blob/master/dosocs2/templates/2.0.tag
-The code may be added to the end of the document. Run a “dosocs2 oneshot” scan and the new data will be at the end of the document. More information on DoSOCSv2 is found here:
-https://github.com/DoSOCSv2/DoSOCSv2
+Data can be pulled and filtered to get the desired information. License Coverage data can be found on any [Augur risk page](http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk)
 
-```
-{% set cnt = [0] %}
-{% for file in package.files %}
-{% if file.license_info[0].short_name != None %}
-{% if cnt.append(cnt.pop() + 1) %}{% endif %}
-{% endif %}
-{% if loop.index == loop.length %}
-TotalFiles: {{ loop.index }}
-DeclaredLicenseFiles: {{ cnt[0] }}
-PercentTotalLicenseCoverage: {{ '%0.2f' %  ((cnt[0] / loop.index) * 100) | float }}%
- {% endif %}
-{% endfor %}
-```
-
-## Resources
+## References
 * https://spdx.org/
 * https://www.fossology.org
