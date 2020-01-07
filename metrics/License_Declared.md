@@ -25,32 +25,19 @@ The total number and specific licenses declared is critical in several cases:
 
 ### Tools Providing the Metric 
 
-[Augur](https://github.com/chaoss/augur)
+ 1. [Augur](https://github.com/chaoss/augur)
+ 
+ Licenses Declared can be found on any [Augur risk page](http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk) under the section "License Declared".
+ 
+ 2. [Augur-SPDX](https://github.com/chaoss/augur-spdx)
 
-The DoSOCSv2 package is implemented as an Augur Plugin, and uses this data model for storing file level license information. Specifically:
+The Augur-SPDX package is implemented as an Augur Plugin, and uses this data model for storing file level license information. Specifically:
 * Each `package` (repository) can have a declared and declared license, as determined by the scan of all the files in the repository.
 * Each `package` can also have a number of different non-code `documents`, which are SPDX license declarations.
-* Each `file` can be associated with one or more `packages_files`. Through the relationship between `files` and `packages_files`, DoSOCSv2 allows for the possibility that one file in a large collection of repositories could be part of more than one package, although in practice this seems unlikely.
+* Each `file` can be associated with one or more `packages_files`. Through the relationship between `files` and `packages_files`, Augur-SPDX allows for the possibility that one file in a large collection of repositories could be part of more than one package, although in practice this seems unlikely.
 * `packages` and `packages_files` have a one to many relationship in both directions. Essentially, this is a reinforcement of the possibility that each `file` can be part of more than one `package`, though it is, again, typical that each `package` will contain many `package_files`.
-* `licenses` are associated with `files` and `packages_files`. Each `file` could possibly have more than one `licenses` reference, which is possible under the condition that the `license` declaration changed between `DoSOCSv2` scans of the repository. Each `package` is stored in its most recent form, and each `packages_file` can have one `license` declaration.
+* `licenses` are associated with `files` and `packages_files`. Each `file` could possibly have more than one `licenses` reference, which is possible under the condition that the `license` declaration changed between `Augur-SPDX` scans of the repository. Each `package` is stored in its most recent form, and each `packages_file` can have one `license` declaration.
 
-<img src="https://github.com/chaoss/wg-risk/blob/master/metrics/images/licenses-DoSOCS2.png" width="650">
-
-Sample SQL to Extract License Information from a Package File
-
-```sql
-SELECT A
-    .file_name,
-    b.license_id,
-    b."name" AS declared_license
-FROM
-    packages_files A,
-    licenses b
-WHERE
-    A.declared_license_id = b.license_id
-```
-
-
-## Resources
+## References
 * https://spdx.org/
 * https://www.fossology.org
