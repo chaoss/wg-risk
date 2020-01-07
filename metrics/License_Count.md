@@ -24,20 +24,10 @@ The second aspect of this metric is the binary indicator of whether or not the r
 
 ### Tools Providing the Metric
 
-[Augur](https://github.com/chaoss/augur)
+ 1. [Augur](https://github.com/chaoss/augur)
 
-The following SQL will enumerate the number of files with each license. The count of rows will indicate the number of different licenses. The presence of a (NULL) row will indicate packages without scanned license declarations. **Note** that its important to understand that no file scanner is conclusive, especially if license declarations are not in SPDX format. However, this metric still serves as a  high level indicator of initial license risk when assessing packages (repositories) from this perspective.
-```sql
-SELECT
-    concluded_license_id,
-    COUNT ( * )
-FROM
-    packages_files
-WHERE
-    package_id = 'package_id_of_package'
---- package_id is an int, but represented here as text for the purposes of explaining the abstraction.
-```
+License count can be found on any [Augur risk page](http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk) under the section "Licenses Declared". The number of rows in the table is the number of licenses.
 
-## 8. Resources
+## 8. References
 1. https://spdx.org/
 2. https://www.fossology.org
