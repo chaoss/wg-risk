@@ -3,7 +3,7 @@
 Question: How robust and diverse are the contributors to a community?
 
 ## Description
-The Committers metric is the number of individuals who have committed code to a project. This is distinct from the more broadly construed "Contributors" CHAOSS metric, speaking directly to the one specific concern that arises in the evaluation of risk by managers deciding which open source project to use.  While not necessarily true in all cases, it is generally accepted that the more contributors there are to a project, the more likely that project is to continue to receive updates, support, and necessary resources. The metric therefore allows organizations to make an informed decision as to whether the number of committers to a given project potentially poses a current or future risk that the project may be abandoned or under-supported.
+The Committers metric is the number of individuals who have committed code to a project. This is distinct from the more broadly construed "[Contributors](https://github.com/chaoss/wg-common/blob/master/focus-areas/who/contributors.md)" CHAOSS metric, speaking directly to the one specific concern that arises in the evaluation of risk by managers deciding which open source project to use.  While not necessarily true in all cases, it is generally accepted that the more contributors there are to a project, the more likely that project is to continue to receive updates, support, and necessary resources. The metric therefore allows organizations to make an informed decision as to whether the number of committers to a given project potentially poses a current or future risk that the project may be abandoned or under-supported.
 
 ## Objectives
 
@@ -15,7 +15,8 @@ In an open source project every individual email address that has a commit merge
 
 `Number_of_committers = distinct_contributor_ids (during some period of time with a begin date and an end date)`. For example, I may want to know how many distinct people have committed code to a project in the past 18 months. `Committers` reveals the answer. 
 
-** Known Confounds **
+### Known Confounds 
+
 * Many contributors use more than one email, which may artificially elevate the number of total committers if these shared identities are not reconciled.
 * Several committers making small, "drive by" contributions may artificially elevate this number as well.
 
@@ -52,7 +53,7 @@ ORDER BY
 
 This expression allows an end user to filter by commit count thresholds easily, and the number of rows returned is the "Total_Committers" for the repository. 
 
-[Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git) additionally proides insight into committers. 
+[Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git) additionally provides insight into committers. 
 
 ## References
 1. Nora McDonald, Kelly Blincoe, Eva Petakovic, and Sean Goggins. 2014. Modeling Distributed Collaboration on GitHub. Advances in Complex Systems 17(7 & 8).
