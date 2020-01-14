@@ -52,7 +52,7 @@ ORDER BY
 
 This expression allows an end user to filter by commit count thresholds easily, and the number of rows returned is the "Total_Committers" for the repository. 
 
-[Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git) additionally proides insight into committers. 
+[Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git) additionally provides insight into committers. 
 
 ## References
 1. Nora McDonald, Kelly Blincoe, Eva Petakovic, and Sean Goggins. 2014. Modeling Distributed Collaboration on GitHub. Advances in Complex Systems 17(7 & 8).
