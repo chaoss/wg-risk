@@ -9,7 +9,7 @@ Programming languages refer to **subroutines** specifically as "functions", "met
 
 ## Objectives
 
-An open source software package is being considered for deployment in a health care provider's production ecosystem. As part of the product evaluation process, IT Managers are comparing the test coverage of several alternate systems.
+Understanding the level of test coverage is a signal of software quality. Code with little test coverage signals a likelihood of less rigorous software engineering practice and a corresponding increased probability that defects will be detected upon deployment and use. 
 
 ## Implementation 
 
