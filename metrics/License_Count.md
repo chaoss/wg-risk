@@ -28,6 +28,6 @@ The second aspect of this metric is the binary indicator of whether or not the r
 
 License count can be found on any [Augur risk page](http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk) under the section "Licenses Declared". The number of rows in the table is the number of licenses.
 
-## 8. References
+## References
 1. https://spdx.org/
 2. https://www.fossology.org
