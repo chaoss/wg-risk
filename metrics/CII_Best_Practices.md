@@ -31,7 +31,7 @@ See [CII’s API documentation](https://github.com/coreinfrastructure/best-pract
 
 As from the [CII Best Practices Badging Page](https://bestpractices.coreinfrastructure.org/en): Projects receive the passing badge if they meet all of the required criteria. The status of each criterion, for a given project, can be 'Met', 'Unmet', 'N/A' or 'unknown'. Each criterion is in one of four categories: 'MUST', 'SHOULD', 'SUGGESTED', or 'FUTURE'. To obtain a badge, all the MUST and MUST NOT criteria must be met, all SHOULD criteria must be met OR the rationale for not implementing the criterion must be documented, and all SUGGESTED criteria have to be rated as met or unmet. Advanced badge levels of silver and gold are available if the project satisfies the additional criterion. 
 
-## Resources
+## References
 
 - CII Badging Website: https://bestpractices.coreinfrastructure.org/en 
 - Augur: https://github.com/chaoss/augur
