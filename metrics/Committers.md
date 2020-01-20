@@ -1,6 +1,6 @@
 # Committers
 
-Question: How robust and diverse are the contributors to a community?
+Question: How robust are the contributors to a community?
 
 ## Description
 The Committers metric is the number of individuals who have committed code to a project. This is distinct from the more broadly construed ["Contributors" CHAOSS metric](https://github.com/chaoss/wg-common/blob/master/focus-areas/who/contributors.md), speaking directly to the one specific concern that arises in the evaluation of risk by managers deciding which open source project to use.  While not necessarily true in all cases, it is generally accepted that the more contributors there are to a project, the more likely that project is to continue to receive updates, support, and necessary resources. The metric therefore allows organizations to make an informed decision as to whether the number of committers to a given project potentially poses a current or future risk that the project may be abandoned or under-supported.
@@ -27,7 +27,7 @@ From Grimoire Lab showing committers
 
 ### Filters
 * Time: Knowing the more recent number of distinct committers may more clearly indicate the number of people engaged in a project than examining the number over a project's (repository's) lifetime.
-* Commit Size: Small commits, as measured by lines of code, could be excluded to avoid a known confound
+* Commit Size: Small commits, as measured by lines of code, could be excluded to avoid a known issue
 * Commit Count: Contributors with fewer than some minimum threshold of commits in a time period could be excluded from this number.
 
 ## Tools Providing the Metric
