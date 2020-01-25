@@ -11,7 +11,7 @@ From the point of view of managers deciding among open source projects to incorp
 
 ## Implementation
 
-In an open source project every individual email address that has a commit merged into the project is a "committer" (see "known confounds" in the next section). Identifying the number of unique committers during a specific time period is helpful, and the formula for doing so is simple: 
+In an open source project every individual email address that has a commit merged into the project is a "committer" (see "known issues" in the next section). Identifying the number of unique committers during a specific time period is helpful, and the formula for doing so is simple: 
 
 `Number_of_committers = distinct_contributor_ids (during some period of time with a begin date and an end date)`. For example, I may want to know how many distinct people have committed code to a project in the past 18 months. `Committers` reveals the answer. 
 
