@@ -37,8 +37,6 @@ Statements include variable assignments, loop declarations, calls to system func
 - Storing Test Coverage Information 
   * [Augur](https://github.com/chaoss/augur) has test coverage implemented as a table that is a child of the main repository table in its repository. Each time test coverage is tested, a record is made for each file tested, the testing tool used for testing and the number of statements/subroutines in the file, as well as the number of statements and subroutines tested. By recording test data at this level of granularity, Augur enables `Code_File` and `Programming_Language` summary level statistics and filters.
 
-<img src="https://github.com/chaoss/wg-risk/blob/master/metrics/images/test_coverage_data_model.png" width="500">
-
 
 ## References
 1. J.H. Andrews, L.C. Briand, Y. Labiche, and A.S. Namin. 2006. Using Mutation Analysis for Assessing and Comparing Testing Coverage Criteria. IEEE Transactions on Software Engineering 32, 8: 608–624. https://doi.org/10.1109/TSE.2006.83
