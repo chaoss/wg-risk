@@ -3,7 +3,7 @@
 Question: How much of the code base has declared licenses?
 
 ## Description
-How much of the code base has declared licenses. This includes both software and documentation source files and is represented as a percentage of total coverage.
+How much of the code base has declared licenses that scanners can recognize which may not be just OSI-approved. This includes both software and documentation source files and is represented as a percentage of total coverage.
 
 ## Objectives
 License Coverage provides insight into the percentage of files in a software package that have a declared license, leading to two use cases:
