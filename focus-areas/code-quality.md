@@ -12,7 +12,7 @@
 - Metric: Boehm’s model (cocomo) of human labor invested in an entire repo and the subparts of that repo. 
 
 ### Question: What are the documented community processes associated with the development of the source code: 
-- Metric: [Pull Request Process](../metrics/Pull_Request_Process). 
+- Metric: [Pull Request Process](../metrics/Pull_Request_Process.md). 
 
 ### Question: What is the total number of bugs? 
 - Metric: Count of total reported bugs 
