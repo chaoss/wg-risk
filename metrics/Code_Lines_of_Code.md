@@ -28,7 +28,7 @@ The lines of code metric is a fairly simple metric as it just involves counting 
 <img src="https://github.com/hmassa/wg-risk/blob/master/metrics/images/lines_of_code_file_type.png" width="750">
 
 * Lines per contributor:
-<img src="https://github.com/hmassa/wg-risk/blob/master/metrics/images/lines_of_code_file_user.png" width="750">
+<img src="https://github.com/hmassa/wg-risk/blob/master/metrics/images/lines_of_code_user.png" width="750">
 
 
 ## 5. Sample Implementation
@@ -41,7 +41,7 @@ FOR file IN repository {
 return sum
 
 ## 6. Known Implementations
-Examples of where and how metric is used. (include links to dashboard or location where metric is visible or is talked about having been used).
+* https://scitools.com/count-lines-of-code/: Understand(TM) is a product from SciTools that enables users to gain a better understanding of their code using line count visualization tools. The program has a large number of filters and specifications that allow users to define and visualize exactly what they are looking for. 
 
 ## 7. External References (Literature)
 * https://confluence.atlassian.com/fisheye/about-the-lines-of-code-metric-960155778.html
