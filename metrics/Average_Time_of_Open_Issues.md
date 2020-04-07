@@ -12,10 +12,10 @@ To an organization or manager deciding among open source projects to incorporate
 In an open source project, issues are tracked on their own page in the format of opened and closed issues. Identifying the time it takes for an issue to be closed is helpful and simple, and can be accomplished by noting the start date of an issue, and comparing it with the close date of an issue. While the specific time it took to close an issue is not explicitly present, this formula can likely be implemented into a software/project such as Augur.
 
 ### Filters
-- Time Range: It may be important to note the average time it takes to close an issue during certain parts of a project. For example, a project that has just began should have a different average time compared to a year after its creation. Knowing the trajectory of the average time may be important in decision making.
-- Issue Size: The size or average size of issues may determine how long it takes to complete issues and should be considered.
-- Contributor Count: The number of contributors can determine how fast issues are completed. If a large scale project is solving issues slower than a smaller scale project, the larger scale project may be less reliable, not as committed, or be lacking resources.
-- Resolved or Not: Knowing if an issue has been solved, pushed back, or fully removed may skew the data and mislead someone making a decision in contributing to a project.
+- **Time Range:** It may be important to note the average time it takes to close an issue during certain parts of a project. For example, a project that has just began should have a different average time compared to a year after its creation. Knowing the trajectory of the average time may be important in decision making.
+- **Issue Size:** The size or average size of issues may determine how long it takes to complete issues and should be considered.
+- **Contributor Count:** The number of contributors can determine how fast issues are completed. If a large scale project is solving issues slower than a smaller scale project, the larger scale project may be less reliable, not as committed, or be lacking resources.
+- **Resolved or Not:** Knowing if an issue has been solved, pushed back, or fully removed may skew the data and mislead someone making a decision in contributing to a project.
 
 ### Visualizations
 While there is no current visual for this metric, a bar or line graph showing the evolution of the average time it takes for issues to be closed over a specified time range would be the ideal visualization for this metric.
