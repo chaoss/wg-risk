@@ -32,6 +32,7 @@ The lines of code metric is a fairly simple metric as it just involves counting 
 
 
 ## 5. Sample Implementation
+```py
 FOR file IN repository {
   FOR line IN file {
     IF line is not blank or a comment
@@ -39,9 +40,11 @@ FOR file IN repository {
   }
 }
 return sum
+```
 
 ## 6. Known Implementations
-* https://scitools.com/count-lines-of-code/: Understand(TM) is a product from SciTools that enables users to gain a better understanding of their code using line count visualization tools. The program has a large number of filters and specifications that allow users to define and visualize exactly what they are looking for. 
+* https://scitools.com/count-lines-of-code/: Understand(TM) is a product from SciTools that enables users to gain a better understanding of their code using line count visualization tools. The program has a large number of filters and specifications that allow users to define exactly what they are looking for. It is reportedly used by many large organizations such as IBM, Adobe, and NASA.
 
 ## 7. External References (Literature)
 * https://confluence.atlassian.com/fisheye/about-the-lines-of-code-metric-960155778.html
+* https://stackoverflow.com/questions/274575/should-loc-counting-include-tests-and-comments
