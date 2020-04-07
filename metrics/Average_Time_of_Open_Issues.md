@@ -11,19 +11,19 @@ To an organization or manager deciding among open source projects to incorporate
 ## Implementation
 In an open source project, issues are tracked on their own page in the format of opened and closed issues. Identifying the time it takes for an issue to be closed is helpful and simple, and can be accomplished by noting the start date of an issue, and comparing it with the close date of an issue. While the specific time it took to close an issue is not explicitly present, this formula can likely be implemented into a software/project such as Augur.
 
-### Filters (optional)
+### Filters
 Time Range: It may be important to note the average time it takes to close an issue during certain parts of a project. For example, a project that has just began should have a different average time compared to a year after its creation. Knowing the trajectory of the average time may be important in decision making.
 Issue Size: The size or average size of issues may determine how long it takes to complete issues and should be considered.
 Contributor Count: The number of contributors can determine how fast issues are completed. If a large scale project is solving issues slower than a smaller scale project, the larger scale project may be less reliable, not as committed, or be lacking resources.
 Resolved or Not: Knowing if an issue has been solved, pushed back, or fully removed may skew the data and mislead someone making a decision in contributing to a project.
 
-### Visualizations (optional)
+### Visualizations
 While there is no current visual for this metric, a bar or line graph showing the evolution of the average time it takes for issues to be closed over a specified time range would be the ideal visualization for this metric.
 
-### Tools Providing the Metric (optional)
+### Tools Providing the Metric
 The GitHub API can can grab issues from a repository. This API would allow for the ability to grab the open and close dates of issues created within a repository. The API documentation (specifically in regard to issues) can be found here: https://developer.github.com/v3/issues/
 
-### Data Collection Strategies (Optional)
+### Data Collection Strategies
 The best way to obtain the information needed for this metric is likely through the GitHub API. The GitHub API could be used to pull the relevant data regarding the closed issues found in a repository. That data could then be populated or searched using MySQL commands or similar that would produce the results needed for this metric.
 
 ## References
