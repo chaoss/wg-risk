@@ -28,10 +28,13 @@ want to use the product.
 
 ## Known Implementations
 [GitHub's insights page](https://github.com/kubernetes/kubernetes/graphs/commit-activity)
+
 Examples of where and how metric is used. (include links to dashboard or location where metric is visible or is talked about having been used).
 
 ## External References (Literature)
 [GitHub's insights page](https://github.com/kubernetes/kubernetes/graphs/commit-activity)
+
 [Commit Often, Merge Often, Push Often and Relax](https://ilikekillnerds.com/2014/11/commit-often-merge-often-push-often-and-relax/)
+
 [Commit Often, Perfect Later, Publish Once: Git Best Practices](https://sethrobertson.github.io/GitBestPractices/)
 
