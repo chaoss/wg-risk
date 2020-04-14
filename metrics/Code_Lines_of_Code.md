@@ -3,14 +3,15 @@
 Question: How many lines of code are in a repository?
 
 ## 1. Description
-Lines of Code counts the lines of text in the source code of a program in order to describe the size of a project. This metric can also be used to help quantify the complexity of a project and the amount of work involved in creating it, however, the lines of code metric should be used in addition to other metrics to describe these aspects of the project as they are more involved and don't necessarily correlate tot the size of the code base.
+Lines of Code counts the lines of text in the source code of a program in order to describe the size of a project. This metric can also be used to help quantify the complexity of a project and the amount of work involved in creating it. However, it is important to note that the lines of code metric should be used in addition to other metrics to describe these aspects of the project as they are more involved and don't necessarily correlate directly to the size of the code base.
 
 ## 2. Use Cases
-Contributors can use the lines of code metric to understand how their contribution have influenced the size of the project they are working on.
-Project maintainers can use this metric to see how the rate of growth of a project has changed over time. More specifically, they can see if a project is growing at a healthy rate or if it's progress is beginning to dwindle and needs new ideas and additions.
+* Contributors can use the lines of code metric to understand how their contributions have influenced the size of the project they are working on.
+* Project maintainers can use this metric to see how the rate of growth of a project has changed over time. More specifically, they can see if a project is growing at a healthy rate or if it's progress is beginning to dwindle and needs new ideas and additions.
+* Other evolution metrics may use the lines of code metric in their calculations.
 
 ## 3. Formula
-The lines of code metric is a fairly simple metric as it just involves counting the number of lines in a code file that are not blank and not a comment and summing that count for each code file in the repository.
+The lines of code metric is a fairly simple metric as it just involves counting the number of lines in a code file that are neither blank nor a comment and summing that count for each code file in the repository.
 
 
 ## 4. Sample Filter and Visualization
@@ -35,8 +36,8 @@ The lines of code metric is a fairly simple metric as it just involves counting 
 ```py
 FOR file IN repository {
   FOR line IN file {
-    IF line is not blank or a comment
-      sum += lines_of_code(file)
+    IF line is not blank and not a comment
+      sum++
   }
 }
 return sum
