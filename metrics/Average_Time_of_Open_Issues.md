@@ -17,9 +17,6 @@ In an open source project, issues are tracked on their own page in the format of
 - **Contributor Count:** The number of contributors can determine how fast issues are completed. If a large scale project is solving issues slower than a smaller scale project, the larger scale project may be less reliable, not as committed, or be lacking resources.
 - **Resolved or Not:** Knowing if an issue has been solved, pushed back, or fully removed may skew the data and mislead someone making a decision in contributing to a project.
 
-### Visualizations
-While there is no current visual for this metric, a bar or line graph showing the evolution of the average time it takes for issues to be closed over a specified time range would be the ideal visualization for this metric.
-
 ### Tools Providing the Metric
 The GitHub API can can grab issues from a repository. This API would allow for the ability to grab the open and close dates of issues created within a repository. The API documentation (specifically in regard to issues) can be found here: https://developer.github.com/v3/issues/
 
