@@ -7,7 +7,7 @@ Due to the expanding scope of software applications, software security is not li
 
 ## Objectives
 
-As an open source project, network supply chain security needs to be treated with more caution.Assess the risks in the software supply chain to solve this problem.It is this open network that brings many security risks to the flow of information.Chaoss is obligated to conduct a supply chain risk assessment for each open source project.High-risk projects are warned by Chaoss that the content needs to be changed initially or the project may be suspended.After the risk assessment of the project, Chaoss can also evaluate the risk according to each risk and alert the potential risk.Supply chain risks include not only producers, but also users, who should be warned when using high-risk projects.Chaoss will not be responsible for any harm caused by this product.
+As an open source project, network supply chain security needs to be treated with more caution. Assess the risks in the software supply chain to solve this problem. It is this open network that brings many security risks to the flow of information. Chaoss is obligated to conduct a supply chain risk assessment for each open source project.High-risk projects are warned by Chaoss that the content needs to be changed initially or the project may be suspended. After the risk assessment of the project, Chaoss can also evaluate the risk according to each risk and alert the potential risk. Supply chain risks include not only producers, but also users, who should be warned when using high-risk projects. Chaoss will not be responsible for any harm caused by this product.
 
 ## Implementation 
 
