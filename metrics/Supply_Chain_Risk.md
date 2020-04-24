@@ -16,11 +16,11 @@ collect the data:
 
 2.Affect the software involved
 
-3.Developer safety awareness and project management level (ranking)
+3.Developer safety awareness and project management level 
 
-4.Difficulty of ensuring software supply chain security (ranking)
+4.Difficulty of ensuring software supply chain security 
 
-5.Repair and detect known vulnerabilities(ranking)
+5.Repair and detect known vulnerabilities
 
 6.Download unofficial software and tools without full security checks
 
