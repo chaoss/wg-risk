@@ -11,7 +11,8 @@ As an open source project, network supply chain security needs to be treated wit
 
 ## Implementation 
 
-collect the data for each open source project:
+Collect the data for each open source project:
+
 1.The spread of risk in the software supply chain
 
 2.Affect the software involved
