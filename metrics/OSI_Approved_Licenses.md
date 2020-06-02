@@ -10,7 +10,7 @@ As from OSI: “Open source licenses are licenses that comply with the Open Sour
 
 ## Objectives
 
-Identify whether a project has licenses present which do not conform to the definition of open source. This transparency helps projects make conscious decisions about whether or not to include licenses that are not approved by OSI.
+Identify whether a project has licenses present which do not conform to the OSI definition of open source. This transparency helps projects make conscious decisions about whether or not to include licenses that are not approved by OSI.
 
 ## Implementation
 
@@ -30,7 +30,7 @@ Example: http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk
 
 Extract list of licenses from a code base, same as in License Coverage metric.
 Compare the list of licenses to [Licenses.json](https://raw.githubusercontent.com/spdx/license-list-data/master/json/licenses.json) and take note of how many licenses are approved by the OSI.
-Calculate the percentage of files on the OSI license list.
+Calculate the percentage of OSI approved files on the SPDX license list.
 
 ## Resources
 
