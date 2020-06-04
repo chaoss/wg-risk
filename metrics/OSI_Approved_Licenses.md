@@ -30,11 +30,10 @@ Example: http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk
 
 Extract list of licenses from a code base, same as in License Coverage metric.
 Compare the list of licenses to [Licenses.json](https://raw.githubusercontent.com/spdx/license-list-data/master/json/licenses.json) and take note of how many licenses are approved by the OSI.
-Calculate the percentage of OSI approved files on the SPDX license list.
+Calculate the percentage of files with an on the OSI approved license.
 
 ## Resources
 
 * [OSI license page](https://opensource.org/licenses)
 * [SPDX License List](https://spdx.org/licenses/)
-
 
