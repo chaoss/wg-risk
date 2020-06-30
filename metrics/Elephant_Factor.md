@@ -11,17 +11,21 @@ Elephant Factor provides an easy-to-consume indication of the minimum number of 
 A company evaluating open source software products might use elephant factor to compare how dependent a project is on a small set of corporate contributors. Projects with low elephant factors are intuitively more vulnerable to decisions by one enterprise cascading through any enterprise consuming that tool. The parameterized filter should reasonably be different for a project to which 1,000 organizations contribute than one to which, perhaps 10 contribute. At some volume of organizational contribution, probably something less than 1,000 organizations, elephant factor is likely not a central consideration for software acquisition because reasonable managers will judge the project not vulnerable to the decisions of a small number of actors. Such thresholds are highly contextual.
 
 ## Implementation
-The formula for elephant factor is a percentile calculation. If we have 8 organizations who each contribute the following number of commits to a project: `1000,202,90,33,332,343,42,433`, then we can determine the elephant factor by first identifying the 50th percentile of total commits for all the companies.
+The formula for elephant factor is a percentage calculation -it will be our threshold-
+followed by adding up each company's contributions sorted in decreasing order until we reach
+the threshold.
 
-**Summary:** 50th percentile = 267, so the elephant factor is 4.
+If we have 8 organizations who each contribute the following number of commits to a project: `1000, 202, 90, 33, 332, 343, 42, 433`, then we can determine the elephant factor by first identifying the 50% of total commits for all the companies.
+
+**Summary:** 50% of total contributions = `1,237.5`, so the elephant factor is `2`.
 
 **Full Solution:**
-1. Arrange the data in ascending order: 33, 42, 90, 202, 332, 343, 433, 1000
-2. Compute the position of the pth percentile (index i):
-   -  `i = (p / 100) * n), where p = 50 and n = 8`
-   -  `i = (50 / 100) * 8 = 4`
-3. The index i is an integer ⇒ the 50th percentile is the average of the values in the 3th and 4th positions (202 and 332 respectively)
-4. Answer: the 50th percentile is (202 + 332) / 2 = 267, therefore the `elephant factor = 4`.
+1. Arrange the data in descending order: `1000, 433, 343, 332, 202, 90, 42, 33`
+2. Compute the 50% of the total:
+   -  `(1,000 + 433 + 343 + 332 + 202 + 90 + 42 + 33) * 0.5 = 1,237.5`
+3. Adding up the first two companies in our ranking we get `1,433`.
+4. **Answer**: as `1,433 > 1,237.5`, more than the 50% of contributions is performed by only `2` companies, thus we can
+say the `elephant factor = 2`.
 
 ### Filters
 * Time: Reasonably the Elephant Factor will change if one takes a snapshot of any prior time period, so the elephant factor over the life of a product may misrepresent the current level of organizational diversity supported by the project.
