@@ -2,7 +2,7 @@
 
 Question: Does the software package have an associated SPDX document as a standard expression of dependencies, licensing, and security-related issues?
 
-_This metric is a release candidate To comment on this metric please see Issue #xx Following a comment period, this metric will be included in the next regular release._
+_This metric is part of the continuous contribution process, and is a candidate for official release. To comment on this metric please see [Issue #106](https://github.com/chaoss/wg-risk/issues/106). Following the comment period, this metric will be included in the next regular official release - 2021-02._
 
 ## Description
 A software package has an associated SPDX document as a standard expression of dependencies, licensing, and security-related issues. More information on the SPDX specification can be found at: https://spdx.org/
