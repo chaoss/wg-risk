@@ -27,7 +27,7 @@ This CHAOSS working group is using the general [CHAOSS mailing list](https://lis
 ## Join our Weekly Calls
 The Risk Working Group meets every other Monday from 11-12 Pacific Time. All are welcome. Our next meeting is April 20, at 9am CDT. We will also meet on April 27, at 9am CDT to get back in our cycle. April 13 was cancelled due to the holiday. 
 
-The videoconference URL is https://unomaha.zoom.us/j/720431288.
+The videoconference URL is https://zoom.us/j/4998687533.
 
 [You can also read our meeting notes.](https://docs.google.com/document/d/1iqIMpLBwuKSnE0BbQTgbsb9Im87IoN7IUzukochClCw/edit#heading=h.n3rh3l1y6dv7)
 
