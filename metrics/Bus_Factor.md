@@ -1,47 +1,50 @@
-## 1. Description
+# Bus Factor
 
-## 2. Use Cases
+Question: How high is the risk to a project should the most active people leave?
 
-## 3. Formula
+## Description
 
-## 4. Sample Filter and Visualization
+The Bus Factor is a compelling metric because it visualizes the question "how many contributors can we lose before a project stalls?" by hypothetically having these people get run over by a bus (more pleasently, how many would have to win in a lottary and decide to move on).
 
-## 5. Sample Implementation
-
-## 6. Known Implementations
-
-## 7. Test Cases (Examples)
-
-## 8. External References (Literature)
+The Bus Factor is the smallest number of people that make 50% of contributions. 
 
 
+## Objectives
+* Identify how widely the work in a project is distributed across contributors.
+* Identify the key people in a project that are doing the majority of the work.
 
-----
-```markdown
-# {Name of Metric}
+## Implementation
 
-## 1. Description
-A description of what the metric is and what it captures.
-The first few sentences have to match the description in the [metrics list](../activity-metrics-list.md).
+The formula for Bus Factor is a percentage calculation -50% will be our threshold-
+followed by adding up each contributor's contributions sorted in decreasing order until we reach
+the threshold.
 
-## 2. Use Cases
-Provide examples of how the metric might inform different stakeholders through use cases.
+If we have 8 contributors who each contribute the following number of contributions to a project: `1000, 202, 90, 33, 332, 343, 42, 433`, then we can determine the Bus Factor by first identifying the 50% of total contributions for all the contributors.
 
-## 3. Formula
-A generic formula (in pseudo code) to generate the metric.
+**Summary:** 50% of total contributions = `1,237.5`, so the Bus Factor is `2`.
 
-## 4. Sample Filter and Visualization
-Include a Sample Filter and Visualization (screenshot) of the metric from any implementation.
+**Full Solution:**
+1. Arrange the data in descending order: `1000, 433, 343, 332, 202, 90, 42, 33`
+2. Compute the 50% of the total:
+   -  `(1,000 + 433 + 343 + 332 + 202 + 90 + 42 + 33) * 0.5 = 1,237.5`
+3. Adding up the first two contributors in our ranking we get `1,433`.
+4. **Answer**: as `1,433 > 1,237.5`, more than the 50% of contributions is performed by only `2` contributors, thus the `Bus Factor = 2`.
 
-## 5. Sample Implementation
-An example implementation, for example a SQL or Elasticsearch query.
+### Filters
+* Time: The Bus Factor may be vary for different time periods. The Bus Factor over the life of a project may misrepresent the current level of contributor engagement in the project.
+* Repository Group: Many open source projects include multiple repositories, and in some cases examining all of the repositories associated with any given project provides a more complete picture of the Bus Factor.
 
-## 6. Known Implementations
-Examples of where and how metric is used. (include links to dashboard or location where metric is visible or is talked about having been used).
+### Visualizations (optional)
+![Bus Factor for CHAOSS Project in 2020](images/bus-factor_chaoss-2020.png)
+The Bus Factor for the CHAOSS Project in 2020, when considering only git commits, was 5.
 
-## 7. Test Cases (Examples)
-Sample inputs (including contexts) and expected outputs for this metric. Implementers can test their implementations against these test cases. For quantitative metrics, this could include a static repository with known metric results, or just inputs and output. For qualitative metrics, this may be more difficult.
+### Tools Providing the Metric
+1. [Augur](https://github.com/chaoss/augur)
+2. [GrimoireLab](https://chaoss.github.io/grimoirelab) provides this metric out of the box, not as a single number but as a visualization.
 
-## 8. External References (Literature)
-Blog posts, websites, academic papers, or books that mention the metric.
-```
+### Data Collection Strategies
+The data collection strategy depends on the [Types of Contributions](https://chaoss.community/metric-types-of-contributions/) used for calculating the Bus Factor. Bus Factor is often calculated for commits but other types of contributions can be used for this as well, separately or combined.
+
+
+## References
+
