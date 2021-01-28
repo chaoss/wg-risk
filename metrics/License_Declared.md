@@ -32,7 +32,7 @@ The total number and specific licenses declared is critical in several cases:
  2. [Augur-SPDX](https://github.com/chaoss/augur-spdx)
 
 The Augur-SPDX package is implemented as an Augur Plugin, and uses this data model for storing file level license information. Specifically:
-* Each `package` (repository) can have a declared and declared license, as determined by the scan of all the files in the repository.
+* Each `package` (repository) can have a declared and an undeclared license, as determined by the scan of all the files in the repository.
 * Each `package` can also have a number of different non-code `documents`, which are SPDX license declarations.
 * Each `file` can be associated with one or more `packages_files`. Through the relationship between `files` and `packages_files`, Augur-SPDX allows for the possibility that one file in a large collection of repositories could be part of more than one package, although in practice this seems unlikely.
 * `packages` and `packages_files` have a one to many relationship in both directions. Essentially, this is a reinforcement of the possibility that each `file` can be part of more than one `package`, though it is, again, typical that each `package` will contain many `package_files`.
