@@ -2,11 +2,13 @@
 
 Question: How high is the risk to a project should the most active people leave?
 
+### This metric is a release candidate. To comment on this metric please see [Issue #114](https://github.com/chaoss/wg-risk/issues/114/). Following a comment period, this metric will be included in the next regular release.  
+
 ## Description
 
 The Bus Factor is a compelling metric because it visualizes the question "how many contributors can we lose before a project stalls?" by hypothetically having these people get run over by a bus (more pleasently, how many would have to win in a lottary and decide to move on).
 
-The Bus Factor is the smallest number of people that make 50% of contributions. 
+The Bus Factor is the smallest number of people that make 50% of contributions.
 
 
 ## Objectives
@@ -47,4 +49,3 @@ The data collection strategy depends on the [Types of Contributions](https://cha
 
 
 ## References
-
