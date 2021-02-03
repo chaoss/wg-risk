@@ -28,10 +28,9 @@ Example: http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk
 
 ### Data Collection Strategies
 
-Extract list of licenses from a code base, same as in License Coverage metric.
-Compare the list of licenses to [Licenses.json](https://raw.githubusercontent.com/spdx/license-list-data/master/json/licenses.json) and take note of how many licenses are approved by the OSI.
-
-Calculate the percentage of files with an OSI approved license.
+ - Extract list of licenses from a code base, same as in License Coverage metric.
+ - Compare the list of licenses to [Licenses.json](https://raw.githubusercontent.com/spdx/license-list-data/master/json/licenses.json) and take note of how many licenses are approved by the OSI.
+ - Calculate the percentage of files with an OSI approved license.
 
 ## Resources
 
