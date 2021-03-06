@@ -1,16 +1,14 @@
 # SPDX Document
 
-Question: Does the software package have an associated SPDX document as a standard expression of dependencies, licensing, and security-related issues?
+Question: Does the software package have an associated SPDX document as a standard expression of dependencies, licensing, and security-related issues?  
 
-### This metric is a release candidate. To comment on this metric please see [Issue #106](https://github.com/chaoss/wg-risk/issues/106/). Following a comment period, this metric will be included in the next regular release.  
+## Description  
+A software package has an associated SPDX document as a standard expression of dependencies, licensing, and security-related issues. More information on the SPDX specification can be found at: https://spdx.org/  
 
-## Description
-A software package has an associated SPDX document as a standard expression of dependencies, licensing, and security-related issues. More information on the SPDX specification can be found at: https://spdx.org/
+## Objectives  
+For managers acquiring open source software as part of an IT or Open Source Program Office portfolio, an SPDX document provides an increasingly essential core piece of management information.  This arises because, as software packages exist in complex software supply chains, it is important to clearly express, in a standardized way, the associated dependencies, licenses, and security-related issues with that software package. An SPDX document provides a single source of information both for internal use and downstream distribution of software packages. An SPDX document assists in how organizations routinize open source work to better integrate with their own open source risk management routines.  
 
-## Objectives
-For managers acquiring open source software as part of an IT or Open Source Program Office portfolio, an SPDX document provides an increasingly essential core piece of management information.  This arises because, as software packages exist in complex software supply chains, it is important to clearly express, in a standardized way, the associated dependencies, licenses, and security-related issues with that software package. An SPDX document provides a single source of information both for internal use and downstream distribution of software packages. An SPDX document assists in how organizations routinize open source work to better integrate with their own open source risk management routines.
-
-## Implementation
+## Implementation  
 
 ### Filters
 
