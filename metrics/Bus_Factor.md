@@ -3,7 +3,7 @@
 Question: How high is the risk to a project should the most active people leave?
 
 ## Description  
-The Bus Factor is a compelling metric because it visualizes the question "how many contributors can we lose before a project stalls?" by hypothetically having these people get run over by a bus (more pleasently, how many would have to win in a lottary and decide to move on).
+The Bus Factor is a compelling metric because it visualizes the question "how many contributors can we lose before a project stalls?" by hypothetically having these people get run over by a bus (more pleasantly, how many would have to win in a lottery and decide to move on).
 
 The Bus Factor is the smallest number of people that make 50% of contributions.
 
