@@ -23,7 +23,7 @@ Time: Licenses declared in a repository can change over time as the dependencies
 #### JSON Presentation of Augur Output:
 <img src="https://i.imgur.com/Xyxm3q3.jpg" width="250">
 
-### Tools Providng the Metric
+### Tools providing the Metric
  1. [Augur](https://github.com/chaoss/augur)
 
 Data can be pulled and filtered to get the desired information. License Coverage data can be found on any [Augur risk page](http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk)

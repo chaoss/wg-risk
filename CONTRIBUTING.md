@@ -75,4 +75,4 @@ Notice a mistake? Please file any bugs, requests, or questions in [our issue tra
 
 ## Who is a CHAOSS repository maintainer?
 
-The README.md of the repository contains a list of who is a current maintainer. Each CHAOSS repositry brings together different people and they document in the repository specific CONTRIBUTING.md how somone becomes a maintainer on their repository.
+The README.md of the repository contains a list of who is a current maintainer. Each CHAOSS repository brings together different people and they document in the repository specific CONTRIBUTING.md how somone becomes a maintainer on their repository.
