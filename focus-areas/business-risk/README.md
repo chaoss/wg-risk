@@ -6,11 +6,11 @@
 - Metric: Alternative packages
 
 ### Question: How quickly are issues resolved? 
-- Metric: [Average Issue Resolution Time](../metrics/Issues_Average_Resolution_Time.md)
+- Metric: [Average Issue Resolution Time](Issues_Average_Resolution_Time.md)
 
 ### Question: What is the average age of an open issue? 
-- Metric: [Open Issues Age](../metrics/Issues_Open_Age.md)
-- Metric: [Issues Volume](../metrics/Issues_Volume.md)
+- Metric: [Open Issues Age](Issues_Open_Age.md)
+- Metric: [Issues Volume](Issues_Volume.md)
 
 ### Question: What is the activity within the community?
 - Metric 1 Option: Mailing list traffic
@@ -23,12 +23,12 @@
 ## Goal: (Business risk: How do I measure sustainability)     
 
 ### Question: What is the distribution of work in the community? 
-- Metric: [Elephant factor](../metrics/Elephant_Factor.md)
-- Metric: [Bus factor](../metrics/Bus_Factor.md)
+- Metric: [Elephant factor](Elephant_Factor.md)
+- Metric: [Bus factor](Bus_Factor.md)
 
 ### Question: How robust and diverse are the contributors to a community? 
-- Metric: [Committers](../metrics/Committers.md)
-- Metric: [Lines of Code](../metrics/Code_Lines_of_Code.md)
+- Metric: [Committers](Committers.md)
+- Metric: [Lines of Code](Code_Lines_of_Code.md)
 
 ## Goal: Determine security debt of project in relation main project 
 
