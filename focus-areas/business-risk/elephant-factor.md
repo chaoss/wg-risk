@@ -51,7 +51,7 @@ say the `elephant factor = 2`.
     * Select the `git` index
     * Metrics Slice Size: `Count` Aggregation
     * Buckets Splice Slices: `Terms` Aggregation, `author_org_name` Field, `metric: Count` Order By, `Descending` Order, `500` Size
-  - Example screenshot: ![GrimoireLab screenshot of metric Elephant_Factor](images/elephant_factor-GrimoireLab.png)
+  - Example screenshot: ![GrimoireLab screenshot of metric Elephant_Factor](images/elephant-factor_grimoire-lab.png)
 
 
 ## References

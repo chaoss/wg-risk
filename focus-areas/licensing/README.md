@@ -9,13 +9,13 @@
 - Metric: Comparison of known licenses 
 
 ### Question: How many different licenses are there? 
-- Metric: [License Count](License_Count.md)    
+- Metric: [License Count](license-count.md)    
 
 ### Question: How much of the code base has declared licenses? 
-- Metric: [License Coverage](License_Coverage.md)
+- Metric: [License Coverage](license-coverage.md)
 
 ### Question: What are the declared software package licenses? 
-- Metric: [License Declared](License_Declared.md)
+- Metric: [License Declared](license-declared.md)
 
 ### Question: What methods (tooling) were used to identify software package licenses? 
 - Metric: License Identification Methods
