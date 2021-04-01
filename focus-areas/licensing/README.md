@@ -19,3 +19,9 @@
 
 ### Question: What methods (tooling) were used to identify software package licenses? 
 - Metric: License Identification Methods
+
+### Question: What percentage of a project’s licenses are OSI approved open source licenses?
+- Metric: [OSI Approved Licenses](osi-approved-licenses.md)
+
+### Question: Does the software package have an associated SPDX document as a standard expression of dependencies, licensing, and security-related issues?
+- Metric: [SPDX Document](spdx-document.md)
