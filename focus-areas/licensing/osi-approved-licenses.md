@@ -18,7 +18,7 @@ The OSI-approved licenses can be found in the SPDX-provided [Licenses.json](http
 
 ### Visualizations
 
-![OSI](https://i.imgur.com/DfOpFdy.png)
+![OSI](images/osi-approved-licenses_visualization.png)
 
 ### Tools Providing Metric
 

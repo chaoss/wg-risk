@@ -3,16 +3,16 @@
 ## Goal: Understand the quality of a given software package.
 
 ### Question: What is the complexity of the source code? 
-- Metric: [Code complexity](../metrics/Code_Complexity.md)
+- Metric: [Code complexity](code-complexity.md)
 
 ### Question: How well is the code tested? 
-- Metric: [Test coverage](../metrics/Test_Coverage.md)
+- Metric: [Test coverage](test-coverage.md)
 
 ### Question: What is the human labor invested in this package? 
 - Metric: Boehm’s model (cocomo) of human labor invested in an entire repo and the subparts of that repo. 
 
 ### Question: What are the documented community processes associated with the development of the source code: 
-- Metric: [Pull Request Process](../metrics/Pull_Request_Process.md). 
+- Metric: [Pull Request Process](pull-request-process.md). 
 
 ### Question: What is the total number of bugs? 
 - Metric: Count of total reported bugs 

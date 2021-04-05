@@ -18,10 +18,12 @@ Time: Licenses declared in a repository can change over time as the dependencies
 ### Visualizations 
 
 #### Web Presentation of Augur Output:
-<img src="https://i.imgur.com/f0kuJlP.png" width="300">
+
+![Augur Web Output](images/licensing_augur-web-output.png)
 
 #### JSON Presentation of Augur Output:
-<img src="https://i.imgur.com/Xyxm3q3.jpg" width="250">
+
+![Augur Json Output](images/licensing_augur-json-output.png)
 
 ### Tools providing the Metric
  1. [Augur](https://github.com/chaoss/augur)

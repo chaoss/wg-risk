@@ -18,7 +18,7 @@ See [CII’s API documentation](https://github.com/coreinfrastructure/best-pract
 
 ### Visualizations
 
-![](https://i.imgur.com/mSformz.png)
+![CII visualizations](images/cii-best-practices_visualization.png)
 
 ### Tools Providing Metric
 
