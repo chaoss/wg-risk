@@ -10,3 +10,4 @@ Metric | Question
 [Issues Open Age](https://github.com/chaoss/wg-risk/blob/master/focus-areas/business-risk/issues-open-age.md) | How long is an issue open for before it is closed?
 [Issues Volume](https://github.com/chaoss/wg-risk/blob/master/focus-areas/business-risk/issues-volume.md)| What is the volume of open issues?
 [Lines of Code](https://github.com/chaoss/wg-risk/blob/master/focus-areas/business-risk/lines-of-code.md)| How many lines of code have been contributed?
+
