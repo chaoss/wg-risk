@@ -1,36 +1,12 @@
-# Business Risk (How likely am I to be stuck with this project and no community)
+Goal: Understand how active a community exists around/to support a given software package.
 
-## Goal: Understand how active a community exists around/to support a given software package.
 
-### Question: Are there alternatives to the software package? 
-- Metric: Alternative packages
-
-### Question: How quickly are issues resolved? 
-- Metric: [Average Issue Resolution Time](average-issue-resolution-time.md)
-
-### Question: What is the average age of an open issue? 
-- Metric: [Open Issues Age](issues-open-age.md)
-- Metric: [Issues Volume](issues-volume.md)
-
-### Question: What is the activity within the community?
-- Metric 1 Option: Mailing list traffic
-- Metric 2 Option: Pull request discussion
-- Metric 3 Option: IRC activity
-
-### Question: How many forks are there of the project? 
-- Metric: Forks
-
-## Goal: (Business risk: How do I measure sustainability)     
-
-### Question: What is the distribution of work in the community? 
-- Metric: [Elephant Factor](elephant-factor.md)
-- Metric: [Bus Factor](bus-factor.md)
-
-### Question: How robust and diverse are the contributors to a community? 
-- Metric: [Committers](committers.md)
-- Metric: [Lines of Code](lines-of-code.md)
-
-## Goal: Determine security debt of project in relation main project 
-
-### Question: How many security bug fixes exist on the mainline that need to be ported to the downstreams.
-- Metric: Known bugs in fixed bugs in mainline but not in the downstreams - how far out of date are you with security updates
+Metric | Question
+--- | ---
+[Average issue Resolution Time](https://github.com/chaoss/wg-risk/blob/master/focus-areas/business-risk/average-issue-resolution-time.md) | How long does it take for an issue to be resolved?
+[Bus Factor](https://github.com/chaoss/wg-risk/blob/master/focus-areas/business-risk/bus-factor.md)| How high is the risk to a project should the most active people leave?
+[Committers](https://github.com/chaoss/wg-risk/blob/master/focus-areas/business-risk/committers.md) | How robust are the contributors to a community?
+[Elephant Factor](https://github.com/chaoss/wg-risk/blob/master/focus-areas/business-risk/elephant-factor.md)| What is the distribution of work in the community?
+[Issues Open Age](https://github.com/chaoss/wg-risk/blob/master/focus-areas/business-risk/issues-open-age.md) | How long is an issue open for before it is closed?
+[Issues Volume](https://github.com/chaoss/wg-risk/blob/master/focus-areas/business-risk/issues-volume.md)| What is the volume of open issues?
+[Lines of Code](https://github.com/chaoss/wg-risk/blob/master/focus-areas/business-risk/lines-of-code.md)| How many lines of code have been contributed?
