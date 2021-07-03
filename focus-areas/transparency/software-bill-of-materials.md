@@ -52,6 +52,7 @@ A file by file SBOM is available with Augur configured using the DoSOCSv2 plugin
 * Package_Files
 * Files (which may be, but are unlikely to be also included in other packages).
 License information is included as part of an SBOM, but the complexity of license identification is clarified in the [License_Count](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Count.md), [License_Coverage](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Coverage.md), and [License_Declared](https://github.com/chaoss/wg-risk/blob/master/metrics/License_Declared.md) metrics.
+
 ![SBOM](images/software-bill-of-materials_license.png)
 
 ## Resources
