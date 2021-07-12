@@ -1,10 +1,10 @@
 # Security
 
-## Goal: Understand security processes and procedures associated with the software’s development.
+Goal: Understand security processes and procedures associated with the software’s development.
 
-### Question: Does the software have security certification?
-- Metric: [CII Best Practices Badge](cii-best-practices.md)
+Metric | Question
+--- | ---
+[CII Best Practices](cii-best-practices.md) | What is the current CII Best Practices status for the project?
+[Language Declaration README](language-declaration-readme.md)| How many languages were used?
+[Language Source Proportion](language-source-proportion.md) | What is the proportion of language souces used?
 
-### Question: What language is the package written in? (type-safe? Memory-safe? etc.)*
-- Option 1 Metric: [Language declaration in README](language-declaration-readme.md)
-- Option 2 Metric: [Language source proportion](language-source-proportion.md)

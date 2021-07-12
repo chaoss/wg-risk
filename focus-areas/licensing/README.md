@@ -1,27 +1,13 @@
 # Licensing 
 
-## Goal: Understand the potential IP issues associated with a given software package’s use.
 
-### Question: What are the package software licenses? 
-- Metric: File License Declarations
+Goal: Understand the potential IP issues associated with a given software package’s use.
 
-### Question: Are there license conflicts? 
-- Metric: Comparison of known licenses 
+Metric | Question
+--- | ---
+[License Count](license-count.md) | How many different licenses are there?
+[License Coverage](license-coverage.md)| How much of the code base has declared licenses?
+[License Declared](license-declared.md) | What are the declared software package licenses?
+[OSI Approved Licenses](osi-approved-licenses.md)| What percentage of a project’s licenses are OSI approved open source licenses?
+[SPDX Document](spdx-document.md) |  Does the software package have an associated SPDX document as a standard expression of dependencies, licensing, and security-related issues?
 
-### Question: How many different licenses are there? 
-- Metric: [License Count](license-count.md)    
-
-### Question: How much of the code base has declared licenses? 
-- Metric: [License Coverage](license-coverage.md)
-
-### Question: What are the declared software package licenses? 
-- Metric: [License Declared](license-declared.md)
-
-### Question: What methods (tooling) were used to identify software package licenses? 
-- Metric: License Identification Methods
-
-### Question: What percentage of a project’s licenses are OSI approved open source licenses?
-- Metric: [OSI Approved Licenses](osi-approved-licenses.md)
-
-### Question: Does the software package have an associated SPDX document as a standard expression of dependencies, licensing, and security-related issues?
-- Metric: [SPDX Document](spdx-document.md)
