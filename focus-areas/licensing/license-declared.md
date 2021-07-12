@@ -5,11 +5,7 @@ Question: What are the declared software package licenses?
 ## Description
 The total number and specific licenses declared in a software package. This can include both software and documentation source files. This metric is an enumeration of licenses, and the number of files with that particular license declaration. For Example:
 
-| SPDX License Type  | Number of Files with License    | 
-| ------------- |-------------| 
-| MIT      | 44 | 
-| AGPL      | 2      |  
-| Apache | 88      |  
+![License types with number of files](images/license-declared_number-of-files-license-type.png)
 
 
 ## Objectives

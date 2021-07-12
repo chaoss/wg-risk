@@ -33,7 +33,9 @@ If we have 8 contributors who each contribute the following number of contributi
 * Repository Group: Many open source projects include multiple repositories, and in some cases examining all of the repositories associated with any given project provides a more complete picture of the Bus Factor.
 
 ### Visualizations (optional)
+
 ![Bus Factor for CHAOSS Project in 2020](images/bus-factor_chaoss-2020.png)
+
 The Bus Factor for the CHAOSS Project in 2020, when considering only git commits, was 5.
 
 ### Tools Providing the Metric
