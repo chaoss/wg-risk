@@ -50,11 +50,11 @@ Number of references to the same dependency
 
 ### Visualizations
 
-![Direct Dependencies](images/direct-dependencies.png)
+![Direct Dependencies](images/upstream-code-dependencies_direct-dependencies.png)
 
-![Transitive Dependencies](images/transitive-dependencies.png)
+![Transitive Dependencies](images/upstream-code-dependencies_transitive-dependencies.png)
 
-![Circular Dependencies](images/circular-dependencies.png)
+![Circular Dependencies](images/upstream-code-dependencies_circular-dependencies.png)
 
 
 
