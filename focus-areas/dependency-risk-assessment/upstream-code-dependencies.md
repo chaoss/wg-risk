@@ -1,5 +1,5 @@
 
-###This metric is a release candidate To comment on this metric please see Issue # [118](https://github.com/chaoss/wg-risk/issues/118). Following a comment period, this metric will be included in the next regular release.
+###This metric is a release candidate. To comment on this metric please see Issue # [118](https://github.com/chaoss/wg-risk/issues/118). Following a comment period, this metric will be included in the next regular release.
 
 # Upstream Code Dependencies 
 
@@ -63,34 +63,34 @@ Number of references to the same dependency
 
 
 ### Tools Providing the Metric 
-[deps.dev](https://deps.dev/)
-[Deps.cloud](https://deps.cloud/)
-[OWASP](https://owasp.org/www-project-dependency-check/) 
-[Libraries.io](https://libraries.io/)
-[BackYourStack.com](https://backyourstack.com/)
-[Software bill of materials](https://cyclonedx.org/tool-center/) 
-[PackagePhobia](https://github.com/styfle/packagephobia)
+* [deps.dev](https://deps.dev/)
+* [Deps.cloud](https://deps.cloud/)
+* [OWASP](https://owasp.org/www-project-dependency-check/) 
+* [Libraries.io](https://libraries.io/)
+* [BackYourStack.com](https://backyourstack.com/)
+* [Software bill of materials](https://cyclonedx.org/tool-center/) 
+* [PackagePhobia](https://github.com/styfle/packagephobia)
 
 ### Data Collection Strategies (optional)
-[Augur has an implementation of code scanning, and package manager scanning dependency identification.](https://github.com/chaoss/augur/tree/master/workers/deps_worker)
-[Libraries.io provides a package manager focused dependency scanner (also available through Tidelift).](https://libraries.io/rubygems/bibliothecary)
+* [Augur has an implementation of code scanning, and package manager scanning dependency identification.](https://github.com/chaoss/augur/tree/master/workers/deps_worker)
+* [Libraries.io provides a package manager focused dependency scanner (also available through Tidelift).](https://libraries.io/rubygems/bibliothecary)
 
 ## References
 
 
 ## Contributors
-Georg Link
-Matt Germonprez 
-Sean Goggins 
-Sophia Vargas
-Kate Stewart
-Vinod Ahuja 
-David A. Wheeler
-Arfon Smith 
-Elizabeth Barron
-Ritik Malik
-Dhruv Sachdev
-Daune O’Brien
-Michael Scovetta
+* Georg Link
+* Matt Germonprez 
+* Sean Goggins 
+* Sophia Vargas
+* Kate Stewart
+* Vinod Ahuja 
+* David A. Wheeler
+* Arfon Smith 
+* Elizabeth Barron
+* Ritik Malik
+* Dhruv Sachdev
+* Daune O’Brien
+* Michael Scovetta
 
 
