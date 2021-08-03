@@ -9,3 +9,4 @@ The risk metrics dealt with in this working group are organized in focus areas:
 |3. [Licensing](licensing) | Understand the potential IP issues associated with a given software package’s use.|
 |4. [Security](security) | Understand security processes and procedures associated with the software’s development.|
 |5. [Transparency](transparency) | Understand how transparent a given software package is with respect to dependencies, licensing (?), security processes, etc.|
+|6. [Dependency Risk Assessment](dependency-risk-assessment) | Understand software dependency risk. |

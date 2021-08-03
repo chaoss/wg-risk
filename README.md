@@ -17,6 +17,8 @@ stakeholders.  We will be exploring this space in the coming months.
 |3. [Licensing](focus-areas/licensing) | Understand the potential IP issues associated with a given software package’s use.|
 |4. [Security](focus-areas/security) | Understand security processes and procedures associated with the software’s development.|
 |5. [Transparency](focus-areas/transparency) | Understand how transparent a given software package is with respect to dependencies, licensing (?), security processes, etc.|
+|6. [Dependency Risk Assessment](focus-areas/dependency-risk-assessment) | Understand software dependency risk.|
+
 
 ## Join our Mailing List
 
