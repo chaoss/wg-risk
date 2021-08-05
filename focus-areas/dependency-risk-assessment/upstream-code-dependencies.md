@@ -5,7 +5,7 @@
 
 Question: What projects and libraries does my project depend on?
 ## Description
-The aim of this metric is to understand the number of code based dependencies embedded within a piece of open source software. This metric explicitly excludes infrastructure focused dependencies like databases and operating systems, which will be developed as a distinct metric. By extension, awareness of Upstream Code Dependencies enables a project to evaluate the health and sustainability of each dependency, using other CHAOSS metrics.
+The aim of this metric is to understand the number and types of code based dependencies embedded within a piece of open source software. This metric explicitly excludes infrastructure focused dependencies like databases and operating systems, which will be developed as a distinct metric. By extension, awareness of Upstream Code Dependencies enables a project to evaluate the health and sustainability of each dependency, using other CHAOSS metrics.
 ## Objectives
 The Upstream Code Dependency metric is aimed at understanding the code based dependencies which are required to build, test, or run a piece of software. The Upstream Code Dependency metric can help identify what projects, libraries, or versions my project directly or transitively depend on.
 ## Implementation
@@ -28,7 +28,7 @@ All enumerated dependencies should include the specific version(s) that are used
     * Runtime Dependency - Code require to run a piece of software
 * Language runtime dependency detail (i.e., Python’s runtime environment)? (default no). These details are provided because of the importance of runtime dependencies for quality assurance in safety critical systems. 
     * Often which language runtime will be used is controlled by virtual environments , e.g., [venv in Python]([https://docs.python.org/3/tutorial/venv.html](https://docs.python.org/3/tutorial/venv.html)) ; in Ruby you’d often use [rbenv]([[https://github.com/rbenv/rbenv](https://github.com/rbenv/rbenv))  or [rvm]([https://rvm.io/](https://rvm.io/)) to implement (& typically included in “Gemfile” or “Gemfile.lock” and .ruby-version)
-    * PyPi is steadily increasing its “refusal to compile incompatible libraries/dependencies logic. It's starting to “break builds”. 
+    * PyPi is steadily increasing its “refusal to compile incompatible libraries/dependencies” logic. It's starting to “break builds”. 
     * Unfortunately not all packaging systems have a convention for recording version information of all transitive dependencies, even within their ecosystem (it should in the long run)
     * In some systems there are many possible runtimes that might be hard to distinguish. (E.g., there are many implementations of Common Lisp & often any of them would work.)
 * Language’s built-in libraries in count (e.g., “re” in Python)? (default no)
@@ -43,9 +43,9 @@ All enumerated dependencies should include the specific version(s) that are used
 * Example: Python releases from PyPi and Anaconda often curate different versions of libraries in different ways.
 
 ### Filters
-Trends over time (e.g., am I depending on more or fewer projects than last year)
-Number of versions for each dependency
-Number of references to the same dependency
+* Trends over time (e.g., am I depending on more or fewer projects than last year)
+* Number of versions for each dependency
+* Number of references to the same dependency
 
 
 ### Visualizations
