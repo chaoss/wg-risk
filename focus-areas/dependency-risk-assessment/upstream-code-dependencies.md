@@ -43,9 +43,9 @@ All enumerated dependencies should include the specific version(s) that are used
 * Example: Python releases from PyPi and Anaconda often curate different versions of libraries in different ways.
 
 ### Filters
-Trends over time (e.g., am I depending on more or fewer projects than last year)
-Number of versions for each dependency
-Number of references to the same dependency
+* Trends over time (e.g., am I depending on more or fewer projects than last year)
+* Number of versions for each dependency
+* Number of references to the same dependency
 
 
 ### Visualizations
