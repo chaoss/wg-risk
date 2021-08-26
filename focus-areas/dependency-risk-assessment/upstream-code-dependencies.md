@@ -43,9 +43,9 @@ All enumerated dependencies should include the specific version(s) that are used
 * Example: Python releases from PyPi and Anaconda often curate different versions of libraries in different ways.
 
 ### Filters
-Trends over time (e.g., am I depending on more or fewer projects than last year)
-Number of versions for each dependency
-Number of references to the same dependency
+* Trends over time (e.g., am I depending on more or fewer projects than last year)
+* Number of versions for each dependency
+* Number of references to the same dependency
 
 
 ### Visualizations
@@ -57,11 +57,6 @@ Number of references to the same dependency
 ![Circular Dependencies](images/upstream-code-dependencies_circular-dependencies.png)
 
 
-
-
-
-
-
 ### Tools Providing the Metric 
 * [deps.dev](https://deps.dev/)
 * [Deps.cloud](https://deps.cloud/)
@@ -70,13 +65,11 @@ Number of references to the same dependency
 * [BackYourStack.com](https://backyourstack.com/)
 * [Software bill of materials](https://cyclonedx.org/tool-center/) 
 * [PackagePhobia](https://github.com/styfle/packagephobia)
+* [Augur](https://github.com/chaoss/augur)
 
 ### Data Collection Strategies (optional)
 * [Augur has an implementation of code scanning, and package manager scanning dependency identification.](https://github.com/chaoss/augur/tree/master/workers/deps_worker)
 * [Libraries.io provides a package manager focused dependency scanner (also available through Tidelift).](https://libraries.io/rubygems/bibliothecary)
-
-## References
-
 
 ## Contributors
 * Georg Link
