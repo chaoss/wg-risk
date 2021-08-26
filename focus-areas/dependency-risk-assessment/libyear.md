@@ -15,16 +15,18 @@ The objective of the Libyears metric is to assist in the identification of depen
 ## Implementation
 ### Parameters
 By default this information will be within an ecosystem (e.g., JavaScript or Maven), as that is easier to compute. This metric can be computed across multiple ecosystems, but that tends to require more information, e.g., a cross-ecosystem Software Bill of Materials (SBOM).
+
 This information could only consider direct dependencies, or it could also include all transitive dependencies. It is more likely to reveal potential problems if transitive dependencies are included, but this is not supported by all such tools.
+
 If a project has multiple stable/supported branches, is it acceptable to consider “current” in any branch? By default, only the most recent stable branch is considered, as typically over time the older branches receive less maintenance. An alternative (though not the default) is to also accept older versions as “current” if that older version is actively supported; reports must clearly note when this alternative is used.
 Should there be a grace period when a new dependency is still considered “current”? By default, the answer is no; any particular grace period is arbitrary, and the point is to try to stay current
 
 ### Filters (optional)
 Dependency level (direct only, includes transitive dependencies, etc. as defined in the [Upstream Code Dependencies]((https://github.com/chaoss/wg-risk/blob/master/focus-areas/dependency-risk-assessment/upstream-code-dependencies.md) metric. 
-Cumulative Libyears as a total age.
-Average age of dependencies
-Median age of dependencies
-Sorted list of dependencies (sorted oldest-first) so the “most risky due to age” dependencies are identified first
+* Cumulative Libyears as a total age.
+* Average age of dependencies
+* Median age of dependencies
+* Sorted list of dependencies (sorted oldest-first) so the “most risky due to age” dependencies are identified first
 
 ### Visualizations (optional)
 This is an example of Libyear as a cumulative measure of Libyears for direct dependencies, in this case with a cumulative value of 103.78 cumulative libyears. 
@@ -38,24 +40,21 @@ This image is source from https://github.com/nasirhjafri/libyear
 Note that some tools can also compute differences between version ids (e.g., 1.1.1 vs. 1.2.3); this can be informative, but not all dependencies use the same version numbering approaches, so for simplicity we are focusing on measuring time.
 
 Here is an example of some tools that implement libyersars: 
-https://github.com/nasirhjafri/libyear  - for Python where a requirements.txt file is used. 
-https://github.com/sesh/piprot 
-https://github.com/chaoss/augur - deps_libyear_worker - For Python, and Javascript right now.
-https://github.com/jaredbeck/libyear-bundler - for Ruby where Gemfile is used
-
-
-### Data Collection Strategies (optional)
+* https://github.com/nasirhjafri/libyear  - for Python where a requirements.txt file is used. 
+* https://github.com/sesh/piprot 
+* https://github.com/chaoss/augur - deps_libyear_worker - For Python, and Javascript right now.
+* https://github.com/jaredbeck/libyear-bundler - for Ruby where Gemfile is used
 
 ## References
 
-[Cox 2015] “Measuring Dependency Freshness in Software Systems” by Joel Cox, Eric Bouwers, Marko van Eekelen, and Joost Visser, https://ericbouwers.github.io/papers/icse15.pdf  
-https://libyear.com/  
+* [Cox 2015] “Measuring Dependency Freshness in Software Systems” by Joel Cox, Eric Bouwers, Marko van Eekelen, and Joost Visser, https://ericbouwers.github.io/papers/icse15.pdf  
+* https://libyear.com/  
 
 
 ## Contributors
-Sophia Vargas (Google)
-David A. Wheeler (Linux Foundation)
-VInod Ahuja (University of Nebraska Omaha)
-Kate Stewart (Linux Foundation)
-Duane O’Brien
-Sean Goggins (University of Missouri / CHAOSS Project)
+* Sophia Vargas (Google)
+* David A. Wheeler (Linux Foundation)
+* Vinod Ahuja (University of Nebraska Omaha)
+* Kate Stewart (Linux Foundation)
+* Duane O’Brien
+* Sean Goggins (University of Missouri / CHAOSS Project)
