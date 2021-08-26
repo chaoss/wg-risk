@@ -25,7 +25,7 @@ stakeholders.  We will be exploring this space in the coming months.
 This CHAOSS working group is using the general [CHAOSS mailing list](https://lists.linuxfoundation.org/mailman/listinfo/chaoss).
 
 ## Join our Weekly Calls
-The Risk Working Group meets every other Monday from 11-12 Pacific Time. All are welcome. Our next meeting is April 20, at 9am CDT. We will also meet on April 27, at 9am CDT to get back in our cycle. April 13 was cancelled due to the holiday. 
+The Risk Working Group meets every other Monday from 11-12 Pacific Time. All are welcome. Our next meeting is Thursday, September 16, 2021 at 2pm CDT. 
 
 The videoconference URL is https://zoom.us/j/4998687533.
 
