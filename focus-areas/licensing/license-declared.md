@@ -5,7 +5,7 @@ Question: What are the declared software package licenses?
 ## Description
 The total number and specific licenses declared in a software package. This can include both software and documentation source files. This metric is an enumeration of licenses, and the number of files with that particular license declaration. For Example:
 
-![License types with number of files](images/license-declared_number-of-files-license-type.png)
+![License types with number of files](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/licensing/images/license-declared_number-of-files-license-type.png)
 
 
 ## Objectives
