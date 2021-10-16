@@ -1,6 +1,3 @@
-
-###This metric is a release candidate. To comment on this metric please see Issue # [118](https://github.com/chaoss/wg-risk/issues/118). Following a comment period, this metric will be included in the next regular release.
-
 # Upstream Code Dependencies 
 
 Question: What projects and libraries does my project depend on?
@@ -50,11 +47,11 @@ All enumerated dependencies should include the specific version(s) that are used
 
 ### Visualizations
 
-![Direct Dependencies](images/upstream-code-dependencies_direct-dependencies.png)
+![Direct Dependencies](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/dependency-risk-assessment/images/upstream-code-dependencies_direct-dependencies.png)
 
-![Transitive Dependencies](images/upstream-code-dependencies_transitive-dependencies.png)
+![Transitive Dependencies](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/dependency-risk-assessment/images/upstream-code-dependencies_transitive-dependencies.png)
 
-![Circular Dependencies](images/upstream-code-dependencies_circular-dependencies.png)
+![Circular Dependencies](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/dependency-risk-assessment/images/upstream-code-dependencies_circular-dependencies.png)
 
 
 ### Tools Providing the Metric 
