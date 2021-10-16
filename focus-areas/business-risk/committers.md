@@ -23,7 +23,7 @@ In an open source project every individual email address that has a commit merge
 
 From Grimoire Lab showing committers
 
-![Grimoire Lab committers](images/committers_grimoire-lab.png)
+![Grimoire Lab committers](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/business-risk/images/committers_grimoire-lab.png)
 
 ### Filters
 * Time: Knowing the more recent number of distinct committers may more clearly indicate the number of people engaged in a project than examining the number over a project's (repository's) lifetime.
@@ -33,7 +33,7 @@ From Grimoire Lab showing committers
 ## Tools Providing the Metric
 Augur maintains a table for each commit record in a repository.
 
-![Augur Commits](images/committers_augur.png)
+![Augur Commits](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/business-risk/images/committers_augur.png)
 
 To evaluate distinct committers for a repository, the following SQL, or documented API endpoints can be used:
 ```sql
