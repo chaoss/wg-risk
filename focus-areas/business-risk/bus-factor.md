@@ -34,7 +34,7 @@ If we have 8 contributors who each contribute the following number of contributi
 
 ### Visualizations (optional)
 
-![Bus Factor for CHAOSS Project in 2020](images/bus-factor_chaoss-2020.png)
+![Bus Factor for CHAOSS Project in 2020](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/business-risk/images/bus-factor_chaoss-2020.png)
 
 The Bus Factor for the CHAOSS Project in 2020, when considering only git commits, was 5.
 
