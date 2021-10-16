@@ -18,7 +18,7 @@ See [CII’s API documentation](https://github.com/coreinfrastructure/best-pract
 
 ### Visualizations
 
-![CII visualizations](images/cii-best-practices_visualization.png)
+![CII visualizations](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/security/images/cii-best-practices_visualization.png)
 
 ### Tools Providing Metric
 
