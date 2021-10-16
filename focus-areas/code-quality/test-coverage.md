@@ -17,11 +17,11 @@ Statements include variable assignments, loop declarations, calls to system func
 
 #### Subroutine Coverage
 
-![Subroutine Coverage](images/test-coverage_subroutine-coverage.png)
+![Subroutine Coverage](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/code-quality/images/test-coverage_subroutine-coverage.png)
 
 #### Statement Coverage
 
-![Statement Coverage](images/test-coverage_statement-coverage.png)
+![Statement Coverage](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/code-quality/images/test-coverage_statement-coverage.png)
 
 ### Filters
 * Time: Changes in test coverage over time provide evidence of project attention to maximizing overall test coverage. Specific parameters include `start date` and `end date` for the time period.
