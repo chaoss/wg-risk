@@ -53,7 +53,7 @@ say the `elephant factor = 2`.
     * Buckets Splice Slices: `Terms` Aggregation, `author_org_name` Field, `metric: Count` Order By, `Descending` Order, `500` Size
   - Example screenshot:
    
-    ![GrimoireLab screenshot of metric Elephant_Factor](images/elephant-factor_grimoire-lab.png)
+    ![GrimoireLab screenshot of metric Elephant_Factor](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/business-risk/images/elephant-factor_grimoire-lab.png)
 
 
 ## References
