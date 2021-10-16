@@ -18,7 +18,7 @@ The OSI-approved licenses can be found in the SPDX-provided [Licenses.json](http
 
 ### Visualizations
 
-![OSI](images/osi-approved-licenses_visualization.png)
+![OSI](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/licensing/images/osi-approved-licenses_visualization.png)
 
 ### Tools Providing Metric
 
