@@ -1,5 +1,3 @@
-### This metric is a release candidate. To comment on this metric please see Issue # [138](https://github.com/chaoss/wg-risk/issues/138). Following a comment period, this metric will be included in the next regular release.
-
 # Libyears
 
 Question: What is the age of the project’s dependencies compared to current stable releases?
@@ -31,7 +29,7 @@ Dependency level (direct only, includes transitive dependencies, etc. as defined
 ### Visualizations (optional)
 This is an example of Libyear as a cumulative measure of Libyears for direct dependencies, in this case with a cumulative value of 103.78 cumulative libyears. 
 
-![](./images/libyear.png)
+![LibYear Visualization](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/dependency-risk-assessment/images/libyear.png)
 
 This image is source from https://github.com/nasirhjafri/libyear   
 
