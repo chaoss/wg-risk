@@ -1,6 +1,8 @@
-# Business Risk (How likely am I to be stuck with this project and no community)
+# Business Risk
 
 Goal: Understand how active a community exists around/to support a given software package.
+
+Driving question: How likely am I to be stuck with this project and no community?
 
 
 Metric | Question
