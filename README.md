@@ -49,9 +49,6 @@ living wage in open source.
 
 ### Goal
 
-Between March 2019 and September 2019 we will execute a launch plan with
-limited goals:
-
 Identify Stakeholders and Validate Interest
 - Identify market segments and stakeholders
 - Understand Who cares about Open Source Risk (and why)
@@ -86,6 +83,8 @@ We're just getting started!
 - [Kate Stewart](https://github.com/kestewart)
 - [Matt Snell](https://github.com/Nebrethar)
 - [Kevin Lumbard](https://github.com/klumb)
+- Sophia Vargas
+- David Wheeler
 
 The criteria for becoming a core contributor is to participate at least once
 per month over a period of 3 months.  Participation could include providing
@@ -97,10 +96,6 @@ If you'd like to be on our squad, an easy way to start is by going through the
 [issue list](https://github.com/chaoss/wg-risk/issues) and fixing some. :tada:
 
 **All Contributors**
-
-Ordered by first name
-
-
 
 Are you eligible to be on this list? You are if you helped in any capacity, for
 example: Filed an issue.  Created a Pull Request. Gave feedback on our work.
