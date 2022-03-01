@@ -1,6 +1,3 @@
-
-###This metric is a release candidate. To comment on this metric please see Issue # [118](https://github.com/chaoss/wg-risk/issues/118). Following a comment period, this metric will be included in the next regular release.
-
 # Upstream Code Dependencies 
 
 Question: What projects and libraries does my project depend on?
