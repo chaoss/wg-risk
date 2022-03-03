@@ -43,12 +43,12 @@ The Four Keys project can be modified to focus on defect resolution and impact.
 
 
 
-![Four Key Project](https://github.com/chaoss/wg-risk/tree/main/focus-areas/code-quality/images/defect-resolution-time_four-key-project.png )
+![Four Key Project](https://github.com/chaoss/wg-risk/blob/main/focus-areas/code-quality/images/defect-resolution-time_four-key-project.png)
 
 Source: This image is sourced from [Four Keys project] (https://github.com/GoogleCloudPlatform/fourkeys)
 
 
-![Augur](https://github.com/chaoss/wg-risk/tree/main/focus-areas/code-quality/images/defect-resolution-time_augur-api.png)
+![Augur](https://github.com/chaoss/wg-risk/blob/main/focus-areas/code-quality/images/defect-resolution-time_augur-api.png)
 
 
 Augur’s visualization API can be applied with a filter on defect tags. 
@@ -57,7 +57,7 @@ Augur’s visualization API can be applied with a filter on defect tags.
 Source: This image is sourced from [Augur](http://augur.chaoss.io/api/unstable/pull_request_reports/Average_PR_duration?repo_id=25440) and http://new.augurlabs.io 
 
 
-![Grimoirelab](https://github.com/chaoss/wg-risk/tree/main/focus-areas/code-quality/images/defect-resolution-time_grimoirelab-api.png)
+![Grimoirelab](https://github.com/chaoss/wg-risk/blob/main/focus-areas/code-quality/images/defect-resolution-time_grimoirelab-api.png)
 
 
 Grimoirelab can apply defect related filters to change request data. 
