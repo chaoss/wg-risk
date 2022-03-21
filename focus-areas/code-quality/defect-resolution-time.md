@@ -75,8 +75,8 @@ Source: This image is sourced from [GrimoireLab](https://bit.ly/3vftkc1)
 Collecting issues from an issue tracker, along with corresponding labels, and making a preliminary assessment of whether or not the report reflects an issue. 
 
 ## References
-1. [Issue Responsiveness]([https://chaoss.community/metric-issue-response-time/](https://chaoss.community/metric-issue-response-time/))  - https://chaoss.community/metric-issue-response-time/
-2. [Population]([https://chaoss.community/metric-contributors/](https://chaoss.community/metric-contributors/))[Time to Close]([https://chaoss.community/metric-time-to-close/](https://chaoss.community/metric-time-to-close/))
+1. [Issue Responsiveness](https://chaoss.community/metric-issue-response-time/)
+2. [Time to Close](https://chaoss.community/metric-time-to-close/)
 3. [https://ieeexplore.ieee.org/document/8285884](https://ieeexplore.ieee.org/document/8285884) 
 
 ## Contributors
