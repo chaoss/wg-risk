@@ -9,6 +9,7 @@ A software package has an associated SPDX document as a standard expression of d
 For managers acquiring open source software as part of an IT or Open Source Program Office portfolio, an SPDX document provides an increasingly essential core piece of management information.  This arises because, as software packages exist in complex software supply chains, it is important to clearly express, in a standardized way, the associated dependencies, licenses, and security-related issues with that software package. An SPDX document provides a single source of information both for internal use and downstream distribution of software packages. An SPDX document assists in how organizations routinize open source work to better integrate with their own open source risk management routines.  
 
 ## Implementation  
+*The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance.*
 
 ### Filters
 
