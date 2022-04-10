@@ -1,10 +1,8 @@
 # Defect Resolution Time
 
-### This metric is a release candidate. To comment on this metric please see Issue # [156](https://github.com/chaoss/wg-risk/issues/156). Following a comment period, this metric will be included in the next regular release.
-
 Question: How much time does a project take to resolve defects once they have been reported and recorded? 
 
-Synonyms: Bug. 
+Synonyms: Bug Resolution Time. 
 
 ## Description
 What is the median time between the report of a defect to the project (using the project’s defect reporting mechanism) and the time where the project resolves the defect? Note the resolution could be to address (resolve and merge) and make the update available to its users or explicitly choosing to not address (reject).
@@ -25,7 +23,7 @@ Defects include anything in the software that fails to work correctly (e.g., as 
     2. Understanding defect resolution across a collection of related repositories, organizations, or projects.
 
 ## Implementation
-__The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other laws. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document]() for additional guidance__
+*The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance.*
 
 Most major Git platforms have “issue trackers”, where feature requests, defects, and deployment support questions are not automatically distinguished from each other. Filters are applied to issues, issue labels, and other metadata to distinguish between defects and other types of issues. 
 
