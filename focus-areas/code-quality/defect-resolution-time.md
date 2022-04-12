@@ -2,7 +2,7 @@
 
 Question: How much time does a project take to resolve defects once they have been reported and recorded? 
 
-Synonyms: Bug Resolution Time. 
+Synonyms: Bug Resolution Time 
 
 ## Description
 What is the median time between the report of a defect to the project (using the project’s defect reporting mechanism) and the time where the project resolves the defect? Note the resolution could be to address (resolve and merge) and make the update available to its users or explicitly choosing to not address (reject).
