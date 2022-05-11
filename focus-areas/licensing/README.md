@@ -5,7 +5,6 @@ Goal: Understand the potential IP issues associated with a given software packag
 
 Metric | Question
 --- | ---
-[License Count](license-count.md) | How many different licenses are there?
 [License Coverage](license-coverage.md)| How much of the code base has declared licenses?
 [License Declared](license-declared.md) | What are the declared software package licenses?
 [OSI Approved Licenses](osi-approved-licenses.md)| What percentage of a project’s licenses are OSI approved open source licenses?
