@@ -85,6 +85,7 @@ We're just getting started!
 - [Kevin Lumbard](https://github.com/klumb)
 - Sophia Vargas
 - David Wheeler
+- [Lucas Gonze](https://github.com/lucasgonze)
 
 The criteria for becoming a core contributor is to participate at least once
 per month over a period of 3 months.  Participation could include providing
