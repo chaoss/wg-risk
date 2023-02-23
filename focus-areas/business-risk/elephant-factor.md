@@ -1,6 +1,6 @@
 # Elephant Factor
 
-Question: What is the distribution of work in the community?
+Question: What is the distribution of work in the community across companies?
 
 
 ## Description
