@@ -23,7 +23,6 @@ Defects include anything in the software that fails to work correctly (e.g., as 
     2. Understanding defect resolution across a collection of related repositories, organizations, or projects.
 
 ## Implementation
-*The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance.*
 
 Most major Git platforms have “issue trackers”, where feature requests, defects, and deployment support questions are not automatically distinguished from each other. Filters are applied to issues, issue labels, and other metadata to distinguish between defects and other types of issues. 
 
