@@ -13,7 +13,6 @@ As from the [OpenSSF Best Practices Badging Page](https://bestpractices.coreinfr
 Consumers of the badge can quickly assess which open source projects are following best practices and as a result are more likely to produce higher-quality secure software.
 
 ## Implementation
-*The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance.*
 
 See [OpenSSF’s API documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/master/doc/api.md) for relevant information.
 

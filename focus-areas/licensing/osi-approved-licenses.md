@@ -13,8 +13,6 @@ As from OSI: “Open source licenses are licenses that comply with the Open Sour
 Identify whether a project has licenses present which do not conform to the OSI definition of open source. This transparency helps projects make conscious decisions about whether or not to include licenses that are not approved by OSI.
 
 ## Implementation
-*The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance.*
-
 
 The OSI-approved licenses can be found in the SPDX-provided [Licenses.json](https://raw.githubusercontent.com/spdx/license-list-data/master/json/licenses.json).
 

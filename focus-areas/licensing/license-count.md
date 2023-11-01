@@ -20,10 +20,8 @@ The most simple case for an IT Manager overseeing the acquisition and management
 
 The second aspect of this metric is the binary indicator of whether or not the repository (package) includes files that do not have license declarations.
 
-## Implementation
-*The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance.*
 
-### Tools Providing the Metric
+## Tools Providing the Metric
 
  1. [Augur](https://github.com/chaoss/augur)
 
