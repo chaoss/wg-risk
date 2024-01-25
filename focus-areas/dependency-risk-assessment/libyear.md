@@ -22,7 +22,7 @@ If a project has multiple stable/supported branches, is it acceptable to conside
 Should there be a grace period when a new dependency is still considered “current”? By default, the answer is no; any particular grace period is arbitrary, and the point is to try to stay current
 
 ### Filters (optional)
-Dependency level (direct only, includes transitive dependencies, etc. as defined in the [Upstream Code Dependencies]((https://github.com/chaoss/wg-risk/blob/master/focus-areas/dependency-risk-assessment/upstream-code-dependencies.md) metric. 
+Dependency level (direct only, includes transitive dependencies, etc. as defined in the [Upstream Code Dependencies](https://github.com/chaoss/wg-risk/blob/master/focus-areas/dependency-risk-assessment/upstream-code-dependencies.md) metric. 
 * Cumulative Libyears as a total age.
 * Average age of dependencies
 * Median age of dependencies
