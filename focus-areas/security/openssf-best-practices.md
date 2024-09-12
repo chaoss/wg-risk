@@ -67,3 +67,8 @@ The metric can be filtered by:
 ## **Additional Information**
 To edit this metric, please submit a Change Request here.  
 To reference this metric in software or publications, please use this stable URL: [https://chaoss.community/?p=3630](https://chaoss.community/?p=3630)
+
+<!-- # For groupings in the knowledge base
+Context tags: Open Source Security, Best Practices Compliance, Open Source Risk Management, Secure Software Development
+Keyword tags:OpenSSF Best Practices Badge, Security Badging, Open Source Compliance, Secure Software Practices, Badge Levels (Passing, Silver, Gold), Project Certification Status, Secure Open Source Projects
+-->
