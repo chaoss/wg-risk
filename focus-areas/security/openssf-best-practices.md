@@ -41,12 +41,6 @@ The metric can be filtered by:
 
    *Figure 1: Example of OpenSSF Best Practices Badge*
 
-
-### **Tools Providing the Metric**
-- [Augur](http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk)  
-   Provides an example implementation of the OpenSSF Best Practices Badge metric.
-- [OpenSSF Badging Website](https://bestpractices.coreinfrastructure.org/en)
-
 </details></span>
 
 ## **References**
