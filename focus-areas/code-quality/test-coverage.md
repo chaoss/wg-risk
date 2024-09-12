@@ -1,47 +1,62 @@
-# Test Coverage
+# **Test Coverage**
 
-Question: How well is the code tested?
+**Question:** How well is the code tested?
 
-## Description
-Test coverage describes how much of a given code base is covered by at least one test suite. There are two principle measures of test coverage. One is the percentage of **subroutines** covered in a test suite run against a repository. The other principle expression of test coverage is the percentage of **statements** covered during the execution of a test suite. The CHAOSS metric definition for "Test Coverage" includes both of these discrete measures.
+## **Overview**
+Test coverage describes the extent to which a codebase is covered by automated tests. This metric primarily focuses on two key measurements: 
+1. **Subroutine Coverage:** The percentage of subroutines (e.g., functions, methods, or routines) covered by tests.
+2. **Statement Coverage:** The percentage of code statements executed during the test suite run.
 
-Programming languages refer to **subroutines** specifically as "functions", "methods", "routines" or, in some cases, "subprograms." The percentage of coverage for a particular repository is constrained in this definition to methods defined within a specific repository, and does not include coverage of libraries or other software upon which the repository is dependent.
+This metric only measures the coverage within a repository and excludes any libraries or external software dependencies. Both of these measures provide valuable insights into how rigorously a codebase has been tested.
 
-## Objectives
+## **Want to Know More?**
 
-Understanding the level of test coverage is a signal of software quality. Code with little test coverage signals a likelihood of less rigorous software engineering practice and a corresponding increased probability that defects will be detected upon deployment and use. 
+<span markdown="1"><details>
+<summary>Click to read more about this metric.</summary>
 
-## Implementation 
+### **Objectives**
+Test coverage helps assess the quality of a project’s code by identifying untested portions of the codebase. Understanding test coverage allows:
+- **Detection of Defects:** A lack of test coverage is often correlated with a higher probability of software defects being discovered during deployment or use.
+- **Assessment of Software Engineering Practices:** Higher test coverage usually indicates more rigorous development and testing practices, while low coverage may signal less mature or less rigorous development processes.
+
+### **Implementation**
+Test coverage is usually tracked by testing frameworks that run automated tests against the code. Key aspects of implementation include:
+- **Subroutine Coverage:** Measures how many of the code's subroutines (e.g., functions, methods, routines) are tested by the suite.
+![IMG_5293](https://github.com/user-attachments/assets/e83d57ee-0ff7-460f-9562-d8a5aaea8dd0)
+
+- **Statement Coverage:** Measures how many code statements are executed during testing. Statements include variable assignments, loops, system calls, return statements, and more.
+![IMG_5294](https://github.com/user-attachments/assets/754fe180-567a-4534-ab3f-0665c41a1630)
+
+
+#### **Privacy & Data Ethics Considerations**
 *The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance.*
 
-Statements include variable assignments, loop declarations, calls to system functions, "go to" statements, and the common `return` statement at the completion of a function or method, which may or may not include the return of a `value` or `array of values`.
+### **Filters**
+- **Time:** Changes in test coverage over time (with specific start and end dates) provide evidence of project attention to improving test coverage.
+- **Code File:** Filters can be applied to analyze test coverage at the file level. This is important because some files or subroutines may have a higher impact on software stability than others (e.g., critical fail-safe functions vs. non-critical UI elements).
+- **Programming Language:** Test coverage can vary across different programming languages used in a repository. Filtering by language allows for a granular analysis of testing practices across different parts of the codebase.
 
-#### Subroutine Coverage
+### **Visualizations**
 
-![Subroutine Coverage](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/code-quality/images/test-coverage_subroutine-coverage.png)
+### **Tools Providing the Metric**
+- **Test Coverage Information Providers:**  
+   Tools for different languages, such as [Python’s PyTest](https://docs.pytest.org/en/latest/), provide frameworks for calculating and reporting test coverage.
+- **Coverage Reporting Tools:**  
+  * The **[Flask](http://flask.pocoo.org/docs/1.0/tutorial/tests/)** web framework for python enables coverage testing.
+  * Open source code coverage tools for common languages like Java, C, and C++ are available from many sites, including this [one](https://stackify.com/code-coverage-tools/#OpenSource).
 
-#### Statement Coverage
+- **Storing Test Coverage Information:**  
+    * [Augur](https://github.com/chaoss/augur) has test coverage implemented as a table that is a child of the main repository table in its repository. Each time test coverage is tested, a record is made for each file tested, the testing tool used for testing and the number of statements/subroutines in the file, as well as the number of statements and subroutines tested. By recording test data at this level of granularity, Augur enables `Code_File` and `Programming_Language` summary level statistics and filters.
 
-![Statement Coverage](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/code-quality/images/test-coverage_statement-coverage.png)
+</details></span>
 
-### Filters
-* Time: Changes in test coverage over time provide evidence of project attention to maximizing overall test coverage. Specific parameters include `start date` and `end date` for the time period.
-* Code_File: Each repository contains a number of files containing code. Filtering coverage by specific file provides a more granular view of test coverage. Some functions or statements may lead to more severe software failures than others. For example, untested code in the `fail safe` functions of a safety critical system are more important to test than `font color` function testing.
-* Programming_Language: Most contemporary open source software repositories contain several different programming languages. The coverage percentage of each `Code_File`
+## **References**
+1. Andrews, J.H., Briand, L.C., Labiche, Y., & Namin, A.S. (2006). Using Mutation Analysis for Assessing and Comparing Testing Coverage Criteria. *IEEE Transactions on Software Engineering, 32*(8), 608-624. https://doi.org/10.1109/TSE.2006.83
+2. Frankl, P.G., & Iakounenko, O. (1998). Further Empirical Studies of Test Effectiveness. *Proceedings of the 6th ACM SIGSOFT International Symposium on Foundations of Software Engineering*, 153-162.
+3. Frankl, P.G., & Weiss, S.N. (1993). An Experimental Comparison of the Effectiveness of Branch Testing and Data Flow Testing. *IEEE Transactions on Software Engineering, 19*(8), 774-787.
+4. Inozemtseva, L., & Holmes, R. (2014). Coverage is not strongly correlated with test suite effectiveness. *Proceedings of the 36th International Conference on Software Engineering - ICSE 2014*, 435-445. https://doi.org/10.1145/2568225.2568271
+5. Namin, A.S., & Andrews, J.H. (2009). The influence of size and coverage on test suite effectiveness. *Proceedings of the eighteenth international symposium on Software testing and analysis - ISSTA ’09*, 57. https://doi.org/10.1145/1572272.1572280
 
-### Tools Providing the Metric
-- Providing Test Coverage Information 
-  * [Python's primary testing framework is PyTest](https://docs.pytest.org/en/latest/)
-  * [The Flask web framework for python enables coverage testing](http://flask.pocoo.org/docs/1.0/tutorial/tests/)
-  * [Open source code coverage tools for common languages like Java, C, and C++ are available from my sites, including this one.](https://stackify.com/code-coverage-tools/#OpenSource)
-
-- Storing Test Coverage Information 
-  * [Augur](https://github.com/chaoss/augur) has test coverage implemented as a table that is a child of the main repository table in its repository. Each time test coverage is tested, a record is made for each file tested, the testing tool used for testing and the number of statements/subroutines in the file, as well as the number of statements and subroutines tested. By recording test data at this level of granularity, Augur enables `Code_File` and `Programming_Language` summary level statistics and filters.
-
-
-## References
-1. J.H. Andrews, L.C. Briand, Y. Labiche, and A.S. Namin. 2006. Using Mutation Analysis for Assessing and Comparing Testing Coverage Criteria. IEEE Transactions on Software Engineering 32, 8: 608–624. https://doi.org/10.1109/TSE.2006.83
-2. Phyllis G Frankl and Oleg Iakounenko. 1998. Further Empirical Studies of Test Effectiveness. In Proceedings of the 6thACM SIGSOFT International Symposium on Foundations of Software Engineering, 153–162.
-3. Phyllis G Frankl and Stewart N Weiss. 1993. An Experimental Comparison of the Effectiveness of Branch Testing and Data Flow Testing. EEE Transactions on SoftwareEngineering 19, 8: 774–787.
-4. Laura Inozemtseva and Reid Holmes. 2014. Coverage is not strongly correlated with test suite effectiveness. In Proceedings of the 36th International Conference on Software Engineering - ICSE 2014, 435–445. https://doi.org/10.1145/2568225.2568271
-5. Akbar Siami Namin and James H. Andrews. 2009. The influence of size and coverage on test suite effectiveness. In Proceedings of the eighteenth international symposium on Software testing and analysis - ISSTA ’09, 57. https://doi.org/10.1145/1572272.1572280
+## **Additional Information**
+To edit this metric, please submit a Change Request here.  
+To reference this metric in software or publications, please use this stable URL: [https://chaoss.community/?p=3957](https://chaoss.community/?p=3957)
