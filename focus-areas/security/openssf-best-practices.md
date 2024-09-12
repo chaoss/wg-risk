@@ -1,41 +1,69 @@
-# Open Source Security Foundation (OpenSSF) Best Practices Badge
+# **Open Source Security Foundation (OpenSSF) Best Practices Badge**
 
-Question: What is the current OpenSSF Best Practices status for the project? 
+**Question:** What is the current OpenSSF Best Practices status for the project?
 
-## Description
+## **Overview**
+The OpenSSF Best Practices Badge, from the Linux Foundation, allows open source projects to voluntarily self-certify that they follow open source best practices. Projects can use the OpenSSF Best Practices Badge web application to explain how they adhere to each best practice. A project receives a passing badge if it meets all the required criteria. 
 
-As from the [OpenSSF Best Practices Badging Page](https://bestpractices.coreinfrastructure.org/en): The Linux Foundation OpenSSF Best Practices badge is a way for open source projects to show that they follow best practices. Projects can voluntarily self-certify, at no cost, by using this web application to explain how they follow each best practice. Projects receive the passing badge if they meet all of the required criteria.
+The badge focuses on cybersecurity in open source software, helping to ensure that projects follow best practices for producing secure, high-quality software.
 
-## Objectives
+## **Want to Know More?**
 
-As from the [OpenSSF Best Practices Badging Page](https://bestpractices.coreinfrastructure.org/en): OpenSSF badging indicates a project’s level of compliance with “open source project best practices" as defined by the Linux Foundation's core infrastructure initiative, which focuses on CyberSecurity in open source software. The goal of the program is to encourage projects to produce better more secure software and allow others to determine if a project is following best practices.
+<span markdown="1"><details>
+<summary>Click to read more about this metric.</summary>
 
-Consumers of the badge can quickly assess which open source projects are following best practices and as a result are more likely to produce higher-quality secure software.
+### **Objectives**
+The **OpenSSF Best Practices Badge**:
+- Indicates a project's compliance with "open source project best practices" as defined by the Linux Foundation’s core infrastructure initiative.
+- Encourages open source projects to produce secure software by adhering to established best practices.
+- Enables consumers to assess which open source projects are more likely to produce secure, reliable software based on their compliance with these best practices.
 
-## Implementation
-*The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance.*
+### **Data Collection Strategies**
+To assess a project’s OpenSSF Best Practices status:
+- Projects receive a passing badge if they meet all required criteria.
+- Status of each criterion is categorized as 'Met', 'Unmet', 'N/A', or 'Unknown'. 
+- Criteria are grouped into four categories: 'MUST', 'SHOULD', 'SUGGESTED', and 'FUTURE'.
+- To obtain a badge, all MUST and MUST NOT criteria must be met. All SHOULD criteria must either be met or have a documented rationale for not implementing them. SUGGESTED criteria are optional and can be rated as either met or unmet.
+- Advanced badges (silver and gold) are available for projects that meet additional criteria.
 
-See [OpenSSF’s API documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/master/doc/api.md) for relevant information.
+For further information, refer to [OpenSSF’s API documentation](https://bestpractices.coreinfrastructure.org/en).
 
-### Visualizations
+### **Filters**
+The metric can be filtered by:
+- Badge level (Passing, Silver, Gold)
+- Project type or focus area (e.g., cybersecurity projects)
+- Criteria status (Met, Unmet, N/A, Unknown)
+- Compliance trends over time
 
-![OpenSSF visualizations](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/security/images/cii-best-practices_visualization.png)
+### **Visualizations**
+1. 
+![IMG_5292](https://github.com/user-attachments/assets/d01f9abd-e4e9-4f44-872f-b3513c92585c)
 
-### Tools Providing Metric
-
-Augur provides an example implementation for the OpenSSF Best Practices metric.
-An example of OpenSSF metrics in use can be found at http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk
-
-### Data Collection Strategies
-
-See [OpenSSF’s API documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/master/doc/api.md) for relevant information.
-
-As from the [OpenSSF Best Practices Badging Page](https://bestpractices.coreinfrastructure.org/en): Projects receive the passing badge if they meet all of the required criteria. The status of each criterion, for a given project, can be 'Met', 'Unmet', 'N/A' or 'unknown'. Each criterion is in one of four categories: 'MUST', 'SHOULD', 'SUGGESTED', or 'FUTURE'. To obtain a badge, all the MUST and MUST NOT criteria must be met, all SHOULD criteria must be met OR the rationale for not implementing the criterion must be documented, and all SUGGESTED criteria have to be rated as met or unmet. Advanced badge levels of silver and gold are available if the project satisfies the additional criterion. 
-
-## References
-
-- OpenSSF Badging Website: https://bestpractices.coreinfrastructure.org/en 
-- Augur: https://github.com/chaoss/augur
+   *Figure 1: Example of OpenSSF Best Practices Badge*
 
 
+### **Tools Providing the Metric**
+- [Augur](http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk)  
+   Provides an example implementation of the OpenSSF Best Practices Badge metric.
+- [OpenSSF Badging Website](https://bestpractices.coreinfrastructure.org/en)
 
+</details></span>
+
+## **References**
+- [OpenSSF Badging Website](https://bestpractices.coreinfrastructure.org/en)
+- [Augur](https://github.com/chaoss/augur)
+
+## **Contributors**
+- Elizabeth Barron
+- Sean Goggins
+- Matt Germonprez
+- Daniel Izquierdo
+- Dawn Foster
+- Beth Hancock
+- Kevin Lumbard
+- Vinod Ahuja
+- Yigakpoa L. Samuel (Ikpae)
+
+## **Additional Information**
+To edit this metric, please submit a Change Request here.  
+To reference this metric in software or publications, please use this stable URL: [https://chaoss.community/?p=3630](https://chaoss.community/?p=3630)
