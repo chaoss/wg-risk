@@ -59,6 +59,7 @@ Test coverage is usually tracked by testing frameworks that run automated tests 
 
 ## **Additional Information**
 To edit this metric please submit a Change Request here: https://github.com/chaoss/wg-risk/blob/main/focus-areas/code-quality/test-coverage.md
+
 To reference this metric in software or publications, please use this stable URL: [https://chaoss.community/?p=3957](https://chaoss.community/?p=3957)
 
 <!-- # For groupings in the knowledge base
