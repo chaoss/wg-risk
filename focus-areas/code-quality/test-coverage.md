@@ -64,5 +64,5 @@ Test coverage is usually tracked by testing frameworks that run automated tests 
 
 <!-- # For groupings in the knowledge base
  Context tags: 
- Keyword tags: 
+ Keyword tags: cd, ci, ci/cd, coverage, risk, testing
  →
