@@ -58,5 +58,10 @@ Test coverage is usually tracked by testing frameworks that run automated tests 
 5. Namin, A.S., & Andrews, J.H. (2009). The influence of size and coverage on test suite effectiveness. *Proceedings of the eighteenth international symposium on Software testing and analysis - ISSTA ’09*, 57. https://doi.org/10.1145/1572272.1572280
 
 ## **Additional Information**
-To edit this metric, please submit a Change Request here.  
+To edit this metric please submit a Change Request here: https://github.com/chaoss/wg-risk/blob/main/focus-areas/code-quality/test-coverage.md
 To reference this metric in software or publications, please use this stable URL: [https://chaoss.community/?p=3957](https://chaoss.community/?p=3957)
+
+<!-- # For groupings in the knowledge base
+ Context tags: 
+ Keyword tags: 
+ →
