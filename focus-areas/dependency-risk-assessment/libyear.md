@@ -1,60 +1,75 @@
-# Libyears
+# **Libyears**
 
-Question: What is the age of the project’s dependencies compared to current stable releases?
+**Question:** What is the age of the project’s dependencies compared to current stable releases?
 
-## Description
-Libyears explain the age of [dependencies](https://github.com/chaoss/wg-risk/blob/master/focus-areas/dependency-risk-assessment/upstream-code-dependencies.md) upon which a project (repository, or repositories of buildable software) relies, compared to the current stable releases of those dependencies. A dependency’s “current stable” release is a release intended for general use, and does not include candidate / draft releases. Age is cumulative across all dependencies for a project, and can be ascertained in multiple ways like reporting total age, average age, and possibly median age (note that median age can hide issues if there is a long tail of ages). In general, a lower Libyear number is better. Tools should also provide a list of dependencies sorted by age to provide more insight. The concept of measuring this was proposed in “Measuring Dependency Freshness in Software Systems” by Cox et al [Cox 2015].
+## **Overview**
+Libyears measure the cumulative age of a project’s dependencies compared to their current stable releases. A dependency’s "current stable" release refers to the version intended for general use, excluding pre-release or draft versions. Libyears help quantify the gap between the project’s dependencies and their latest stable versions. This metric can be expressed in various forms, such as:
+- **Total age** across all dependencies
+- **Average age** of dependencies
+- **Median age** of dependencies (though median may hide issues if there is a long tail of older dependencies)
 
-Note: In some cases, using an older version instead of a current version may be the wiser choice; that said, this metric provides insight to help others identify where those older versions are in use.
+In general, a lower Libyear value indicates that the project is more up-to-date. Tools that implement this metric also often sort dependencies by age to identify the oldest, potentially riskiest, ones.
 
-## Objectives
-The objective of the Libyears metric is to assist in the identification of dependencies that have a higher probability of posing stability, security, and vulnerability risks to a project. A long-obsolete component is more likely to have publicly-known vulnerabilities, and is also less likely to be well-supported. It is a useful initial filter for sorting dependencies to help identify the dependencies most warranting closer examination on a project.
+## **Want to Know More?**
 
-## Implementation
-*The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance.*
+<span markdown="1"><details>
+<summary>Click to read more about this metric.</summary>
 
-### Parameters
-By default this information will be within an ecosystem (e.g., JavaScript or Maven), as that is easier to compute. This metric can be computed across multiple ecosystems, but that tends to require more information, e.g., a cross-ecosystem Software Bill of Materials (SBOM).
+### **Objectives**
+The **Libyears** metric helps identify dependencies that are at risk due to outdated versions. Older dependencies can introduce stability, security, and vulnerability risks, as they may have known security flaws or be less supported by their maintainers. Libyears provides a valuable filter for prioritizing which dependencies need attention for updates or further inspection.
 
-This information could only consider direct dependencies, or it could also include all transitive dependencies. It is more likely to reveal potential problems if transitive dependencies are included, but this is not supported by all such tools.
+### **Implementation**
+When implementing the Libyears metric, it is important to note:
+- **Privacy & Data Ethics:** The use of health metrics like Libyears can raise privacy concerns, especially with compliance laws like GDPR in the EU or state laws in the US. Additionally, data providers (e.g., GitHub, GitLab) may have terms of service that create contractual risks. For more information, please refer to the [CHAOSS Data Ethics document](https://chaoss.community/metric-data-ethics/).
 
-If a project has multiple stable/supported branches, is it acceptable to consider “current” in any branch? By default, only the most recent stable branch is considered, as typically over time the older branches receive less maintenance. An alternative (though not the default) is to also accept older versions as “current” if that older version is actively supported; reports must clearly note when this alternative is used.
-Should there be a grace period when a new dependency is still considered “current”? By default, the answer is no; any particular grace period is arbitrary, and the point is to try to stay current
+### **Parameters**
+Libyears are typically calculated within the context of a particular ecosystem (e.g., JavaScript or Maven). Cross-ecosystem calculations are more complex and may require a comprehensive Software Bill of Materials (SBOM).
 
-### Filters (optional)
-Dependency level (direct only, includes transitive dependencies, etc. as defined in the [Upstream Code Dependencies]((https://github.com/chaoss/wg-risk/blob/master/focus-areas/dependency-risk-assessment/upstream-code-dependencies.md) metric. 
-* Cumulative Libyears as a total age.
-* Average age of dependencies
-* Median age of dependencies
-* Sorted list of dependencies (sorted oldest-first) so the “most risky due to age” dependencies are identified first
+This metric can account for:
+- **Direct dependencies** only, or include **transitive dependencies** (dependencies of dependencies). Including transitive dependencies often highlights additional risks but is not supported by all tools.
+- **Current stable branches:** Only the latest stable branch of a project is typically considered current. However, older branches that are still actively supported may also be acceptable. It is important that any report clearly states the criteria used.
+- **Grace periods:** By default, no grace period is included when calculating how "current" a dependency is. However, if used, it should be explicitly noted in reports.
 
-### Visualizations (optional)
-This is an example of Libyear as a cumulative measure of Libyears for direct dependencies, in this case with a cumulative value of 103.78 cumulative libyears. 
+### **Filters (Optional)**
+Libyears calculations can be filtered to offer a more focused analysis:
+- **Dependency level:** Direct dependencies vs. inclusion of transitive dependencies as defined in the [Upstream Code Dependencies]((https://github.com/chaoss/wg-risk/blob/master/focus-areas/dependency-risk-assessment/upstream-code-dependencies.md) metric.
+- **Cumulative Libyears:** Summing the age of all dependencies.
+- **Average age:** Mean age of all dependencies.
+- **Median age:** Middle value of all dependency ages (though it may mask issues due to long tails).
+- **Sorted list:** Dependencies sorted by age, oldest first, to quickly identify those most at risk.
 
-![LibYear Visualization](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/dependency-risk-assessment/images/libyear.png)
+### **Visualizations (Optional)**
+An example of a visualization of cumulative Libyears is shown below, with a value of 103.78 for direct dependencies.
 
-This image is source from https://github.com/nasirhjafri/libyear   
+<img width="674" alt="IMG_5289" src="https://github.com/user-attachments/assets/4e8184d1-2ccb-42df-a0b0-17557d0d1175">
 
+*Figure 1: Cumulative Libyears for a project’s direct dependencies.*
 
-### Tools Providing the Metric (optional)
-Note that some tools can also compute differences between version ids (e.g., 1.1.1 vs. 1.2.3); this can be informative, but not all dependencies use the same version numbering approaches, so for simplicity we are focusing on measuring time.
+*Image source: [https://github.com/nasirhjafri/libyear](https://github.com/nasirhjafri/libyear)*
 
-Here is an example of some tools that implement libyersars: 
-* https://github.com/nasirhjafri/libyear  - for Python where a requirements.txt file is used. 
-* https://github.com/sesh/piprot 
-* https://github.com/chaoss/augur - deps_libyear_worker - For Python, and Javascript right now.
-* https://github.com/jaredbeck/libyear-bundler - for Ruby where Gemfile is used
+### **Data Collection Strategies**
+Most tools that calculate Libyears provide dependency versions and calculate the gap between current stable releases and the project’s versions. Note that some tools may include version number differences (e.g., 1.1.1 vs. 1.2.3), but since version numbering schemes vary, this metric focuses on measuring the age of dependencies based on release dates.
 
-## References
+</details></span>
 
-* [Cox 2015] “Measuring Dependency Freshness in Software Systems” by Joel Cox, Eric Bouwers, Marko van Eekelen, and Joost Visser, https://ericbouwers.github.io/papers/icse15.pdf  
-* https://libyear.com/  
+## **References**
+1. Cox, J., Bouwers, E., van Eekelen, M., & Visser, J. (2015). Measuring Dependency Freshness in Software Systems. *Proceedings of the 37th International Conference on Software Engineering* (ICSE 2015). https://ericbouwers.github.io/papers/icse15.pdf
+2. Libyear: [https://libyear.com/](https://libyear.com/)
 
+## **Contributors**
+- Sophia Vargas (Google)
+- David A. Wheeler (Linux Foundation)
+- Vinod Ahuja (University of Nebraska Omaha)
+- Kate Stewart (Linux Foundation)
+- Duane O’Brien
+- Sean Goggins (University of Missouri / CHAOSS Project)
+- Yigakpoa L. Samuel (I)
 
-## Contributors
-* Sophia Vargas (Google)
-* David A. Wheeler (Linux Foundation)
-* Vinod Ahuja (University of Nebraska Omaha)
-* Kate Stewart (Linux Foundation)
-* Duane O’Brien
-* Sean Goggins (University of Missouri / CHAOSS Project)
+## **Additional Information**
+- To edit this metric, please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/main/focus-areas/dependency-risk-assessment/libyear.md).  
+- To reference this metric in software or publications, please use this stable URL: [https://chaoss.community/?p=3976](https://chaoss.community/?p=3976).
+
+<!-- # For groupings in the knowledge base
+ Context tags: Project Dependencies, 
+ Keyword tags: Age, Dependency, Dependent, Obsolete, Release, Risk
+ →
