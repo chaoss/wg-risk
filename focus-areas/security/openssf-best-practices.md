@@ -60,7 +60,7 @@ The metric can be filtered by:
 
 ## **Additional Information**
 - To edit this metric please submit a Change Request here: https://github.com/chaoss/wg-risk/blob/main/focus-areas/security/openssf-best-practices.md
-- To reference this metric in software or publications, please use this stable URL: [https://chaoss.community/?p=3630](https://chaoss.community/?p=3630)
+- To reference this metric in software or publications please use this stable URL: https://chaoss.community/?p=3939
 
 <!-- # For groupings in the knowledge base
 Context tags: Open Source Security, Best Practices Compliance, Open Source Risk Management, Secure Software Development
