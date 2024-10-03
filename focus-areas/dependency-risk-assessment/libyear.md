@@ -8,7 +8,7 @@ Libyears measure the cumulative age of a project’s dependencies compared to th
 - **Average age** of dependencies
 - **Median age** of dependencies (though median may hide issues if there is a long tail of older dependencies)
 
-The **Libyears** metric helps identify dependencies that are at risk due to outdated versions. Older dependencies can introduce stability, security, and vulnerability risks, as they may have known security flaws or be less supported by their maintainers. Libyears provides a valuable filter for prioritizing which dependencies need attention for updates or further inspection.
+The Libyears metric helps identify dependencies that are at risk due to outdated versions. Older dependencies can introduce stability, security, and vulnerability risks, as they may have known security flaws or be less supported by their maintainers. Libyears provides a valuable filter for prioritizing which dependencies need attention for updates or further inspection.
 
 In general, a lower Libyear value indicates that the project is more up-to-date. Tools that implement this metric also often sort dependencies by age to identify the oldest, potentially riskiest, ones.
 
@@ -39,8 +39,6 @@ Libyears calculations can be filtered to offer a more focused analysis:
 This is an example of Libyear as a cumulative measure of Libyears for direct dependencies, in this case with a cumulative value of 103.78 cumulative libyears. 
 
 ![LibYear Visualization](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/dependency-risk-assessment/images/libyear.png)
-
-This image is source from https://github.com/nasirhjafri/libyear 
 
 *Figure 1: Cumulative Libyears for a project’s direct dependencies.[Source](https://github.com/nasirhjafri/libyear)*
 
