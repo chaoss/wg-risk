@@ -18,14 +18,14 @@ The **OpenSSF Best Practices Badge**:
 <summary>Click to read more about this metric.</summary>
 
 ### Data Collection Strategies
-As gotten from the [OpenSSF Best Practices Badging Page](https://bestpractices.coreinfrastructure.org/en), a project’s OpenSSF Best Practices status can be assessed when:
+From the [OpenSSF Best Practices Badging Page](https://www.bestpractices.dev/en), a project’s OpenSSF Best Practices status can be assessed when:
 - Projects receive a passing badge if they meet all required criteria.
 - The status of each criterion, for a given project, can be 'Met', 'Unmet', 'N/A' or 'unknown'.
 - Each criterion is in one of four categories: 'MUST', 'SHOULD', 'SUGGESTED', or 'FUTURE'.
 - To obtain a badge, all the MUST and MUST NOT criteria must be met, all SHOULD criteria must be met OR the rationale for not implementing the criterion must be documented, and all SUGGESTED criteria have to be rated as met or unmet.
 - Advanced badge levels of silver and gold are available if the project satisfies the additional criterion.
 
-For further information, refer to [OpenSSF’s API documentation](https://bestpractices.coreinfrastructure.org/en) 
+For further information, refer to [OpenSSF’s API documentation](https://www.bestpractices.dev/en) 
 
 ### Filters
 The metric can be filtered by:
@@ -41,7 +41,7 @@ The metric can be filtered by:
 </details></span>
 
 ## References
-- [OpenSSF Badging Website](https://bestpractices.coreinfrastructure.org/en)
+- [OpenSSF Badging Website](https://www.bestpractices.dev/en)
 - [Augur](https://github.com/chaoss/augur)
 
 ## Contributors
@@ -56,7 +56,6 @@ The metric can be filtered by:
 - Yigakpoa L. Samuel (Ikpae)
 
 ## Additional Information
-*The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance, and [OpenSSF’s API documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/master/doc/api.md) for relevant information.*
 
 - To edit this metric please submit a Change Request here: https://github.com/chaoss/wg-risk/blob/main/focus-areas/security/openssf-best-practices.md
 - To reference this metric in software or publications please use this stable URL: https://chaoss.community/?p=3939
