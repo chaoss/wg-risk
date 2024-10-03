@@ -1,32 +1,31 @@
-# **Open Source Security Foundation (OpenSSF) Best Practices Badge**
+# Open Source Security Foundation (OpenSSF) Best Practices Badge
 
 **Question:** What is the current OpenSSF Best Practices status for the project?
 
-## **Overview**
+## Overview
 The OpenSSF Best Practices Badge, from the Linux Foundation, allows open source projects to voluntarily self-certify that they follow open source best practices. Projects can use the OpenSSF Best Practices Badge web application to explain how they adhere to each best practice. A project receives a passing badge if it meets all the required criteria. 
 
 The badge focuses on cybersecurity in open source software, helping to ensure that projects follow best practices for producing secure, high-quality software.
 
-## **Want to Know More?**
-
-<span markdown="1"><details>
-<summary>Click to read more about this metric.</summary>
-
-### **Objectives**
 The **OpenSSF Best Practices Badge**:
 - Indicates a project's compliance with "open source project best practices" as defined by the Linux Foundation’s core infrastructure initiative.
 - Encourages open source projects to produce secure software by adhering to established best practices.
 - Enables consumers to assess which open source projects are more likely to produce secure, reliable software based on their compliance with these best practices.
 
-### **Data Collection Strategies**
-To assess a project’s OpenSSF Best Practices status:
-- Projects receive a passing badge if they meet all required criteria.
-- Status of each criterion is categorized as 'Met', 'Unmet', 'N/A', or 'Unknown'. 
-- Criteria are grouped into four categories: 'MUST', 'SHOULD', 'SUGGESTED', and 'FUTURE'.
-- To obtain a badge, all MUST and MUST NOT criteria must be met. All SHOULD criteria must either be met or have a documented rationale for not implementing them. SUGGESTED criteria are optional and can be rated as either met or unmet.
-- Advanced badges (silver and gold) are available for projects that meet additional criteria.
+## Want to Know More?
 
-For further information, refer to [OpenSSF’s API documentation](https://bestpractices.coreinfrastructure.org/en).
+<span markdown="1"><details>
+<summary>Click to read more about this metric.</summary>
+
+### Data Collection Strategies
+As gotten from the [OpenSSF Best Practices Badging Page](https://bestpractices.coreinfrastructure.org/en), a project’s OpenSSF Best Practices status can be assessed when:
+- Projects receive a passing badge if they meet all required criteria.
+- The status of each criterion, for a given project, can be 'Met', 'Unmet', 'N/A' or 'unknown'.
+- Each criterion is in one of four categories: 'MUST', 'SHOULD', 'SUGGESTED', or 'FUTURE'.
+- To obtain a badge, all the MUST and MUST NOT criteria must be met, all SHOULD criteria must be met OR the rationale for not implementing the criterion must be documented, and all SUGGESTED criteria have to be rated as met or unmet.
+- Advanced badge levels of silver and gold are available if the project satisfies the additional criterion.
+
+For further information, refer to [OpenSSF’s API documentation](https://bestpractices.coreinfrastructure.org/en) 
 
 ### **Filters**
 The metric can be filtered by:
@@ -36,10 +35,8 @@ The metric can be filtered by:
 - Compliance trends over time
 
 ### **Visualizations**
-1. 
-![IMG_5292](https://github.com/user-attachments/assets/d01f9abd-e4e9-4f44-872f-b3513c92585c)
-
-   *Figure 1: Example of OpenSSF Best Practices Badge*
+![OpenSSF visualizations](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/security/images/cii-best-practices_visualization.png)
+   *Figure 1: Example of OpenSSF Best Practices Badge (OpenSSF)* 
 
 </details></span>
 
@@ -59,6 +56,8 @@ The metric can be filtered by:
 - Yigakpoa L. Samuel (Ikpae)
 
 ## **Additional Information**
+*The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance, and [OpenSSF’s API documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/master/doc/api.md) for relevant information.*
+
 - To edit this metric please submit a Change Request here: https://github.com/chaoss/wg-risk/blob/main/focus-areas/security/openssf-best-practices.md
 - To reference this metric in software or publications please use this stable URL: https://chaoss.community/?p=3939
 
