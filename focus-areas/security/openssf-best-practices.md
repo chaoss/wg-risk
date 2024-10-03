@@ -27,24 +27,24 @@ As gotten from the [OpenSSF Best Practices Badging Page](https://bestpractices.c
 
 For further information, refer to [OpenSSF’s API documentation](https://bestpractices.coreinfrastructure.org/en) 
 
-### **Filters**
+### Filters
 The metric can be filtered by:
 - Badge level (Passing, Silver, Gold)
 - Project type or focus area (e.g., cybersecurity projects)
 - Criteria status (Met, Unmet, N/A, Unknown)
 - Compliance trends over time
 
-### **Visualizations**
+### Visualizations
 ![OpenSSF visualizations](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/security/images/cii-best-practices_visualization.png)
    *Figure 1: Example of OpenSSF Best Practices Badge (OpenSSF)* 
 
 </details></span>
 
-## **References**
+## References
 - [OpenSSF Badging Website](https://bestpractices.coreinfrastructure.org/en)
 - [Augur](https://github.com/chaoss/augur)
 
-## **Contributors**
+## Contributors
 - Elizabeth Barron
 - Sean Goggins
 - Matt Germonprez
@@ -55,7 +55,7 @@ The metric can be filtered by:
 - Vinod Ahuja
 - Yigakpoa L. Samuel (Ikpae)
 
-## **Additional Information**
+## Additional Information
 *The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance, and [OpenSSF’s API documentation](https://github.com/coreinfrastructure/best-practices-badge/blob/master/doc/api.md) for relevant information.*
 
 - To edit this metric please submit a Change Request here: https://github.com/chaoss/wg-risk/blob/main/focus-areas/security/openssf-best-practices.md
