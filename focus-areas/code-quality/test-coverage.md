@@ -55,8 +55,6 @@ Statements include variable assignments, loop declarations, calls to system func
 
 - To reference this metric in software or publications, please use this stable URL: [https://chaoss.community/?p=3957](https://chaoss.community/?p=3957)
 
-- ***Privacy & Data Ethics Considerations**: The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance.*
-
 <!-- # For groupings in the knowledge base
  Context tags: 
  Keyword tags: cd, ci, ci/cd, coverage, risk, testing
