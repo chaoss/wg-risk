@@ -61,8 +61,7 @@ This is an example of Libyear as a cumulative measure of Libyears for direct dep
 - To edit this metric, please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/main/focus-areas/dependency-risk-assessment/libyear.md).  
 - To reference this metric in software or publications, please use this stable URL: [https://chaoss.community/?p=3976](https://chaoss.community/?p=3976).
 When implementing the Libyears metric, it is important to note:
-- ***Privacy & Data Ethics:** The use of health metrics like Libyears can raise privacy concerns, especially with compliance laws like GDPR in the EU or state laws in the US. Additionally, data providers (e.g., GitHub, GitLab) may have terms of service that create contractual risks. For more information, please refer to the [CHAOSS Data Ethics document](https://chaoss.community/metric-data-ethics/).*
-
+ 
 <!-- # For groupings in the knowledge base
  Context tags: Project Dependencies, 
  Keyword tags: Age, Dependency, Dependent, Obsolete, Release, Risk
