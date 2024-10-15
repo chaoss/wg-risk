@@ -26,7 +26,7 @@ The OSI-approved licenses can be found in the SPDX-provided [Licenses.json](http
 
 Augur provides this metric under the Risk page for a project.
 
-Example: http://augur.osshealth.io/repo/Zephyr-RTOS/zephyr/risk
+Link to API documentation: https://oss-augur.readthedocs.io/en/main/rest-api/api.html#operation/License%20Coverage%20(Repo)
 
 ### Data Collection Strategies
 
