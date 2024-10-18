@@ -11,9 +11,7 @@ License Coverage measures the proportion of code and documentation files in a so
 
 ## Want to Know More?
 
-<span markdown="1"><details>
-
-<summary>Click to read more about this metric.</summary>
+<span markdown="1"><details><summary>Click to read more about this metric.</summary>
 
 ### Filters
 
