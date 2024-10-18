@@ -1,6 +1,6 @@
 # Upstream Code Dependencies
 
-Question: What projects and libraries does my project depend on?
+**Question: What projects and libraries does my project depend on?**
 
 ## Overview
 
@@ -95,7 +95,7 @@ It can also help identify opportunities to support underfunded or underrepresent
 
 To edit this metric please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/master/focus-areas/dependency-risk-assessment/upstream-code-dependencies.md)
 
-To reference this metric in software or publications please use this stable URL: <https://chaoss.community/?p=3977>
+To reference this metric in software or publications please use this stable URL: \[https://chaoss.community/?p=3977]\(https://chaoss.community/?p=3977)
 
 <!-- # For groupings in the knowledge base
 Context tags: Ecosystem, Software
