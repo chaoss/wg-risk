@@ -42,27 +42,27 @@ This is an example of Libyear as a cumulative measure of Libyears for direct dep
 
 *Figure 1: Cumulative Libyears for a project’s direct dependencies.[Source](https://github.com/nasirhjafri/libyear)*
 
-</details></span>
+</details></span><br>
 
 ## References
 1. Cox, J., Bouwers, E., van Eekelen, M., & Visser, J. (2015). Measuring Dependency Freshness in Software Systems. *Proceedings of the 37th International Conference on Software Engineering* (ICSE 2015). https://ericbouwers.github.io/papers/icse15.pdf
 2. Libyear: [https://libyear.com/](https://libyear.com/)
 
 ## Contributors
-- Sophia Vargas (Google)
-- David A. Wheeler (Linux Foundation)
-- Vinod Ahuja (University of Nebraska Omaha)
-- Kate Stewart (Linux Foundation)
+- Sophia Vargas
+- David A. Wheeler
+- Vinod Ahuja 
+- Kate Stewart 
 - Duane O’Brien
-- Sean Goggins (University of Missouri / CHAOSS Project)
-- Yigakpoa L. Samuel (I)
+- Sean Goggins 
+- Yigakpoa L. Samuel
 
 ## Additional Information
 - To edit this metric, please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/main/focus-areas/dependency-risk-assessment/libyear.md).  
 - To reference this metric in software or publications, please use this stable URL: [https://chaoss.community/?p=3976](https://chaoss.community/?p=3976).
-When implementing the Libyears metric, it is important to note:
+
  
 <!-- # For groupings in the knowledge base
  Context tags: Project Dependencies, 
  Keyword tags: Age, Dependency, Dependent, Obsolete, Release, Risk
- →
+ -->
