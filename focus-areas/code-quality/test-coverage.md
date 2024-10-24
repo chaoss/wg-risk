@@ -37,7 +37,7 @@ Statements include variable assignments, loop declarations, calls to system func
 
    *Figure 2: Statement Coverage: Measures how many code statements are executed during testing. Statements include variable assignments, loops, system calls, return statements, and more. ()*
 
-</details></span>
+</details></span><br>
 
 ## References
 1. Andrews, J.H., Briand, L.C., Labiche, Y., & Namin, A.S. (2006). Using Mutation Analysis for Assessing and Comparing Testing Coverage Criteria. *IEEE Transactions on Software Engineering, 32*(8), 608-624. https://doi.org/10.1109/TSE.2006.83
