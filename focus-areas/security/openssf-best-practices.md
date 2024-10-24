@@ -38,7 +38,7 @@ The metric can be filtered by:
 ![OpenSSF visualizations](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/security/images/cii-best-practices_visualization.png)
    *Figure 1: Example of OpenSSF Best Practices Badge (OpenSSF)* 
 
-</details></span>
+</details></span><br>
 
 ## References
 - [OpenSSF Badging Website](https://www.bestpractices.dev/en)
