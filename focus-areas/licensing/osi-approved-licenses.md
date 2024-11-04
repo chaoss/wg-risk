@@ -9,7 +9,7 @@ This metric is important for ensuring compliance with open source licensing stan
 
 ## Want to Know More?
 
-<details>
+<span markdown="1"><details>
 <summary>Click to read more about this metric.</summary>
 
 ### Data Collection Strategies
@@ -23,7 +23,7 @@ This metric is important for ensuring compliance with open source licensing stan
 ### Visualizations
 ![OSI](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/licensing/images/osi-approved-licenses_visualization.png)
 
-</details>
+</details></span><br>
 
 ## References
 - [OSI license page](https://opensource.org/licenses)  
