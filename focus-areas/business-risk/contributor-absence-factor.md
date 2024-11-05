@@ -1,23 +1,18 @@
 # Contributor Absence Factor
 
-Question: How high is the risk to a project should the most active people leave?
+**Question:** How high is the risk to a project should the most active people leave?
 
-## Description  
-The Contributor Absence Factor is a compelling metric because it visualizes the question "how many contributors can we lose before a project stalls?" 
+## Overview
+The **Contributor Absence Factor** assesses the degree to which a project relies on a small number of contributors by identifying the smallest number of contributors responsible for 50% of total contributions. A lower Contributor Absence Factor indicates higher dependency on fewer contributors, posing a risk if these individuals leave the project. This metric helps project maintainers evaluate resilience and continuity risks associated with contributor reliance.
 
-The Contributor Absence Factor is the smallest number of people that make 50% of contributions.
+## Want to Know More?
 
-This metric was previously called "Bus Factor".
+<span markdown="1"><details>
+<summary>Click to read more about this metric.</summary>
 
-## Objectives  
-* Identify how widely the work in a project is distributed across contributors.
-* Identify the key people in a project that are doing the majority of the work.
-
-## Implementation  
-*The usage and dissemination of health metrics may lead to privacy violations. Organizations may be exposed to risks. These risks may flow from compliance with the GDPR in the EU, with state law in the US, or with other law. There may also be contractual risks flowing from terms of service for data providers such as GitHub and GitLab. The usage of metrics must be examined for risk and potential data ethics problems. Please see [CHAOSS Data Ethics document](https://github.com/chaoss/community/blob/main/data-use-statement.md) for additional guidance.*
-
-The formula for Contributor Absence Factor is a percentage calculation -50% will be our threshold-
-followed by adding up each contributor's contributions sorted in decreasing order until we reach
+### Data Collection Strategies
+- **Types of Contributions:** Calculate the Contributor Absence Factor for various types of contributions, such as commits, issues, comments, or documentation, depending on project needs.
+- **Formula:** The formula for Contributor Absence Factor is a percentage calculation -50% will be our threshold- followed by adding up each contributor's contributions sorted in decreasing order until we reach
 the threshold.
 
 If we have 8 contributors who each contribute the following number of contributions to a project: `1000, 202, 90, 33, 332, 343, 42, 433`, then we can determine the Contributor Absence Factor by first identifying the 50% of total contributions for all the contributors.
@@ -32,21 +27,26 @@ If we have 8 contributors who each contribute the following number of contributi
 4. **Answer**: as `1,433 > 1,237.5`, more than the 50% of contributions is performed by only `2` contributors, thus the `Contributor Absence Factor = 2`.
 
 ### Filters
-* Time: The Contributor Absence Factor may be vary for different time periods. The Contributor Absence Factor over the life of a project may misrepresent the current level of contributor engagement in the project.
-* Repository Group: Many open source projects include multiple repositories, and in some cases examining all of the repositories associated with any given project provides a more complete picture of the Contributor Absence Factor.
+- **Time Period:** Measure the factor at regular intervals to observe changes over time.
+- **Repository Group:** For projects with multiple repositories, calculate the factor across relevant repositories for a comprehensive view.
 
-### Visualizations (optional)
+### Visualizations
+- **Sample Visualization:** Contributor Absence Factor for CHAOSS Project in 2020 based on git commits.
+   - ![Contributor Absence Factor for CHAOSS Project in 2020](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/business-risk/images/bus-factor_chaoss-2020.png)
 
-![Contributor Absence Factor for CHAOSS Project in 2020](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/business-risk/images/bus-factor_chaoss-2020.png)
-
-The Contributor Absence Factor for the CHAOSS Project in 2020, when considering only git commits, was 5.
-
-### Tools Providing the Metric
-1. [Augur](https://github.com/chaoss/augur)
-2. [GrimoireLab](https://chaoss.github.io/grimoirelab) provides this metric out of the box, not as a single number but as a visualization.
-
-### Data Collection Strategies
-The data collection strategy depends on the [Types of Contributions](https://chaoss.community/metric-types-of-contributions/) used for calculating the Contributor Absence Factor. Contributor Absence Factor is often calculated for commits but other types of contributions can be used for this as well, separately or combined.
-
+</details></span><br>
 
 ## References
+- None specified
+
+## Contributors
+- CHAOSS Community Members
+
+## Additional Information
+To edit this metric please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/main/focus-areas/business-risk/contributor-absence-factor.md).  
+To reference this metric in software or publications please use this stable URL: [https://chaoss.community/?p=3944](https://chaoss.community/?p=3944)
+
+<!-- # For groupings in the knowledge base
+Context tags: Contributor Dependency, Project Health, Open Source Risk
+Keyword tags: Key Contributors, Work Distribution, Dependency on Contributors, Contributor Absence
+-->
