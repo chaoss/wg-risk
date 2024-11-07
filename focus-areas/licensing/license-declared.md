@@ -23,7 +23,7 @@ Understanding license conflicts is crucial to avoid legal issues and ensure smoo
 *   Time: Licenses declared in a repository can change over time as the dependencies of the repository change. One of the principle motivations for tracking license presence, aside from basic awareness, is to draw attention to any unexpected new license introduction.
 *   Declared and Undeclared: Separate enumeration of files that have license declarations and files that do not.
 
-</details></span>
+</details></span><br>
 
 ## References
 
@@ -39,4 +39,4 @@ To reference this metric in software or publications please use this stable URL:
 <!-- # For groupings in the knowledge base
 Context tags: Software, Platform
 Keyword tags: risk, licensing, license, coverage, intellectual, property, license declaration, repository license, file license, spdx, rights legal, law
--→
+-->
