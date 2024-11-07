@@ -57,8 +57,3 @@ To reference this metric in software or publications, please use this stable URL
 Context tags: SPDX document, licensing, software dependencies, security management
 Keyword tags: SPDX, license documentation, dependency management, SBOM
 -->
-
-
-## References
-* https://spdx.org  
-* https://www.ntia.doc.gov/SoftwareTransparency  
