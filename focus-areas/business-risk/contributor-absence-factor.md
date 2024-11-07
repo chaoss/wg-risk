@@ -3,7 +3,7 @@
 **Question:** How high is the risk to a project should the most active people leave?
 
 ## Overview
-The **Contributor Absence Factor** assesses the degree to which a project relies on a small number of contributors by identifying the smallest number of contributors responsible for 50% of total contributions. A lower Contributor Absence Factor indicates higher dependency on fewer contributors, posing a risk if these individuals leave the project. This metric helps project maintainers evaluate resilience and continuity risks associated with contributor reliance.
+The **Contributor Absence Factor** assesses the degree to which a project relies on a small number of contributors by identifying the smallest number of contributors responsible for 50% of total contributions. A lower Contributor Absence Factor indicates higher dependency on fewer contributors, posing a risk if these individuals leave the project. This metric helps project maintainers evaluate resilience and continuity risks associated with contributor reliance. This metric was previously called "Bus Factor."
 
 ## Want to Know More?
 
