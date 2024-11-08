@@ -1,6 +1,6 @@
 # Defect Resolution Duration
 
-**Question: How much time does a project take to resolve defects once they have been reported and recorded?**
+**Question:** How much time does a project take to resolve defects once they have been reported and recorded?
 
 ## Overview
 
@@ -27,19 +27,13 @@ Collecting issues from an issue tracker, along with corresponding labels, and ma
 
 ### Visualizations
 
-The Four Keys project can be modified to focus on defect resolution and impact.
+The [Four Keys project](https://github.com/GoogleCloudPlatform/fourkeys) can be modified to focus on defect resolution and impact.
 
-![Four Key Project](https://github.com/chaoss/wg-risk/blob/main/focus-areas/code-quality/images/defect-resolution-time_four-key-project.png)
-
-Source: This image is sourced from \[Four Keys project] (https://github.com/GoogleCloudPlatform/fourkeys)
+[Grimoirelab](https://bit.ly/3vftkc1) can apply defect related filters to change request data.
 
 ![Grimoirelab](https://github.com/chaoss/wg-risk/blob/main/focus-areas/code-quality/images/defect-resolution-time_grimoirelab-api.png)
 
-Grimoirelab can apply defect related filters to change request data.
-
-Source: This image is sourced from [GrimoireLab](https://bit.ly/3vftkc1)
-
-</details></span>
+</details></span><br>
 
 ## References
 
@@ -62,11 +56,9 @@ Source: This image is sourced from [GrimoireLab](https://bit.ly/3vftkc1)
 
 To edit this metric please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/main/focus-areas/code-quality/defect-resolution-duration.md)
 
-To reference this metric in software or publications please use this stable URL: [ https://chaoss.community/?p=4727](https://chaoss.community/?p=4727)
-
-***This metric was last reviewed on February 24, 2022 as part of the March 1, 2022 CHAOSS Metrics release review period.***
+To reference this metric in software or publications please use this stable URL: <https://chaoss.community/?p=4727>
 
 <!-- # For groupings in the knowledge base
 Context tags: Software 
 Keyword tags: risk, defect, resolution, issues, issue, issues open, issues closed, defect resolution, bug
-→ 
+-->
