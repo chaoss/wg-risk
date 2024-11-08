@@ -1,6 +1,6 @@
 # Upstream Code Dependencies
 
-**Question: What projects and libraries does my project depend on?**
+**Question:** What projects and libraries does my project depend on?
 
 ## Overview
 
@@ -71,7 +71,7 @@ Upstream code dependencies helps assess the health and sustainability of a proje
 
 ![Circular Dependencies](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/dependency-risk-assessment/images/upstream-code-dependencies_circular-dependencies.png)
 
-</details></span>
+</details></span><br>
 
 ## Contributors
 
@@ -99,4 +99,4 @@ To reference this metric in software or publications please use this stable URL:
 <!-- # For groupings in the knowledge base
 Context tags: Ecosystem, Software
 Keyword tags: risk, dependent, dependency, upstream, reuse, reused, package, packages
-→ 
+-->
