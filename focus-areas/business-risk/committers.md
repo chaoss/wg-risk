@@ -4,7 +4,7 @@
 
 ## Overview
 
-Committers measure the number of developers who have committed code changes into the project's repository. Code contributions varires from larger scale [contributors](https://github.com/chaoss/wg-common/blob/master/focus-areas/who/contributors.md) to documentation authors, individuals who open issues, or other types of contributions, depending on the management style employed by an open source project. A higher number of committers generally indicates a project's health and its likelyhood of receiving updates, support, and necessary resources in the future. This metric allows organizations to assess the risk of a project being abandoned or under-supported due to limited code contributors.
+Committers measure the number of developers who have committed code changes into the project's repository. Code contributions varires from larger scale contributors to documentation authors, individuals who open issues, or other types of contributions, depending on the management style employed by an open source project. A higher number of committers generally indicates a project's health and its likelyhood of receiving updates, support, and necessary resources in the future. This metric allows organizations to assess the risk of a project being abandoned or under-supported due to limited code contributors.
 McDonald et al. (2014) point out the varying leadership styles in open-source projects can impact the number contributors. Fewer code contributors may indicate projects less open to outside contributions, or simply projects that have a small number of developers contributing to the code base. A project with a diverse group of committers may indicate a more inclusive and equitable environment, attracting and retaining contributors from various backgrounds.
 
 ## Want to Know More?
@@ -19,7 +19,7 @@ In an open source project every individual email address that has a commit merge
 
 `Number_of_committers = distinct_contributor_ids (during some period of time with a begin date and an end date)`. For example, I may want to know how many distinct people have committed code to a project in the past 18 months. `Committers` reveals the answer.
 
-### Known Issues with Data Quality
+Known Issues with Data Quality
 
 *   Many contributors use more than one email, which may artificially elevate the number of total committers if these shared identities are not reconciled.
 *   Several committers making small, "drive by" contributions may artificially elevate this number as well.
@@ -58,6 +58,8 @@ ORDER BY
 
 This expression allows an end user to filter by commit count thresholds easily, and the number of rows returned is the "Total\_Committers" for the repository.
 
+</details></span><br>
+
 ## References
 
 1.  Nora McDonald, Kelly Blincoe, Eva Petakovic, and Sean Goggins. 2014. Modeling Distributed Collaboration on GitHub. Advances in Complex Systems 17(7 & 8).
@@ -72,4 +74,4 @@ To reference this metric in software or publications please use this stable URL:
 <!-- # For groupings in the knowledge base
 Context tags: Contributor, Platform
 Keyword tags: risk, contributors, committers, maintainers
--→ 
+-->
