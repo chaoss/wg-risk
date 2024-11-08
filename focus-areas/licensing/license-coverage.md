@@ -1,6 +1,6 @@
 # License Coverage
 
-**Question: How much of the code base has declared licenses?**
+**Question:** How much of the code base has declared licenses?
 
 ## Overview
 
@@ -25,7 +25,7 @@ License Coverage measures the proportion of code and documentation files in a so
 **JSON Presentation of Augur Json Output**
 ![JSON Presentation of Augur Json Output](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/licensing/images/license-coverage_augur-json-output.png)
 
-</details></span>
+</details></span><br>
 
 ## References
 
@@ -46,6 +46,4 @@ To reference this metric in software or publications please use this stable URL:
 <!-- # For groupings in the knowledge base
 Context tags: Software, Platform
 Keyword tags: risk, licensing, license, coverage, intellectual, property, rights, legal, law
-→
-
-
+-->
