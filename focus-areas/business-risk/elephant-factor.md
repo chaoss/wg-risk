@@ -1,6 +1,6 @@
 # Elephant Factor
 
-**Question: What is the distribution of work in the community across companies?**
+**Question:** What is the distribution of work in the community across companies?
 
 ## Overview
 
@@ -35,7 +35,7 @@ Elephant factor measures the minimum number of companies whose employees contrib
 [GrimoireLab Sigils panel collection](https://chaoss.github.io/grimoirelab-sigils/panels/git/).
 ![GrimoireLab screenshot of metric Elephant\_Factor](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/business-risk/images/elephant-factor_grimoire-lab.png)
 
-</details></span>
+</details></span><br>
 
 ## References
 
@@ -65,4 +65,4 @@ To reference this metric in software or publications please use this stable URL:
 <!-- # For groupings in the knowledge base
 Context tags: Organization, Community, Contribution
 Keyword tags: risk, company dependence, contributors, committers, maintainers
-→ 
+-->
