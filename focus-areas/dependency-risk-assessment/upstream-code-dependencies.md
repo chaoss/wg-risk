@@ -92,7 +92,7 @@ Upstream code dependencies helps assess the health and sustainability of a proje
 
 ## Additional Information
 
-To edit this metric please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/master/focus-areas/dependency-risk-assessment/upstream-code-dependencies.md)
+To edit this metric please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/main/focus-areas/dependency-risk-assessment/upstream-code-dependencies.md)
 
 To reference this metric in software or publications please use this stable URL: \[https://chaoss.community/?p=3977]\(https://chaoss.community/?p=3977)
 
