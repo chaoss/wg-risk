@@ -21,8 +21,7 @@ License Coverage measures the proportion of code and documentation files in a so
 
 ### Visualizations
 
-**Web Presentation of Augur Web Output**
-![Web Presentation of Augur Web Output](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/licensing/images/license-coverage_augur-web-output.png)
+**Web Presentation of Augur Web Output**![Web Presentation of Augur Web Output](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/licensing/images/license-coverage_augur-web-output.png)
 
 **JSON Presentation of Augur Json Output**
 ![JSON Presentation of Augur Json Output](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/licensing/images/license-coverage_augur-json-output.png)
@@ -36,13 +35,14 @@ License Coverage measures the proportion of code and documentation files in a so
 
 ## Contributors
 
+*   Matt Germonprez
+*   Elizabeth Barron
 *   Kevin Lumbard
 *   Peculiar C Umeh
 
 ## Additional Information
 
-To edit this metric please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/main/focus-areas/licensing/license-coverage.md)
-
+To edit this metric please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/main/focus-areas/licensing/license-coverage.md)<br>
 To reference this metric in software or publications please use this stable URL: <https://chaoss.community/?p=3961>
 
 <!-- # For groupings in the knowledge base
