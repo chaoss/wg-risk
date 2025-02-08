@@ -65,10 +65,17 @@ This expression allows an end user to filter by commit count thresholds easily, 
 1.  Nora McDonald, Kelly Blincoe, Eva Petakovic, and Sean Goggins. 2014. Modeling Distributed Collaboration on GitHub. Advances in Complex Systems 17(7 & 8).
 2.  [Grimoire Lab](https://chaoss.biterg.io/app/kibana#/dashboard/Git)
 
+## Contributors
+
+*   Sean P. Goggins
+*   Kevin Lumbard
+*   Elizabeth Barron
+*   Matt Germonprez
+*   Peculiar C. Umeh
+
 ## Additional Information
 
-To edit this metric please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/main/focus-areas/business-risk/committers.md)
-
+To edit this metric please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/main/focus-areas/business-risk/committers.md)<br>
 To reference this metric in software or publications please use this stable URL: <https://chaoss.community/?p=3945>
 
 <!-- # For groupings in the knowledge base
