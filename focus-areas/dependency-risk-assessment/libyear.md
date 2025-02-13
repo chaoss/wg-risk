@@ -29,7 +29,7 @@ This metric can account for:
 
 ### Filters
 Libyears calculations can be filtered to offer a more focused analysis:
-- **Dependency level:** Direct dependencies vs. inclusion of transitive dependencies as defined in the [Upstream Code Dependencies]((https://github.com/chaoss/wg-risk/blob/master/focus-areas/dependency-risk-assessment/upstream-code-dependencies.md) metric.
+- **Dependency level:** Direct dependencies vs. inclusion of transitive dependencies as defined in the [Upstream Code Dependencies](https://github.com/chaoss/wg-risk/blob/master/focus-areas/dependency-risk-assessment/upstream-code-dependencies.md) metric.
 - **Cumulative Libyears:** Summing the age of all dependencies.
 - **Average age:** Mean age of all dependencies.
 - **Median age:** Middle value of all dependency ages (though it may mask issues due to long tails).
