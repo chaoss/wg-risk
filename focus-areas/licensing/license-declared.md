@@ -7,7 +7,7 @@
 License Declared measures the total number and specific licenses declared in a software package which include both software and documentation source files. Data points consist of a list of unique licenses and the corresponding number of files associated with each license.<br>
 For Example: License types with number of files
 
-![]([images/license-declared_number-of-files-license-type.png]\(https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/licensing/images/license-declared_number-of-files-license-type.png\))
+![](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/licensing/images/license-declared_number-of-files-license-type.png)
 
 To understand the declared licenses is critical for several reasons:
 
