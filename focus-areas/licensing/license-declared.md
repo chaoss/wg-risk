@@ -4,7 +4,11 @@
 
 ## Overview
 
-License Declared measures the total number and specific licenses declared in a software package which include both software and documentation source files. Data points consist of a list of unique licenses and the corresponding number of files associated with each license. For Example: ![License types with number of files](https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/licensing/images/license-declared_number-of-files-license-type.png)
+License Declared measures the total number and specific licenses declared in a software package which include both software and documentation source files. Data points consist of a list of unique licenses and the corresponding number of files associated with each license.<br>
+For Example: License types with number of files
+
+!\[https://raw.githubusercontent.com/chaoss/wg-risk/main/focus-areas/licensing/images/license-declared\_number-of-files-license-type.png]
+
 To understand the declared licenses is critical for several reasons:
 
 *   Software packages often contain multiple licenses. Knowing the declared licenses is vital for compliance purposes during software acquisition.
@@ -30,10 +34,16 @@ Understanding license conflicts is crucial to avoid legal issues and ensure smoo
 *   https://spdx.org/
 *   https://www.fossology.org
 
+## Contributors
+
+*   Kevin Lumbard
+*   Matt Germonprez
+*   Elizabeth Barron
+*   Peculiar C. Umeh
+
 ## Additional Information
 
-To edit this metric please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/main/focus-areas/licensing/license-declared.md)
-
+To edit this metric please [submit a Change Request here](https://github.com/chaoss/wg-risk/blob/main/focus-areas/licensing/license-declared.md)<br>
 To reference this metric in software or publications please use this stable URL: <https://chaoss.community/?p=3963>
 
 <!-- # For groupings in the knowledge base
