@@ -39,12 +39,12 @@ Elephant factor measures the minimum number of companies whose employees contrib
 
 ## References
 
-1.  Colin C. Venters, Lydia Lau, Michael K. Griffiths, Violeta Holmes, Rupert R. Ward, Caroline Jay, Charlie E. Dibsdale, and Jie Xu. 2014. The Blind Men and the Elephant: Towards an Empirical Evaluation Framework for Software Sustainability. Journal of Open Research Software 2, 1. https://doi.org/10.5334/jors.ao
-2.  http://philslade.blogspot.com/2015/07/what-is-elephant-factor.html
-3.  https://blog.bitergia.com/2016/06/07/landing-the-new-eclipse-open-analytics-dashboard/
-4.  [Augur](https://github.com/chaoss/augur)
-5.  [GrimoireLab](https://chaoss.github.io/grimoirelab)
-6.  [CHAOSS instance of Bitergia Analytics](https://chaoss.biterg.io/app/kibana#/dashboard/Git)
+1.  [Presentation: The Quantitative State of the Open Cloud](https://speakerdeck.com/jgbarah/the-quantitative-state-of-the-open-cloud-2015-edition?slide=44)
+2.  [Elephant Factor applied to Eclipse](https://blog.bitergia.com/2016/06/07/landing-the-new-eclipse-open-analytics-dashboard/)
+3.  [Augur](https://github.com/chaoss/augur)
+4.  [GrimoireLab](https://chaoss.github.io/grimoirelab)
+5.  [CHAOSS instance of Bitergia Analytics](https://chaoss.biterg.io/app/kibana#/dashboard/Git)
+6.  [Metrics of the Month: The Elephant Factor](https://blog.bitergia.com/2022/10/13/metric-of-the-month-the-elephant-factor/)
 
 ## Contributors
 
